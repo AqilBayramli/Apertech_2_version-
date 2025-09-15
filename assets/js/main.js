@@ -195,6 +195,26 @@
   });
 
   /**
+   * Experience Section Tabs
+   */
+  document.querySelectorAll('.experience-tabs .tab-btn').forEach((tabBtn) => {
+    tabBtn.addEventListener('click', () => {
+      // Remove active class from all tabs and buttons
+      document.querySelectorAll('.experience-tabs .tab-btn').forEach(btn => btn.classList.remove('active-btn'));
+      document.querySelectorAll('.experience-tabs .tab').forEach(tab => tab.classList.remove('active-tab'));
+      
+      // Add active class to clicked button
+      tabBtn.classList.add('active-btn');
+      
+      // Show corresponding tab content
+      const targetTab = document.querySelector(tabBtn.getAttribute('data-tab'));
+      if (targetTab) {
+        targetTab.classList.add('active-tab');
+      }
+    });
+  });
+
+  /**
    * Correct scrolling position upon page load for URLs containing hash links.
    */
   window.addEventListener('load', function(e) {
