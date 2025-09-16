@@ -1019,6 +1019,79 @@ section,
 }
 
 /*--------------------------------------------------------------
+# Solutions Section
+---------------------------------------------------------------*/
+.solution_container{
+  margin-top: 20px;
+}
+
+.solution-card {
+  background-color: var(--surface-color);
+  border-radius: 10px;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  height: 100%;
+  position: relative;
+}
+
+.solution-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10 35px 0 rgba(0, 0, 0, 0.15);
+}
+
+.solution-image {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.solution-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transition: all 0.3s ease-in-out;
+}
+
+.solution-card:hover .solution-image img {
+  transform: scale(1.05);
+}
+
+.solution-content {
+  padding: 30px 25px;
+  text-align: center;
+}
+
+.solution-content h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: var(--heading-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.solution-content p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+  color: var(--default-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.solution-card:hover .solution-content h4 {
+  color: var(--accent-color);
+}
+
+.solution-card:hover .solution-content p {
+  color: var(--heading-color);
+}
+
+/*--------------------------------------------------------------
 # Partners Section
 ---------------------------------------------------------------*/
 .partners {
@@ -1226,8 +1299,14 @@ section,
 
 .stats .stats-item span {
   font-size: 36px;
-  display: block;
+  display: inline;
   font-weight: 700;
+}
+
+.stats .stats-item .plus-sign {
+  font-size: 36px;
+  font-weight: 700;
+  display: inline;
 }
 
 .stats .stats-item p {
