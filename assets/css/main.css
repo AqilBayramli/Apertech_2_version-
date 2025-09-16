@@ -64,6 +64,7 @@ body {
   color: var(--default-color);
   background-color: var(--background-color);
   font-family: var(--default-font);
+  padding-top: 100px; /* Account for fixed header height */
 }
 
 a {
@@ -147,6 +148,11 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   background-color: var(--background-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
 }
 
 .header .topbar {
@@ -224,9 +230,9 @@ h6 {
 }
 
 .scrolled .header .topbar {
-  height: 0;
-  visibility: hidden;
-  overflow: hidden;
+  height: 40px;
+  visibility: visible;
+  overflow: visible;
 }
 
 /*--------------------------------------------------------------
@@ -2573,4 +2579,50 @@ section,
 .footer_logo >img{
   width: 120px;
 
+}
+
+/*--------------------------------------------------------------
+# Language Select Dropdown
+--------------------------------------------------------------*/
+#language-select {
+  background-color: white !important;
+  border: 2px solid white !important;
+  color: black !important;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  min-width: 60px;
+  height: 32px;
+  cursor: pointer;
+}
+
+
+
+#language-select option {
+  font-weight: 600;
+}
+
+/* Responsive adjustments for language select */
+@media (max-width: 767px) {
+  #language-select {
+    font-size: 11px;
+    padding: 3px 6px;
+    min-width: 50px;
+    height: 28px;
+  }
+  
+  .social-links {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  #language-select {
+    font-size: 10px;
+    padding: 2px 4px;
+    min-width: 45px;
+    height: 26px;
+  }
 }

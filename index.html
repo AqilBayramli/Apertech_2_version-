@@ -48,7 +48,7 @@
 
 <body class="index-page">
 
-  <header id="header" class="header sticky-top">
+  <header id="header" class="header">
 
     <div class="topbar d-flex align-items-center">
       <div class="container d-flex justify-content-center justify-content-md-between">
@@ -56,11 +56,15 @@
           <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:info@apertech.net">info@apertech.net</a></i>
           <i class="bi bi-phone d-flex align-items-center ms-4"><span>+99450 718 10 19</span></i>
         </div>
-        <div class="social-links d-none d-md-flex align-items-center">
+        <div class="social-links d-flex align-items-center">
           <!-- <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a> -->
-          <a href="https://www.facebook.com/Apertech/" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.facebook.com/Apertech/" target="_blank" class="facebook d-none d-md-inline-block"><i class="bi bi-facebook"></i></a>
           <!-- <a href="#" class="instagram"><i class="bi bi-instagram"></i></a> -->
-          <a href="https://az.linkedin.com/company/apertech1" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          <a href="https://az.linkedin.com/company/apertech1" target="_blank" class="linkedin d-none d-md-inline-block"><i class="bi bi-linkedin"></i></a>
+          <select id="language-select" class="form-select form-select-sm ms-3" onchange="changeLanguage(this.value)" style="width: auto; min-width: 60px;">
+            <option value="en" selected>EN</option>
+            <option value="az">AZ</option>
+          </select>
         </div>
       </div>
     </div><!-- End Top Bar -->
@@ -77,13 +81,13 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="#hero" class="active">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#solutions">Solutions</a></li>
-            <li><a href="#clients">Partners & Clients</a></li>
+            <li><a href="#hero" class="active" data-translate="nav.home">Home</a></li>
+            <li><a href="#about" data-translate="nav.about">About Us</a></li>
+            <li><a href="#services" data-translate="nav.services">Services</a></li>
+            <li><a href="#solutions" data-translate="nav.solutions">Solutions</a></li>
+            <li><a href="#clients" data-translate="nav.clients">Partners & Clients</a></li>
        
-            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#contact" data-translate="nav.contact">Contact Us</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
@@ -102,10 +106,10 @@
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
-            <h1>Welcome to <span>Apertech</span></h1>
-            <p>We are glad to have you here! At Apertech, we combine innovation and reliability to deliver modern solutions that make your business grow and succeed.</p>
+            <h1><span data-translate="hero.title">Welcome to</span> <span>Apertech</span></h1>
+            <p data-translate="hero.subtitle">We are glad to have you here! At Apertech, we combine innovation and reliability to deliver modern solutions that make your business grow and succeed.</p>
             <div class="d-flex">
-              <a href="#about" class="btn-get-started">Get Started</a>
+              <a href="#about" class="btn-get-started" data-translate="hero.button">Get Started</a>
               <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
             </div>
           </div>
@@ -119,8 +123,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>About Us</h2>
-        <p><span>Find Out More</span> <span class="description-title">About Us</span></p>
+        <h2 data-translate="about.title">About Us</h2>
+        <p><span data-translate="about.subtitle">Find Out More</span> <span class="description-title" data-translate="about.description">About Us</span></p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -133,24 +137,24 @@
 
           <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
             <div class="about-content ps-0 ps-lg-3">
-              <h4>APERTECH is the partner of choice for many of the leading enterprises. We help businesses elevate their value through custom software development, product design, QA and consultancy services.</h2>
-              <h4>We are a friendly business solutions consulting company providing all sizes of organization with leading-edge technology  solutions. We were formed with the aim of assisting organizations in using modern technology with a close relationship and continual personal interaction between our staff and the client.</h2>
-              <p class="fst-italic">
+              <h4 data-translate="about.content1">APERTECH is the partner of choice for many of the leading enterprises. We help businesses elevate their value through custom software development, product design, QA and consultancy services.</h4>
+              <h4 data-translate="about.content2">We are a friendly business solutions consulting company providing all sizes of organization with leading-edge technology  solutions. We were formed with the aim of assisting organizations in using modern technology with a close relationship and continual personal interaction between our staff and the client.</h4>
+              <p class="fst-italic" data-translate="about.content3">
                 We also provide a pay-as-you-go support option that means you don't have to worry about binding long-term contracts.
               </p>
               <ul>
                 <li>
                   <i class="bi bi-diagram-3"></i>
                   <div>
-                    <h4>Experience</h4>
-                    <p>MOur great team of more than 20 software experts.</p>
+                    <h4 data-translate="about.experience">Experience</h4>
+                    <p data-translate="about.experience_desc">Our great team of more than 20 software experts.</p>
                   </div>
                 </li>
                 <li>
                   <i class="bi bi-fullscreen-exit"></i>
                   <div>
-                    <h4>Quick Support</h4>
-                    <p>We'll help you test bold new ideas while sharing your.</p>
+                    <h4 data-translate="about.support">Quick Support</h4>
+                    <p data-translate="about.support_desc">We'll help you test bold new ideas while sharing your.</p>
                   </div>
                 </li>
               </ul>
@@ -173,7 +177,7 @@
 
           <!-- Section Title -->
           <div class="container section-title" data-aos="fade-up">
-            <p><span>Our Products are used in industries such as:</span> </p>
+            <p><span data-translate="sector.title">Our Products are used in industries such as:</span> </p>
           </div><!-- End Section Title -->
     
           <div class="container">
@@ -187,8 +191,8 @@
                 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                   <img src="images/homePage/Building-Construction-Process-From-Start-To-Finish.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
-                    <h4>Construction</h4>
-                    <p>The construction industry is a dynamic and multifaceted sector that plays a crucial role in shaping the built environment.</p>
+                    <h4 data-translate="sector.construction">Construction</h4>
+                    <p data-translate="sector.construction_desc">The construction industry is a dynamic and multifaceted sector that plays a crucial role in shaping the built environment.</p>
                     <!-- <a href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                     <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                   </div>
@@ -197,8 +201,8 @@
                 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                   <img src="images/homePage/production-1496247749665-49cf5b1022e9.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
-                    <h4>Production</h4>
-                    <p>The production industry encompasses a vast range of activities focused on manufacturing goods and delivering value through efficient processes.</p>
+                    <h4 data-translate="sector.production">Production</h4>
+                    <p data-translate="sector.production_desc">The production industry encompasses a vast range of activities focused on manufacturing goods and delivering value through efficient processes.</p>
                     <!-- <a href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                     <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                   </div>
@@ -207,8 +211,8 @@
                 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
                   <img src="images/homePage/govbydesign_1536x1152.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
-                    <h4>Government sectors</h4>
-                    <p>Government sectors encompass a broad range of public services, from law enforcement and defense to education, healthcare, infrastructure, and social services.</p>
+                    <h4 data-translate="sector.government">Government sectors</h4>
+                    <p data-translate="sector.government_desc">Government sectors encompass a broad range of public services, from law enforcement and defense to education, healthcare, infrastructure, and social services.</p>
                     <!-- <a href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                     <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                   </div>
@@ -217,8 +221,8 @@
                 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                   <img src="images/homePage/financial-accounting-1.webp" class="img-fluid" alt="">
                   <div class="portfolio-info">
-                    <h4>Finance and Accounting</h4>
-                    <p>The finance industry is a cornerstone of the global economy, encompassing a broad spectrum of services related to the management, investment, and allocation of capital.</p>
+                    <h4 data-translate="sector.finance">Finance and Accounting</h4>
+                    <p data-translate="sector.finance_desc">The finance industry is a cornerstone of the global economy, encompassing a broad spectrum of services related to the management, investment, and allocation of capital.</p>
                     <!-- <a href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                     <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                   </div>
@@ -227,8 +231,8 @@
                 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                   <img src="images/homePage/oil.webp" class="img-fluid" alt="">
                   <div class="portfolio-info">
-                    <h4>Oil And Gas</h4>
-                    <p>The oil and gas industry is a critical sector that powers economies worldwide by providing the energy resources essential for transportation, electricity generation, and industrial processes.</p>
+                    <h4 data-translate="sector.oil">Oil And Gas</h4>
+                    <p data-translate="sector.oil_desc">The oil and gas industry is a critical sector that powers economies worldwide by providing the energy resources essential for transportation, electricity generation, and industrial processes.</p>
                     <!-- <a href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                     <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                   </div>
@@ -237,7 +241,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
                   <img src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
-                    <h4>Branding 2</h4>
+                    <h4>Sport Events</h4>
                     <p>Lorem ipsum, dolor sit</p>
                     <!-- <a href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                     <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
@@ -247,8 +251,8 @@
                 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                   <img src="images/homePage/shutterstock_1544174009-scaled-1.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
-                    <h4>Hospitality</h4>
-                    <p>The hospitality industry is a diverse and dynamic sector that includes businesses focused on providing services for travel, leisure, and accommodation.</p>
+                    <h4 data-translate="sector.hospitality">Hospitality</h4>
+                    <p data-translate="sector.hospitality_desc">The hospitality industry is a diverse and dynamic sector that includes businesses focused on providing services for travel, leisure, and accommodation.</p>
                     <!-- <a href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                     <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                   </div>
@@ -293,7 +297,7 @@
                       <i class="bi bi-emoji-smile"></i>
                       <div class="stats-item">
                         <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="3" class="purecounter"></span><span class="plus-sign">+</span>
-                        <p>Happy Clients</p>
+                        <p data-translate="stats.happy_clients">Happy Clients</p>
                       </div>
                     </div><!-- End Stats Item -->
           
@@ -301,7 +305,7 @@
                       <i class="bi bi-journal-richtext"></i>
                       <div class="stats-item">
                         <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="3" class="purecounter"></span><span class="plus-sign">+</span>
-                        <p>Projects</p>
+                        <p data-translate="stats.projects">Projects</p>
                       </div>
                     </div><!-- End Stats Item -->
           
@@ -309,7 +313,7 @@
                       <i class="bi bi-calendar4-week"></i>
                       <div class="stats-item">
                         <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="3" class="purecounter"></span><span class="plus-sign">+</span>
-                        <p>Glorious Years</p>
+                        <p data-translate="stats.years">Glorious Years</p>
                       </div>
                     </div><!-- End Stats Item -->
           
@@ -317,7 +321,7 @@
                       <i class="bi bi-people"></i>
                       <div class="stats-item">
                         <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="3" class="purecounter"></span><span class="plus-sign">+</span>
-                        <p>Hard Workers</p>
+                        <p data-translate="stats.workers">Hard Workers</p>
                       </div>
                     </div><!-- End Stats Item -->
           
@@ -332,8 +336,8 @@
 
           <!-- Section Title -->
           <div class="container section-title" data-aos="fade-up">
-            <h2>Services</h2>
-            <p><span>Check Our</span> <span class="description-title">Services</span></p>
+            <h2 data-translate="services.title">Services</h2>
+            <p><span data-translate="services.subtitle">Check Our</span> <span class="description-title" data-translate="services.description">Services</span></p>
           </div><!-- End Section Title -->
     
           <div class="container services_co">
@@ -345,8 +349,8 @@
                   <div class="icon">
                     <i class="bi bi-code-slash"></i>
                   </div>
-                    <h3>Web Application Development</h3>
-                  <p>We carry more than just good coding skills. Our experience makes us stand out from other web development.</p>
+                    <h3 data-translate="services.web_dev">Web Application Development</h3>
+                  <p data-translate="services.web_dev_desc">We carry more than just good coding skills. Our experience makes us stand out from other web development.</p>
                 </div>
               </div><!-- End Service Item -->
     
@@ -355,8 +359,8 @@
                   <div class="icon">
                     <i class="bi bi-gear-fill"></i>
                   </div>
-                    <h3>ERP Implementation</h3>
-                  <p>We offer comprehensive ERP implementation services to help you streamline your business processes and unlock new levels of efficiency.</p>
+                    <h3 data-translate="services.erp">ERP Implementation</h3>
+                  <p data-translate="services.erp_desc">We offer comprehensive ERP implementation services to help you streamline your business processes and unlock new levels of efficiency.</p>
                 </div>
               </div><!-- End Service Item -->
     
@@ -365,8 +369,8 @@
                   <div class="icon">
                     <i class="bi bi-laptop"></i>
                   </div>
-                    <h3>Software Implementation</h3>
-                  <p>We are here to assist you in navigating the process of implementing new software or upgrading your existing systems.</p>
+                    <h3 data-translate="services.software">Software Implementation</h3>
+                  <p data-translate="services.software_desc">We are here to assist you in navigating the process of implementing new software or upgrading your existing systems.</p>
                 </div>
               </div><!-- End Service Item -->
     
@@ -375,8 +379,8 @@
                   <div class="icon">
                     <i class="bi bi-graph-up-arrow"></i>
                   </div>
-                    <h3>Business Analytics</h3>
-                  <p>We offer comprehensive ERP business analytics services to help you harness the power of your data and drive informed decision-making for your organization.</p>
+                    <h3 data-translate="services.analytics">Business Analytics</h3>
+                  <p data-translate="services.analytics_desc">We offer comprehensive ERP business analytics services to help you harness the power of your data and drive informed decision-making for your organization.</p>
                 </div>
               </div><!-- End Service Item -->
     
@@ -385,8 +389,8 @@
                   <div class="icon">
                     <i class="bi bi-headset"></i>
                   </div>
-                    <h3>Technical Support</h3>
-                  <p>Support of ERP systems is a key element of successful use of the platform for business management.</p>
+                    <h3 data-translate="services.support">Technical Support</h3>
+                  <p data-translate="services.support_desc">Support of ERP systems is a key element of successful use of the platform for business management.</p>
                 </div>
               </div><!-- End Service Item -->
     
@@ -395,8 +399,8 @@
                   <div class="icon">
                     <i class="bi bi-person-workspace"></i>
                   </div>
-                    <h3>ERP Consultancy</h3>
-                  <p>With ERP consulting services, we strive to empower your business with efficient processes, improved decision-making, and enhanced productivity.</p>
+                    <h3 data-translate="services.consultancy">ERP Consultancy</h3>
+                  <p data-translate="services.consultancy_desc">With ERP consulting services, we strive to empower your business with efficient processes, improved decision-making, and enhanced productivity.</p>
                 </div>
               </div><!-- End Service Item -->
     
@@ -411,8 +415,8 @@
     <section id="clients" class="clients section light-background">
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
-              <h2>Clients and Partners</h2>
-              <p><span>Our&nbsp;</span> <span class="description-title">Clients</span></p>
+              <h2 data-translate="clients.title">Clients and Partners</h2>
+              <p><span data-translate="clients.subtitle">Our&nbsp;</span> <span class="description-title" data-translate="clients.description">Clients</span></p>
             </div><!-- End Section Title -->
       <div class="container">
 
@@ -558,7 +562,7 @@
   <section id="partners" class="partners section ">
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <p><span>Our&nbsp;</span> <span class="description-title">Partners</span></p>
+        <p><span data-translate="partners.subtitle">Our&nbsp;</span> <span class="description-title" data-translate="partners.description">Partners</span></p>
       </div><!-- End Section Title -->
     <div class="container">
 
@@ -626,8 +630,8 @@
     <section id="solutions" class="solution section light-background">
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Solutions</h2>
-        <p><span>Our</span> <span class="description-title">Solutions</span></p>
+        <h2 data-translate="solutions.title">Solutions</h2>
+        <p><span data-translate="solutions.subtitle">Our</span> <span class="description-title" data-translate="solutions.description">Solutions</span></p>
       </div><!-- End Section Title -->
 
       <div class="container solution_container">
@@ -639,8 +643,8 @@
                 <img src="images/solutions/infor-syteline - Copy.png" alt="Infor SyteLine" class="img-fluid">
               </div>
               <div class="solution-content">
-                <h4>Infor SunSystems</h4>
-                <p>More than 18,000 organizations in 180 countries around the world use Infor FMS SunSystems to manage
+                <h4 data-translate="solutions.sunsystems">Infor SunSystems</h4>
+                <p data-translate="solutions.sunsystems_desc">More than 18,000 organizations in 180 countries around the world use Infor FMS SunSystems to manage
                   their
                   financial and economic activity. It has 27 language versions, local support, unique flexibility and
                   ability
@@ -659,8 +663,8 @@
                 <img src="images/solutions/infor-syteline - Copy.png" alt="Genesis2" class="img-fluid">
               </div>
               <div class="solution-content">
-                <h4>Infor Syteline</h4>
-                <p>Discrete and process manufacturers around the world use Infor® SyteLine on-premises and in the cloud
+                <h4 data-translate="solutions.syteline">Infor Syteline</h4>
+                <p data-translate="solutions.syteline_desc">Discrete and process manufacturers around the world use Infor® SyteLine on-premises and in the cloud
                   to simplify and automate their complex manufacturing processes. Offering a range of capabilities
                   from advanced planning and material management to financials, SyteLine® delivers everything
                   manufacturers need in a standard package.</p>
@@ -674,8 +678,8 @@
                 <img src="images/solutions/infor-syteline - Copy.png" alt="Genesis2" class="img-fluid">
               </div>
               <div class="solution-content">
-                <h4>Infor Query & Analysis</h4>
-                <p>Infor Query and Analysis for SunSystems is a powerful, ad-hoc querying and analysis tool that gives
+                <h4 data-translate="solutions.query">Infor Query & Analysis</h4>
+                <p data-translate="solutions.query_desc">Infor Query and Analysis for SunSystems is a powerful, ad-hoc querying and analysis tool that gives
                   employees at all levels of your organization immediate access to the information that's relevant to
                   their roles and tasks to make informed recommendations and strategic decisions.</p>
               </div>
@@ -688,8 +692,8 @@
                 <img src="images/solutions/genesis2-Photoroom.png" alt="Collaboration Tools" class="img-fluid">
               </div>
               <div class="solution-content">
-                <h4>Genesis Soft</h4>
-                <p>Genesis Soft is a business management software similar to ERP systems. It helps companies streamline daily operations by integrating key functions.</p>
+                <h4 data-translate="solutions.genesis">Genesis Soft</h4>
+                <p data-translate="solutions.genesis_desc">Genesis Soft is a business management software similar to ERP systems. It helps companies streamline daily operations by integrating key functions.</p>
               </div>
             </div>
           </div><!-- End Solution Card -->
@@ -700,8 +704,8 @@
                 <img src="images/logoAnar.png" alt="Collaboration Tools" class="img-fluid">
               </div>
               <div class="solution-content">
-                <h4>Sola ERP</h4>
-                <p>Sola ERP is a type of software that helps organizations manage and integrate their core business processes in a single system. 
+                <h4 data-translate="solutions.sola_erp">Sola ERP</h4>
+                <p data-translate="solutions.sola_erp_desc">Sola ERP is a type of software that helps organizations manage and integrate their core business processes in a single system. 
                   The main goal of ERP is to improve efficiency, transparency, and collaboration across all departments by centralizing data and workflows.
                 </p>
               </div>
@@ -714,8 +718,8 @@
                 <img src="images/solutions/solaHr-Photoroom.png" alt="Collaboration Tools" class="img-fluid">
               </div>
               <div class="solution-content">
-                <h4>Sola HR</h4>
-                <p>HRB is a highly flexible HR & Payroll system with its own algorithm language. This gives availability
+                <h4 data-translate="solutions.sola_hr">Sola HR</h4>
+                <p data-translate="solutions.sola_hr_desc">HRB is a highly flexible HR & Payroll system with its own algorithm language. This gives availability
                   to customize calculations of any difficulty.</p>
               </div>
             </div>
@@ -729,7 +733,7 @@
       <div class="container">
         <!-- Section Title -->
         <div class="section-title text-center" data-aos="fade-up">
-          <p><span>Experience. Execution. Excellence.</span> <span class="description-title">What We Actually Do</span></p>
+          <p><span data-translate="experience.subtitle">Experience. Execution. Excellence.</span> <span class="description-title" data-translate="experience.description">What We Actually Do</span></p>
         </div>
         
         <!-- Experience Info Tabs -->
@@ -757,56 +761,56 @@
               <!-- Tab / Active Tab -->
               <div class="tab" id="prod-sharp">
                 <div class="content">
-                  <h4>C# Development Services</h4>
-                  <div class="text">C# is a general-purpose programming language with a diverse range of features from strong typing to lexical scoping. It's widely used for developing web applications, web services, and desktop applications. C# is multi-paradigm, declarative, functional, generic, component-oriented.</div>
+                  <h4 data-translate="experience.csharp">C# Development Services</h4>
+                  <div class="text" data-translate="experience.csharp_desc">C# is a general-purpose programming language with a diverse range of features from strong typing to lexical scoping. It's widely used for developing web applications, web services, and desktop applications. C# is multi-paradigm, declarative, functional, generic, component-oriented.</div>
                 </div>
               </div>
               
               <!-- Tab -->
               <div class="tab" id="prod-react">
                 <div class="content">
-                  <h4>React JS Development Services</h4>
-                  <div class="text">React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.</div>
+                  <h4 data-translate="experience.react">React JS Development Services</h4>
+                  <div class="text" data-translate="experience.react_desc">React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.</div>
                 </div>
               </div>
               
               <!-- Tab -->
               <div class="tab active-tab" id="prod-erp">
                 <div class="content">
-                  <h4>ERP Software</h4>
-                  <div class="text">Enterprise resource planning (ERP) refers to a type of software that organizations use to manage day-to-day business activities such as accounting, procurement, project management, risk management and compliance, and supply chain operations.</div>
+                  <h4 data-translate="experience.erp">ERP Software</h4>
+                  <div class="text" data-translate="experience.erp_desc">Enterprise resource planning (ERP) refers to a type of software that organizations use to manage day-to-day business activities such as accounting, procurement, project management, risk management and compliance, and supply chain operations.</div>
                 </div>
               </div>
               
               <!-- Tab -->
               <div class="tab" id="prod-net">
                 <div class="content">
-                  <h4>.NET Development Services</h4>
-                  <div class="text">The .NET Framework provides extensive tools and class libraries that make it one of the most productive platforms for programmers. It offers multi-language support, common APIs and other services that allow developers to build high-quality applications in less time.</div>
+                  <h4 data-translate="experience.net">.NET Development Services</h4>
+                  <div class="text" data-translate="experience.net_desc">The .NET Framework provides extensive tools and class libraries that make it one of the most productive platforms for programmers. It offers multi-language support, common APIs and other services that allow developers to build high-quality applications in less time.</div>
                 </div>
               </div>
               
               <!-- Tab -->
               <div class="tab" id="prod-js">
                 <div class="content">
-                  <h4>JavaScript Development Services</h4>
-                  <div class="text">JavaScript is a lightweight programming language that web developers commonly use to create more dynamic interactions when developing web pages, applications, servers, and or even games.</div>
+                  <h4 data-translate="experience.js">JavaScript Development Services</h4>
+                  <div class="text" data-translate="experience.js_desc">JavaScript is a lightweight programming language that web developers commonly use to create more dynamic interactions when developing web pages, applications, servers, and or even games.</div>
                 </div>
               </div>
               
               <!-- Tab -->
               <div class="tab" id="prod-java">
                 <div class="content">
-                  <h4>Java Development Services</h4>
-                  <div class="text">Java is a programming language and computing platform first released by Sun Microsystems in 1995. It has evolved from humble beginnings to power a large share of today's digital world, by providing the reliable platform upon which many services and applications are built.</div>
+                  <h4 data-translate="experience.java">Java Development Services</h4>
+                  <div class="text" data-translate="experience.java_desc">Java is a programming language and computing platform first released by Sun Microsystems in 1995. It has evolved from humble beginnings to power a large share of today's digital world, by providing the reliable platform upon which many services and applications are built.</div>
                 </div>
               </div>
               
               <!-- Tab -->
               <div class="tab" id="prod-ts">
                 <div class="content">
-                  <h4>TypeScript Website Development Services</h4>
-                  <div class="text">TypeScript is a strongly typed, object-oriented, compiled programming language that builds on JavaScript. It is a superset of the JavaScript language, designed to give you better tooling at any scale.</div>
+                  <h4 data-translate="experience.ts">TypeScript Website Development Services</h4>
+                  <div class="text" data-translate="experience.ts_desc">TypeScript is a strongly typed, object-oriented, compiled programming language that builds on JavaScript. It is a superset of the JavaScript language, designed to give you better tooling at any scale.</div>
                 </div>
               </div>
               
@@ -1183,8 +1187,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p><span>Need Help?</span> <span class="description-title">Contact Us</span></p>
+        <h2 data-translate="contact.title">Contact</h2>
+        <p><span data-translate="contact.subtitle">Need Help?</span> <span class="description-title" data-translate="contact.description">Contact Us</span></p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -1197,15 +1201,15 @@
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
-                  <h3>Address</h3>
-                  <p>Baku, 1/25 Ahmad Rajabli, Chinar Park, 2-nd Center, 4 floor</p>
+                  <h3 data-translate="contact.address">Address</h3>
+                  <p data-translate="contact.address_value">Baku, 1/25 Ahmad Rajabli, Chinar Park, 2-nd Center, 4 floor</p>
                 </div>
               </div><!-- End Info Item -->
 
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
                 <i class="bi bi-telephone flex-shrink-0"></i>
                 <div>
-                  <h3>Call Us</h3>
+                  <h3 data-translate="contact.phone">Call Us</h3>
                   <p>+99450 718 10 19</p>
                 </div>
               </div><!-- End Info Item -->
@@ -1213,7 +1217,7 @@
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
-                  <h3>Email Us</h3>
+                  <h3 data-translate="contact.email">Email Us</h3>
                   <p>info@apertech.net</p>
                 </div>
               </div><!-- End Info Item -->
@@ -1225,7 +1229,7 @@
           <div class="col-lg-7">
             <!-- Success Banner -->
             <div id="successBanner" class="alert alert-success" style="display: none; margin-bottom: 20px;">
-              <i class="bi bi-check-circle"></i> Your message has been sent successfully! We'll get back to you soon.
+              <i class="bi bi-check-circle"></i> <span data-translate="contact.success">Your message has been sent successfully! We'll get back to you soon.</span>
             </div>
 
             <form class="appointment-form" data-aos="fade-up" data-aos-delay="200">
@@ -1233,29 +1237,29 @@
 
                 <div class="col-md-6">
                   <div class="group">
-                    <input type="text" id="contactName" name="name" required>
-                    <label for="contactName">Your Name</label>
+                    <input type="text" id="contactName" name="name" required data-translate="contact.form.name">
+                    <label for="contactName" data-translate="contact.form.name">Your Name</label>
                   </div>
                 </div>
 
                 <div class="col-md-6">
                   <div class="group">
-                    <input type="email" id="contactEmail" name="email" required>
-                    <label for="contactEmail">Your Email</label>
+                    <input type="email" id="contactEmail" name="email" required data-translate="contact.form.email">
+                    <label for="contactEmail" data-translate="contact.form.email">Your Email</label>
                   </div>
                 </div>
 
                 <div class="col-md-6">
                   <div class="group">
-                    <input type="tel" id="phoneNumber" name="phone" required>
-                    <label for="phoneNumber">Phone Number</label>
+                    <input type="tel" id="phoneNumber" name="phone" required data-translate="contact.form.phone">
+                    <label for="phoneNumber" data-translate="contact.form.phone">Phone Number</label>
                   </div>
                 </div>
 
                 <div class="col-md-6">
                   <div class="group">
-                    <select id="contactCountry" name="country" required>
-                      <option value="" disabled selected>Country</option>
+                    <select id="contactCountry" name="country" required data-translate="contact.form.country">
+                      <option value="" disabled selected data-translate="contact.form.country">Country</option>
                       <option value="Aland Islands">Aland Islands</option>
                       <option value="Albania">Albania</option>
                       <option value="Algeria">Algeria</option>
@@ -1493,15 +1497,15 @@
 
                 <div class="col-md-6">
                   <div class="group">
-                    <input type="text" id="companyName" name="company" required>
-                    <label for="companyName">Company Name</label>
+                    <input type="text" id="companyName" name="company" required data-translate="contact.form.company">
+                    <label for="companyName" data-translate="contact.form.company">Company Name</label>
                   </div>
                 </div>
 
                 <div class="col-md-6">
                   <div class="group">
-                    <select id="companySolutions" name="solutions" required>
-                      <option value="" disabled selected>Solutions</option>
+                    <select id="companySolutions" name="solutions" required data-translate="contact.form.solutions">
+                      <option value="" disabled selected data-translate="contact.form.solutions">Solutions</option>
                       <option value="Aerospace and Defense">Aerospace and Defense</option>
                       <option value="Distribution">Distribution</option>
                       <option value="Equipment">Equipment</option>
@@ -1523,20 +1527,20 @@
 
                 <div class="col-md-12">
                   <div class="group">
-                    <input type="url" id="companyWeb" name="website">
-                    <label for="companyWeb">Company Website (Optional)</label>
+                    <input type="url" id="companyWeb" name="website" data-translate="contact.form.website">
+                    <label for="companyWeb" data-translate="contact.form.website">Company Website (Optional)</label>
                   </div>
                 </div>
 
                 <div class="col-md-12">
                   <div class="group">
-                    <textarea id="msg" name="message" rows="6" required></textarea>
-                    <label for="msg">Message</label>
+                    <textarea id="msg" name="message" rows="6" required data-translate="contact.form.message"></textarea>
+                    <label for="msg" data-translate="contact.form.message">Message</label>
                   </div>
                 </div>
 
                 <div class="col-md-12 text-center">
-                  <button type="button" onclick="sendMail()" class="btn btn-primary">Send Message</button>
+                  <button type="button" onclick="sendMail()" class="btn btn-primary" data-translate="contact.form.send">Send Message</button>
                 </div>
 
               </div>
@@ -1554,8 +1558,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>F.A.Q</h2>
-        <p><span>Frequently Asked</span> <span class="description-title">Questions</span></p>
+        <h2 data-translate="faq.title">F.A.Q</h2>
+        <p><span data-translate="faq.subtitle">Frequently Asked</span> <span class="description-title" data-translate="faq.description">Questions</span></p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -1567,49 +1571,49 @@
             <div class="faq-container">
 
               <div class="faq-item faq-active">
-                <h3>Non consectetur a erat nam at lectus urna duis?</h3>
+                <h3 data-translate="faq.q1">Non consectetur a erat nam at lectus urna duis?</h3>
                 <div class="faq-content">
-                  <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                  <p data-translate="faq.a1">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Feugiat scelerisque varius morbi enim nunc faucibus?</h3>
+                <h3 data-translate="faq.q2">Feugiat scelerisque varius morbi enim nunc faucibus?</h3>
                 <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                  <p data-translate="faq.a2">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
+                <h3 data-translate="faq.q3">Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
                 <div class="faq-content">
-                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+                  <p data-translate="faq.a3">Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
+                <h3 data-translate="faq.q4">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
                 <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                  <p data-translate="faq.a4">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Tempus quam pellentesque nec nam aliquam sem et tortor?</h3>
+                <h3 data-translate="faq.q5">Tempus quam pellentesque nec nam aliquam sem et tortor?</h3>
                 <div class="faq-content">
-                  <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
+                  <p data-translate="faq.a5">Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Perspiciatis quod quo quos nulla quo illum ullam?</h3>
+                <h3 data-translate="faq.q6">Perspiciatis quod quo quos nulla quo illum ullam?</h3>
                 <div class="faq-content">
-                  <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi. Distinctio ipsam dolore et.</p>
+                  <p data-translate="faq.a6">Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi. Distinctio ipsam dolore et.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
@@ -1636,27 +1640,27 @@
           </div>
         
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+99450 718 10 19</span></p>
-            <p><strong>Email:</strong> <span>info@apertech.net</span></p>
+            <p data-translate="footer.address">A108 Adam Street</p>
+            <p data-translate="footer.city">New York, NY 535022</p>
+            <p class="mt-3"><strong data-translate="footer.phone">Phone:</strong> <span>+99450 718 10 19</span></p>
+            <p><strong data-translate="footer.email">Email:</strong> <span>info@apertech.net</span></p>
           </div>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
+          <h4 data-translate="footer.links">Useful Links</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#about">About us</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#services">Services</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#services">Solutions</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#clients">Partners & Clients</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#services">Contact Us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-translate="nav.home">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#about" data-translate="nav.about">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services" data-translate="nav.services">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services" data-translate="nav.solutions">Solutions</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#clients" data-translate="nav.clients">Partners & Clients</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services" data-translate="nav.contact">Contact Us</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
+          <h4 data-translate="footer.services">Our Services</h4>
           <ul>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
@@ -1666,8 +1670,8 @@
         </div>
 
         <div class="col-lg-4 col-md-12">
-          <h4>Follow Us</h4>
-          <p>Stay connected and never miss an update! Follow us on social media to get the latest news, special offers, and useful tips.</p>
+          <h4 data-translate="footer.follow">Follow Us</h4>
+          <p data-translate="footer.follow_desc">Stay connected and never miss an update! Follow us on social media to get the latest news, special offers, and useful tips.</p>
           <div class="social-links d-flex">
             <!-- <a href=""><i class="bi bi-twitter-x"></i></a> -->
             <a href="https://www.facebook.com/Apertech/" target="_blank"><i class="bi bi-facebook"></i></a>
@@ -1680,7 +1684,7 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Apertech</strong> <span>All Rights Reserved</span></p>
+      <p>© <span data-translate="footer.copyright">Copyright</span> <strong class="px-1 sitename">Apertech</strong> <span data-translate="footer.rights">All Rights Reserved</span></p>
     </div>
 
   </footer>
@@ -1710,6 +1714,7 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/email.js"></script>
+  <script src="assets/js/translations.js"></script>
 
 
 </body>
