@@ -2081,6 +2081,133 @@ section,
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
 }
 
+/* Appointment Form Styles */
+.appointment-form {
+  background-color: var(--surface-color);
+  height: 100%;
+  padding: 30px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 575px) {
+  .appointment-form {
+    padding: 20px;
+  }
+}
+
+.appointment-form .group {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.appointment-form .group input,
+.appointment-form .group select,
+.appointment-form .group textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.appointment-form .group input:focus,
+.appointment-form .group select:focus,
+.appointment-form .group textarea:focus {
+  border-color: var(--accent-color);
+  box-shadow: 0 0 0 3px rgba(16, 110, 234, 0.1);
+}
+
+.appointment-form .group label {
+  position: absolute;
+  top: 12px;
+  left: 15px;
+  color: #6b7280;
+  font-size: 14px;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+  padding: 0 5px;
+}
+
+.appointment-form .group input:focus + label,
+.appointment-form .group select:focus + label,
+.appointment-form .group textarea:focus + label,
+.appointment-form .group.has-value label,
+.appointment-form .group.is-focused label {
+  top: -8px;
+  left: 10px;
+  font-size: 12px;
+  color: var(--accent-color);
+  font-weight: 500;
+}
+
+.appointment-form .group select {
+  cursor: pointer;
+}
+
+.appointment-form .group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.word-count {
+  font-size: 12px;
+  color: #6b7280;
+  margin-top: 5px;
+  text-align: right;
+}
+
+.error-message {
+  color: #dc2626;
+  font-size: 12px;
+  margin-top: 5px;
+  display: block;
+}
+
+/* Clear button styles */
+.select-clear-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.clear-select-btn {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #9ca3af;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 10;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clear-select-btn.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.clear-select-btn:hover {
+  color: #dc2626;
+}
+
+.select-clear-wrapper.has-select .clear-select-btn {
+  right: 12px;
+}
+
 /*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/
