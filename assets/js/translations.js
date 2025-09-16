@@ -41,9 +41,13 @@ const translations = {
         "sector.oil": "Oil And Gas",
         "sector.oil_desc": "The oil and gas industry is a critical sector that powers economies worldwide by providing the energy resources essential for transportation, electricity generation, and industrial processes.",
         "sector.sport": "Sport Events",
-        "sector.sport_desc": "Lorem ipsum, dolor sit",
+        "sector.sport_desc": "The global sport sector is not only about competition but also a major economic driver. It generates revenue through sponsorship, broadcasting, merchandise, tourism, and infrastructure, while promoting health, teamwork, and community engagement.",
         "sector.hospitality": "Hospitality",
         "sector.hospitality_desc": "The hospitality industry is a diverse and dynamic sector that includes businesses focused on providing services for travel, leisure, and accommodation.",
+        "sector.entrepreneurship": "Entrepreneurship",
+        "sector.entrepreneurship_desc": "The entrepreneurship sector focuses on the creation, development, and growth of new businesses. It drives innovation, generates jobs, and contributes to economic development by turning ideas into successful ventures.",
+        "sector.branding": "Branding",
+        "sector.branding_desc": "Creative branding initiatives that enhance recognition and market presence.",
         
         // Stats Section
         "stats.happy_clients": "Happy Clients",
@@ -199,9 +203,13 @@ const translations = {
         "sector.oil": "Neft və Qaz",
         "sector.oil_desc": "Neft və qaz sənayesi nəqliyyat, elektrik istehsalı və sənaye prosesləri üçün vacib olan enerji resurslarını təmin etməklə dünya iqtisadiyyatlarını gücləndirən kritik sektordur.",
         "sector.sport": "İdman Tədbirləri",
-        "sector.sport_desc": "Lorem ipsum, dolor sit",
-        "sector.hospitality": "Qonaqpərvərlik",
-        "sector.hospitality_desc": "Qonaqpərvərlik sənayesi səyahət, əyləncə və yaşayış üçün xidmətlər təqdim edən biznesləri əhatə edən müxtəlif və dinamik sektordur.",
+        "sector.sport_desc": "Qlobal idman sektoru təkcə rəqabətdən ibarət deyil, həm də mühüm iqtisadi hərəkatdır. Sponsorluq, yayım, satış, turizm və infrastruktur vasitəsilə gəlir yaradır, eyni zamanda sağlamlıq, komanda işi və ictimai iştirakçılığı təşviq edir.",
+        "sector.hospitality": "Otelçilik",
+        "sector.hospitality_desc": "Otelçilik sənayesi səyahət, əyləncə və yaşayış üçün xidmətlər təqdim edən biznesləri əhatə edən müxtəlif və dinamik sektordur.",
+        "sector.entrepreneurship": "Sahibkarlıq",
+        "sector.entrepreneurship_desc": "Sahibkarlıq sektoru yeni bizneslərin yaradılması, inkişafı və böyüməsinə fokuslanır. İnnovasiyanı hərəkətə gətirir, iş yerləri yaradır və ideyaları uğurlu müəssisələrə çevirərək iqtisadi inkişafa töhfə verir.",
+        "sector.branding": "Brendinq",
+        "sector.branding_desc": "Tanınmanı və bazar mövqeyini gücləndirən yaradıcı brendinq təşəbbüsləri.",
         
         // Stats Section
         "stats.happy_clients": "Məmnun Müştərilər",
