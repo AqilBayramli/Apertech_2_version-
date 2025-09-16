@@ -876,6 +876,8 @@ section,
   display: flex;
   align-items: center;
   background: url("../img/hero-bg.jpg") top left;
+  /* background: url("/images/about/solutions.jpg") top left; */
+
   background-size: cover;
 }
 
