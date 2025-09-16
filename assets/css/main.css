@@ -804,7 +804,7 @@ section,
 --------------------------------------------------------------*/
 .section-title {
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   position: relative;
 }
 
@@ -1016,6 +1016,95 @@ section,
   background: var(--accent-color);
   inset: 0;
   border-radius: 0px;
+}
+
+/*--------------------------------------------------------------
+# Partners Section
+---------------------------------------------------------------*/
+.partners {
+  padding: 80px 0;
+}
+
+.partner-card {
+  background-color: var(--surface-color);
+  border-radius: 10px;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  height: 100%;
+  position: relative;
+}
+
+.partner-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10 35px 0 rgba(0, 0, 0, 0.15);
+}
+
+.partner-image {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.partner-image img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease-in-out;
+}
+
+.partner-card:hover .partner-image img {
+  transform: scale(1.05);
+}
+
+.partner-content {
+  padding: 30px 25px;
+  text-align: center;
+}
+
+.partner-content h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: var(--heading-color);
+  transition: color 0.3s ease-in-out;
+}
+
+.partner-content p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+  color: var(--default-color);
+  transition: color 0.3s ease-in-out;
+}
+
+.partner-card:hover .partner-content h4 {
+  color: var(--accent-color);
+}
+
+.partner-card:hover .partner-content p {
+  color: var(--heading-color);
+}
+
+.partner-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
+}
+
+.partner-link:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.partner_container{
+  margin-top: 20px;
 }
 
 /*--------------------------------------------------------------
