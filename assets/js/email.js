@@ -216,17 +216,15 @@ function sendMail() {
   function validateTextarea() {
     const message = textarea.value.trim();
     const wordCount = message === '' ? 0 : message.split(/\s+/).length;
-  
-    // Update the word count display
+
+    // Update the word count display (no validation limit)
     const wordCountMessage = document.getElementById('wordCountMessage');
-    wordCountMessage.textContent = `Word count: ${wordCount}`;
-  
-    // Check if the textarea contains at least 100 words
-    if (wordCount < 100) {
-      textarea.setCustomValidity('Please enter at least 100 words.');
-    } else {
-      textarea.setCustomValidity('');
+    if (wordCountMessage) {
+      wordCountMessage.textContent = `Word count: ${wordCount}`;
     }
+
+    // Do not enforce any minimum or maximum length
+    textarea.setCustomValidity('');
   }
   
   // Inline clear (X) buttons for inputs and selects
