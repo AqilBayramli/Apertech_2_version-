@@ -1125,9 +1125,6 @@ section,
 /*--------------------------------------------------------------
 # Partners Section
 ---------------------------------------------------------------*/
-.partners {
-  padding: 80px 0;
-}
 
 .partner-card {
   background-color: var(--surface-color);
