@@ -67,6 +67,31 @@ body {
   padding-top: 100px; /* Account for fixed header height */
 }
 
+/* Custom Scrollbar - match topbar accent color */
+html {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: var(--accent-color) color-mix(in srgb, var(--accent-color), transparent 90%);
+}
+
+/* WebKit-based browsers */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: color-mix(in srgb, var(--accent-color), transparent 92%);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--accent-color);
+  border-radius: 8px;
+  border: 2px solid color-mix(in srgb, var(--accent-color), transparent 80%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 15%);
+}
+
 a {
   color: var(--accent-color);
   text-decoration: none;
