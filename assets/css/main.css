@@ -1343,6 +1343,10 @@ section,
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
+.services_container{
+  margin-top: 20px;
+}
+
 .services .service-item {
   background: var(--surface-color);
   text-align: center;
@@ -2097,7 +2101,7 @@ section,
 
 .appointment-form .group {
   position: relative;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .appointment-form .group input,
