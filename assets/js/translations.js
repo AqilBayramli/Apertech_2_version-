@@ -12,7 +12,7 @@ const translations = {
         "nav.contact": "Contact Us",
         
         // Hero Section
-        "hero.title": "Welcome to",
+        "hero.title": "Welcome to Apertech",
         "hero.subtitle": "We are glad to have you here! At Apertech, we combine innovation and reliability to deliver modern solutions that make your business grow and succeed.",
         "hero.button": "Get Started",
         
@@ -117,7 +117,7 @@ const translations = {
         "contact.subtitle": "Need Help?",
         "contact.description": "Contact Us",
         "contact.address": "Address",
-        "contact.address_value": "Baku, 1/25 Ahmad Rajabli, Chinar Park, 2-nd Center, 4 floor",
+        "contact.address_value": "Baku, 1/25 Ahmad Rajabli Business Center, Chinar Park, 2-nd Center, 4 floor",
         "contact.phone": "Call Us",
         "contact.email": "Email Us",
         "contact.form.name": "Your Name",
@@ -130,27 +130,26 @@ const translations = {
         "contact.form.message": "Message",
         "contact.form.send": "Send Message",
         "contact.success": "Your message has been sent successfully! We'll get back to you soon.",
+        "contact.validation.required": "This field is required",
         
         // FAQ Section
         "faq.title": "F.A.Q",
         "faq.subtitle": "Frequently Asked",
         "faq.description": "Questions",
-        "faq.q1": "Non consectetur a erat nam at lectus urna duis?",
-        "faq.a1": "Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.",
-        "faq.q2": "Feugiat scelerisque varius morbi enim nunc faucibus?",
-        "faq.a2": "Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.",
-        "faq.q3": "Dolor sit amet consectetur adipiscing elit pellentesque?",
-        "faq.a3": "Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis",
-        "faq.q4": "Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?",
-        "faq.a4": "Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.",
-        "faq.q5": "Tempus quam pellentesque nec nam aliquam sem et tortor?",
-        "faq.a5": "Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in",
-        "faq.q6": "Perspiciatis quod quo quos nulla quo illum ullam?",
-        "faq.a6": "Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi. Distinctio ipsam dolore et.",
+        "faq.q1": "What is Apertech?",
+        "faq.a1": "Apertech is a technology-driven company providing innovative solutions in your industry – ERP systems, digital transformation, IT services. We focus on helping businesses streamline operations, improve efficiency, and achieve sustainable growth.",
+        "faq.q2": "What services does Apertech offer?",
+        "faq.a2": "We provide a range of services including: ERP Solutions / Software Development / IT Consulting / System Integration & Automation / Support and Maintenance",
+        "faq.q3": "Who can benefit from Apertech solutions?",
+        "faq.a3": "Our solutions are designed for organizations of all sizes—from small businesses to large enterprises—across industries such as manufacturing, retail, finance, logistics, and more.",
+        "faq.q4": "How does Apertech support its clients?",
+        "faq.a4": "We offer end-to-end support including project planning, implementation, user training, and ongoing technical assistance. Our dedicated support team ensures smooth operations even after deployment.",
+        "faq.q5": "Does Apertech provide training?",
+        "faq.a5": "Yes, we provide comprehensive training programs for your team to ensure they can effectively use and manage our solutions.",
         
         // Footer
-        "footer.address": "A108 Adam Street",
-        "footer.city": "New York, NY 535022",
+        "footer.address": "Baku, 1/25 Ahmad Rajabli",
+        "footer.city": "Chinar Park Business Center, 2-nd Center, 4 floor",
         "footer.phone": "Phone:",
         "footer.email": "Email:",
         "footer.links": "Useful Links",
@@ -276,7 +275,7 @@ const translations = {
         "contact.subtitle": "Köməyə ehtiyacınız var?",
         "contact.description": "Bizimlə əlaqə saxlayın",
         "contact.address": "Ünvan",
-        "contact.address_value": "Bakı, 1/25 Əhməd Rəcəbli, Çinar Park, 2-ci Mərkəz, 4-cü mərtəbə",
+        "contact.address_value": "Bakı, 1/25 Əhməd Rəcəbli, Çinar Park Biznes Mərkəzi, 2-ci Mərkəz, 4-cü mərtəbə",
         "contact.phone": "Bizə zəng edin",
         "contact.email": "Bizə e-poçt göndərin",
         "contact.form.name": "Adınız",
@@ -289,27 +288,26 @@ const translations = {
         "contact.form.message": "Mesaj",
         "contact.form.send": "Mesaj göndər",
         "contact.success": "Mesajınız uğurla göndərildi! Tezliklə sizinlə əlaqə saxlayacağıq.",
+        "contact.validation.required": "Bu sahə mütləqdir",
         
         // FAQ Section
-        "faq.title": "S.S.S",
+        "faq.title": "T.V.S",
         "faq.subtitle": "Tez-tez verilən",
         "faq.description": "Suallar",
-        "faq.q1": "Non consectetur a erat nam at lectus urna duis?",
-        "faq.a1": "Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.",
-        "faq.q2": "Feugiat scelerisque varius morbi enim nunc faucibus?",
-        "faq.a2": "Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.",
-        "faq.q3": "Dolor sit amet consectetur adipiscing elit pellentesque?",
-        "faq.a3": "Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis",
-        "faq.q4": "Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?",
-        "faq.a4": "Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.",
-        "faq.q5": "Tempus quam pellentesque nec nam aliquam sem et tortor?",
-        "faq.a5": "Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in",
-        "faq.q6": "Perspiciatis quod quo quos nulla quo illum ullam?",
-        "faq.a6": "Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi. Distinctio ipsam dolore et.",
+        "faq.q1": "Apertech nədir?",
+        "faq.a1": "Apertech sənayenizdə innovativ həllər təqdim edən texnoloji şirkətdir – ERP sistemləri, rəqəmsal transformasiya, IT xidmətləri. Bizneslərin əməliyyatlarını optimallaşdırmaq, səmərəliliyi artırmaq və davamlı böyümə əldə etməyə kömək etməyə fokuslaşırıq.",
+        "faq.q2": "Apertech hansı xidmətləri təklif edir?",
+        "faq.a2": "Biz aşağıdakı xidmətlər dəstini təqdim edirik: ERP Həlləri / Proqram Təminatı İnkişafı / IT Məsləhəti / Sistem İnteqrasiyası və Avtomatlaşdırma / Dəstək və Təmir",
+        "faq.q3": "Apertech həllərindən kim faydalana bilər?",
+        "faq.a3": "Həllərimiz bütün ölçülü təşkilatlar üçün nəzərdə tutulub – kiçik bizneslərdən böyük müəssisələrə qədər – istehsal, pərakəndə satış, maliyyə, logistika və s. kimi sənayələrdə.",
+        "faq.q4": "Apertech müştərilərini necə dəstəkləyir?",
+        "faq.a4": "Biz layihə planlaşdırması, tətbiqi, istifadəçi təlimi və davamlı texniki yardım daxil olmaqla tam dəstək təklif edirik. Xüsusi dəstək komandamız tətbiq edildikdən sonra belə səlis əməliyyatları təmin edir.",
+        "faq.q5": "Apertech təlim təklif edir?",
+        "faq.a5": "Bəli, komandanızın həlllərimizi effektiv istifadə edə və idarə edə bilməsi üçün hərtərəfli təlim proqramları təqdim edirik.",
         
         // Footer
-        "footer.address": "A108 Adam Street",
-        "footer.city": "New York, NY 535022",
+        "footer.address": "Bakı, Əhməd Rəcəbli 1/25 ",
+        "footer.city": "Çinar Park Biznes Mərkəzi, 2-ci Mərkəz, 4-cü mərtəbə",
         "footer.phone": "Telefon:",
         "footer.email": "E-poçt:",
         "footer.links": "Faydalı Linklər",
@@ -374,6 +372,11 @@ function initializeLanguage() {
     
     // Update the page
     updateLanguage();
+}
+
+// Helper function to get translated text
+function getTranslation(key) {
+    return translations[currentLanguage] && translations[currentLanguage][key] ? translations[currentLanguage][key] : key;
 }
 
 // Call initialize when DOM is loaded

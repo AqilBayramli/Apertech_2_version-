@@ -28,11 +28,11 @@ function sendMail() {
       if (isEmptyField) {
         if (params.name === "") {
           document.getElementById("contactName");
-          showError("contactName", "This field is required");
+          showError("contactName", getTranslation("contact.validation.required"));
         }
         if (params.email === "") {
           document.getElementById("contactEmail");
-          showError("contactEmail", "This field is required");
+          showError("contactEmail", getTranslation("contact.validation.required"));
         } else if (!isValidEmailWithDomainCheck(params.email)) {
   
           document.getElementById("contactEmail");
@@ -40,7 +40,7 @@ function sendMail() {
         }
         if (params.number === "") {
           document.getElementById("phoneNumber");
-          showError("phoneNumber", "This field is required");
+          showError("phoneNumber", getTranslation("contact.validation.required"));
         }else if (!isValidNumber(params.number)) {
           document.getElementById("phoneNumber");
           showError("phoneNumber", "Please enter a valid phone number (0-9; min 9 - max 14 digits)");
@@ -48,23 +48,23 @@ function sendMail() {
   
         if (params.country === "") {
           document.getElementById("contactCountry");
-          showError("contactCountry", "This field is required");
+          showError("contactCountry", getTranslation("contact.validation.required"));
         }
         if (params.companyName === "") {
           document.getElementById("companyName");
-          showError("companyName", "This field is required");
+          showError("companyName", getTranslation("contact.validation.required"));
         }
         if (params.solutions === "") {
           document.getElementById("companySolutions");
-          showError("companySolutions", "This field is required");
+          showError("companySolutions", getTranslation("contact.validation.required"));
         }
         // if (params.website === "") {
         //   document.getElementById("companyWeb").style.border = "1px solid red";
-        //   showError("companyWeb", "This field is required");
+        //   showError("companyWeb", getTranslation("contact.validation.required"));
         // }
         if (params.message === "") {
           document.getElementById("msg");
-          showError("msg", "This field is required");
+          showError("msg", getTranslation("contact.validation.required"));
         }
   
         // Add event listeners to revert border color and remove error messages when clicked
