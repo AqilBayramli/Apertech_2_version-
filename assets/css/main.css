@@ -2653,9 +2653,15 @@ font-size: 20px;
 	}
 }
 
-.footer_logo >img{
+.footer_logo img{
   width: 160px;
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  filter: drop-shadow(0 0 0 transparent);
+}
 
+.footer_logo:hover img {
+  transform: translateY(-5px) scale(1.05);
+  filter: drop-shadow(0 10px 20px rgba(16, 110, 234, 0.3));
 }
 
 /*--------------------------------------------------------------
