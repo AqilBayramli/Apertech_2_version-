@@ -330,11 +330,20 @@ const translations = {
 // Current language
 let currentLanguage = 'en';
 
-// Language change function for select dropdown
+// Language change function for toggle buttons
 function changeLanguage(language) {
     currentLanguage = language;
     updateLanguage();
     localStorage.setItem('selectedLanguage', currentLanguage);
+    
+    // Update active button state
+    const buttons = document.querySelectorAll('.lang-btn');
+    buttons.forEach(btn => {
+        btn.classList.remove('active');
+        if (btn.getAttribute('data-lang') === language) {
+            btn.classList.add('active');
+        }
+    });
 }
 
 // Update all text content based on current language
@@ -380,6 +389,15 @@ function initializeLanguage() {
     
     // Update the page
     updateLanguage();
+    
+    // Set active button state
+    const buttons = document.querySelectorAll('.lang-btn');
+    buttons.forEach(btn => {
+        btn.classList.remove('active');
+        if (btn.getAttribute('data-lang') === currentLanguage) {
+            btn.classList.add('active');
+        }
+    });
 }
 
 // Helper function to get translated text
