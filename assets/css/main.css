@@ -207,6 +207,23 @@ h6 {
   }
 }
 
+@media (max-width: 400px) {
+.header .topbar .contact-info i span {
+    font-size: 11px;
+  }
+
+  #language-select{
+    min-width: 50px !important;
+  }
+}
+
+@media (max-width: 370px) {
+  .header .topbar .contact-info i a,
+  .header .topbar .contact-info i span {
+    font-size: 10px;
+  }
+  }
+
 .header .topbar .contact-info i a {
   line-height: 0;
   transition: 0.3s;
@@ -1369,6 +1386,19 @@ section,
 .clients .swiper-slide img:hover {
   transform: scale(1.1);
 }
+
+/* Hide one client image on very small screens for better responsive design */
+@media (max-width: 432px) {
+  .clients .swiper-slide img {
+    width: 130px;
+  }
+
+  .clients .swiper{
+    padding: 10px 35px;
+  }
+}
+
+
 
 /*--------------------------------------------------------------
 # Services Section
