@@ -256,7 +256,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 50px;
+  max-height: 100px;
   margin-right: 8px;
 }
 
@@ -893,7 +893,7 @@ section,
   display: flex;
   align-items: center;
   /* background: url("../img/hero-bg.jpg") top left; */
-  background: url("/images/about/BusinessCorporate.jpg") top left;
+  background: url("/./images/about/BusinessCorporate.jpg") top left;
 
   /* background: url("/images/about/solutions.jpg") top left; */
 
@@ -1401,13 +1401,16 @@ font-size: 20px;
 }
 
 /* Hide one client image on very small screens for better responsive design */
-@media (max-width: 432px) {
+@media (max-width: 435px) {
   .clients .swiper-slide img {
     width: 130px;
   }
 
   .clients .swiper{
     padding: 10px 35px;
+  }
+  .header .logo img {
+    max-height: 80px;
   }
 }
 
@@ -2644,7 +2647,7 @@ font-size: 20px;
 }
 
 .footer_logo >img{
-  width: 120px;
+  width: 160px;
 
 }
 
