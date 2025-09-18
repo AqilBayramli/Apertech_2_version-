@@ -2705,26 +2705,27 @@ font-size: 20px;
 .language-toggle {
   display: flex;
   background: #f8f9fa;
-  border-radius: 25px;
-  padding: 4px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
   border: 1px solid #e9ecef;
 }
 
 .lang-btn {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 2px;
   border: none;
   background: transparent;
-  border-radius: 20px;
+  border-radius: 12px;
   cursor: pointer;
   transition: all 0.3s ease;
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 500;
   color: #6c757d;
   position: relative;
   overflow: hidden;
+  padding: 2px 6px;
 }
 
 .lang-btn:hover {
@@ -2757,37 +2758,37 @@ font-size: 20px;
 /* Responsive design */
 @media (max-width: 768px) {
   .language-toggle {
-    padding: 3px;
+    padding: 1px;
   }
   
   .lang-btn {
-    padding: 6px 12px;
-    font-size: 13px;
-    gap: 4px;
+    padding: 2px 4px;
+    font-size: 9px;
+    gap: 2px;
   }
   
   .flag {
-    font-size: 14px;
+    font-size: 10px;
   }
 }
 
 @media (max-width: 575px) {
   .language-toggle {
     margin-left: 0.5rem !important;
-    padding: 2px;
+    padding: 1px;
   }
   
   .lang-btn {
-    padding: 5px 10px;
-    font-size: 12px;
-    gap: 3px;
+    padding: 1px 3px;
+    font-size: 8px;
+    gap: 1px;
   }
   
   .flag {
-    font-size: 12px;
+    font-size: 8px;
   }
   
   .lang-text {
-    font-size: 11px;
+    font-size: 7px;
   }
 }
