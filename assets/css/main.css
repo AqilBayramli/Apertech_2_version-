@@ -936,6 +936,13 @@ section,
   color: var(--accent-color);
 }
 
+/* Color only the 'tech' part inside 'Apertech' in the hero title */
+.hero h1 .brand-tech {
+  /* color: #90000e; */
+  color: #90000ec9;
+
+}
+
 .hero p {
   /* color: color-mix(in srgb, var(--default-color), transparent 30%); */
   color: white;

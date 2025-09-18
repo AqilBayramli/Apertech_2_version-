@@ -369,6 +369,14 @@ function updateLanguage() {
         }
     });
     
+    // Post-process hero title to color only the "tech" part of "Apertech"
+    const heroTitle = document.querySelector('[data-translate="hero.title"]');
+    if (heroTitle && heroTitle.textContent) {
+        // Replace all occurrences of "Apertech" with wrapped version, preserving suffixes (e.g., Azeri suffixes)
+        const replaced = heroTitle.textContent.replace(/Apertech/g, 'Aper<span class="brand-tech">tech</span>');
+        heroTitle.innerHTML = replaced;
+    }
+    
     // Update HTML lang attribute
     document.documentElement.lang = currentLanguage;
     
