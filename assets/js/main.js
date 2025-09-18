@@ -254,4 +254,37 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
+  /**
+   * Client tooltip functionality
+   */
+  function initClientTooltips() {
+    const clientLinks = document.querySelectorAll('.client-link');
+    
+    clientLinks.forEach(link => {
+      // Add touch support for mobile devices
+      link.addEventListener('touchstart', function(e) {
+        e.preventDefault();
+        this.classList.add('tooltip-active');
+      });
+      
+      link.addEventListener('touchend', function(e) {
+        e.preventDefault();
+        setTimeout(() => {
+          this.classList.remove('tooltip-active');
+        }, 2000);
+      });
+      
+      // Add keyboard support
+      link.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          this.classList.toggle('tooltip-active');
+        }
+      });
+    });
+  }
+
+  // Initialize tooltips when DOM is loaded
+  document.addEventListener('DOMContentLoaded', initClientTooltips);
+
 })();
