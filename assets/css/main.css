@@ -1240,6 +1240,10 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+.about_container{
+  margin-top: 20px;
+}
+
 .about_content_text{
 font-size: 20px;
 }
@@ -1294,6 +1298,14 @@ font-size: 20px;
 
 .about .about-content p:last-child {
   margin-bottom: 0;
+}
+
+/* Make the About section image smaller and centered */
+.about .col-lg-6 > img.img-fluid {
+  max-width: 85%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 /*--------------------------------------------------------------
