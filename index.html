@@ -101,20 +101,109 @@
 
     <!-- Hero Section -->
     <section id="hero" class="hero section light-background">
-      <img src="images/about/BusinessCorporate.jpg" alt="Hero Image" class="hero-image">
-      <div class="container header_container">
-        <div class="row gy-4">
-          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
-            <h1 data-translate="hero.title">Welcome to Apertech</h1>
-            <p data-translate="hero.subtitle">We are glad to have you here! At Apertech, we combine innovation and reliability to deliver modern solutions that make your business grow and succeed.</p>
-            <div class="d-flex">
-              <a href="#about" class="btn-get-started" data-translate="hero.button">Get Started</a>
-              <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
+      <div class="hero-swiper-container">
+        <div class="swiper hero-swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 1000,
+              "autoplay": {
+                "delay": 5000,
+                "disableOnInteraction": false
+              },
+              "pagination": {
+                "el": ".hero-swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "navigation": {
+                "nextEl": ".hero-swiper-button-next",
+                "prevEl": ".hero-swiper-button-prev"
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+              <div class="hero-slide" style="background-image: url('images/about/BusinessCorporate.jpg');">
+                <div class="container header_container">
+                  <div class="row gy-4">
+                    <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+                      <h1 data-translate="hero.title">Welcome to Apertech</h1>
+                      <p data-translate="hero.subtitle">We are glad to have you here! At Apertech, we combine innovation and reliability to deliver modern solutions that make your business grow and succeed.</p>
+                      <div class="d-flex">
+                        <a href="#about" class="btn-get-started" data-translate="hero.button">Get Started</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+              <div class="hero-slide" style="background-image: url('images/banner/Procurement.jpeg');">
+                <div class="container header_container">
+                  <div class="row gy-4">
+                    <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+                      <h1 data-translate="hero.slide2.title">Fully Procurement Automation</h1>
+                      <p data-translate="hero.slide2.subtitle">Fully automated procurement is the use of technology to completely streamline the entire purchasing process, from initial request to final payment, by eliminating manual tasks like data entry, approvals, and invoice matching.</p>
+                      <div class="d-flex">
+                        <a href="#solutions" class="btn-get-started" data-translate="hero.slide2.button">Explore Solutions</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+              <div class="hero-slide" style="background-image: url('images/banner/infor.jpeg');">
+                <div class="container header_container">
+                  <div class="row gy-4">
+                    <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+                      <h1 data-translate="hero.slide3.title">Production ERP</h1>
+                      <p data-translate="hero.slide3.subtitle">A Production ERP system is an integrated software solution designed to manage, automate, and optimize all aspects of the manufacturing process. It connects every department — from planning and procurement to production, quality control, and delivery — into a single, centralized platform.</p>
+                      <div class="d-flex">
+                        <a href="#partners" class="btn-get-started" data-translate="hero.slide3.button">Explore Partners</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Slide 4 -->
+            <div class="swiper-slide">
+              <div class="hero-slide" style="background-image: url('images/about/BusinessCorporate.jpg');">
+                <div class="container header_container">
+                  <div class="row gy-4">
+                    <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+                      <h1 data-translate="hero.slide4.title">Construction ERP</h1>
+                      <p data-translate="hero.slide4.subtitle">A Construction ERP system is a comprehensive software solution designed to manage and integrate all aspects of construction project management — from planning and budgeting to procurement, execution, and delivery. It unifies every department and process into one centralized platform, ensuring accuracy, transparency, and control across the entire project lifecycle.</p>
+                      <div class="d-flex">
+                        <a href="#services" class="btn-get-started" data-translate="hero.slide4.button">Our Services</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+          
+          <!-- Navigation -->
+          <div class="hero-swiper-button-prev">
+            <i class="bi bi-chevron-left"></i>
+          </div>
+          <div class="hero-swiper-button-next">
+            <i class="bi bi-chevron-right"></i>
+          </div>
+          
+          <!-- Pagination -->
+          <div class="hero-swiper-pagination"></div>
         </div>
       </div>
-
     </section><!-- /Hero Section -->
 
     <!-- About Section -->

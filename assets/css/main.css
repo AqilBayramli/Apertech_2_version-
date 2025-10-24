@@ -885,7 +885,7 @@ section,
   width: 100%;
   min-height: 75vh;
   position: relative;
-  padding: 60px 0;
+  padding: 0;
   display: flex;
   align-items: center;
   /* background: url("../img/BusinessCorporate.jpg") top left; */
@@ -1018,6 +1018,173 @@ section,
 
   100% {
     transform: translateY(-10px);
+  }
+}
+
+/*--------------------------------------------------------------
+# Hero Swiper Styles
+---------------------------------------------------------------*/
+.hero-swiper-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.hero-swiper {
+  width: 100%;
+  height: 75vh;
+  min-height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-slide {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.hero-slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.hero-slide .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Hero Swiper Navigation Buttons */
+.hero-swiper-button-prev,
+.hero-swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hero-swiper-button-prev {
+  left: 30px;
+}
+
+.hero-swiper-button-next {
+  right: 30px;
+}
+
+.hero-swiper-button-prev:hover,
+.hero-swiper-button-next:hover {
+  background: var(--accent-color);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.hero-swiper-button-prev i,
+.hero-swiper-button-next i {
+  font-size: 20px;
+  color: var(--heading-color);
+  transition: color 0.3s ease;
+}
+
+.hero-swiper-button-prev:hover i,
+.hero-swiper-button-next:hover i {
+  color: white;
+}
+
+/* Hero Swiper Pagination */
+.hero-swiper-pagination {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.hero-swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+  margin: 0 5px;
+  transition: all 0.3s ease;
+}
+
+.hero-swiper-pagination .swiper-pagination-bullet-active {
+  background: var(--accent-color);
+  transform: scale(1.2);
+}
+
+/* Responsive Design for Hero Swiper */
+@media (max-width: 768px) {
+  .hero-swiper {
+    height: 60vh;
+    min-height: 400px;
+  }
+  
+  .hero-swiper-button-prev,
+  .hero-swiper-button-next {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .hero-swiper-button-prev {
+    left: 15px;
+  }
+  
+  .hero-swiper-button-next {
+    right: 15px;
+  }
+  
+  .hero-swiper-button-prev i,
+  .hero-swiper-button-next i {
+    font-size: 16px;
+  }
+  
+  .hero-swiper-pagination {
+    bottom: 20px;
+  }
+  
+  .hero-swiper-pagination .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-swiper {
+    height: 50vh;
+    min-height: 350px;
+  }
+  
+  .hero-swiper-button-prev,
+  .hero-swiper-button-next {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .hero-swiper-button-prev i,
+  .hero-swiper-button-next i {
+    font-size: 14px;
   }
 }
 

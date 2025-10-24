@@ -16,6 +16,21 @@ const translations = {
         "hero.subtitle": "We are glad to have you here! At Apertech, we combine innovation and reliability to deliver modern solutions that make your business grow and succeed.",
         "hero.button": "Get Started",
         
+        // Hero Slide 2 - Procurement Automation
+        "hero.slide2.title": "Fully Procurement Automation",
+        "hero.slide2.subtitle": "Fully automated procurement is the use of technology to completely streamline the entire purchasing process, from initial request to final payment, by eliminating manual tasks like data entry, approvals, and invoice matching.",
+        "hero.slide2.button": "Explore Solutions",
+        
+        // Hero Slide 3 - Production ERP
+        "hero.slide3.title": "Production ERP",
+        "hero.slide3.subtitle": "A Production ERP system is an integrated software solution designed to manage, automate, and optimize all aspects of the manufacturing process. It connects every department — from planning and procurement to production, quality control, and delivery — into a single, centralized platform.",
+        "hero.slide3.button": "Explore Partners",
+        
+        // Hero Slide 4 - Construction ERP
+        "hero.slide4.title": "Construction ERP",
+        "hero.slide4.subtitle": "A Construction ERP system is a comprehensive software solution designed to manage and integrate all aspects of construction project management — from planning and budgeting to procurement, execution, and delivery. It unifies every department and process into one centralized platform, ensuring accuracy, transparency, and control across the entire project lifecycle.",
+        "hero.slide4.button": "Our Services",
+        
         // About Section
         "about.title": "About Us",
         "about.subtitle": "Find Out More",
@@ -177,6 +192,21 @@ const translations = {
         "hero.title": "Apertech-ə xoş gəlmisiniz",
         "hero.subtitle": "Sizi burada gördüyümüzə sevinirik! Apertech-də biz innovasiya və etibarlılığı birləşdirərək biznesinizin böyüməsi və uğur qazanması üçün müasir həllər təqdim edirik.",
         "hero.button": "Başlayaq",
+        
+        // Hero Slide 2 - Procurement Automation
+        "hero.slide2.title": "Tam Satınalma Avtomatlaşdırması",
+        "hero.slide2.subtitle": "Tam avtomatlaşdırılmış satınalma, məlumat daxil etmə, təsdiqlər və hesab-faktura uyğunlaşdırması kimi əl işlərini aradan qaldıraraq, ilkin sorğudan son ödənişə qədər bütün alış prosesini tamamilə optimallaşdırmaq üçün texnologiyadan istifadədir.",
+        "hero.slide2.button": "Həll Yollarını Kəşf Et",
+        
+        // Hero Slide 3 - Production ERP
+        "hero.slide3.title": "İstehsal ERP",
+        "hero.slide3.subtitle": "İstehsal ERP sistemi istehsal prosesinin bütün aspektlərini idarə etmək, avtomatlaşdırmaq və optimallaşdırmaq üçün nəzərdə tutulmuş inteqrasiya edilmiş proqram həllidir. Planlaşdırma və tədarükdən istehsal, keyfiyyət nəzarəti və çatdırılmaya qədər hər şöbəni tək, mərkəzləşdirilmiş platformada birləşdirir.",
+        "hero.slide3.button": "Tərəfdaşları Kəşf Et",
+        
+        // Hero Slide 4 - Construction ERP
+        "hero.slide4.title": "Tikinti ERP",
+        "hero.slide4.subtitle": "Tikinti ERP sistemi tikinti layihə idarəetməsinin bütün aspektlərini idarə etmək və inteqrasiya etmək üçün nəzərdə tutulmuş hərtərəfli proqram həllidir — planlaşdırmadan büdcələşdirməyə, tədarükdən icra və çatdırılmaya qədər. Hər şöbə və prosesi tək mərkəzləşdirilmiş platformada birləşdirir, bütün layihə dövrü boyunca dəqiqlik, şəffaflıq və nəzarət təmin edir.",
+        "hero.slide4.button": "Xidmətlərimiz",
         
         // About Section
         "about.title": "Haqqımızda",
