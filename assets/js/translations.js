@@ -28,7 +28,7 @@ const translations = {
         
         // Hero Slide 4 - Construction ERP
         "hero.slide4.title": "Construction ERP",
-        "hero.slide4.subtitle": "A Construction ERP system is a comprehensive software solution designed to manage and integrate all aspects of construction project management — from planning and budgeting to procurement, execution, and delivery. It unifies every department and process into one centralized platform, ensuring accuracy, transparency, and control across the entire project lifecycle.",
+        "hero.slide4.subtitle": "A Construction ERP system is a comprehensive software solution designed to manage and integrate all aspects of construction project management — from planning and budgeting to procurement, execution, and delivery.",
         "hero.slide4.button": "Our Services",
         
         // About Section
@@ -205,7 +205,7 @@ const translations = {
         
         // Hero Slide 4 - Construction ERP
         "hero.slide4.title": "Tikinti ERP",
-        "hero.slide4.subtitle": "Tikinti ERP sistemi tikinti layihə idarəetməsinin bütün aspektlərini idarə etmək və inteqrasiya etmək üçün nəzərdə tutulmuş hərtərəfli proqram həllidir — planlaşdırmadan büdcələşdirməyə, tədarükdən icra və çatdırılmaya qədər. Hər şöbə və prosesi tək mərkəzləşdirilmiş platformada birləşdirir, bütün layihə dövrü boyunca dəqiqlik, şəffaflıq və nəzarət təmin edir.",
+        "hero.slide4.subtitle": "Tikinti ERP sistemi tikinti layihə idarəetməsinin bütün aspektlərini idarə etmək və inteqrasiya etmək üçün nəzərdə tutulmuş hərtərəfli proqram həllidir — planlaşdırmadan büdcələşdirməyə, tədarükdən icra və çatdırılmaya qədər.",
         "hero.slide4.button": "Xidmətlərimiz",
         
         // About Section
