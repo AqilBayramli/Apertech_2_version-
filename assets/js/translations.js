@@ -354,26 +354,200 @@ const translations = {
         "footer.follow_desc": "Əlaqədə qalın və yenilikləri qaçırmayın! Ən son xəbərlər, xüsusi təkliflər və faydalı məsləhətlər üçün sosial mediada bizi izləyin.",
         "footer.copyright": "Müəllif hüququ",
         "footer.rights": "Bütün hüquqlar qorunur"
+    },
+    
+    ru: {
+        // Navigation
+        "nav.home": "Главная",
+        "nav.about": "О нас",
+        "nav.services": "Услуги",
+        "nav.solutions": "Решения",
+        "nav.clients": "Партнеры и клиенты",
+        "nav.contact": "Свяжитесь с нами",
+        
+        // Hero Section
+        "hero.title": "Добро пожаловать в Apertech",
+        "hero.subtitle": "Рады видеть вас здесь! В Apertech мы объединяем инновации и надежность, чтобы предлагать современные решения, которые помогают вашему бизнесу расти и добиваться успеха.",
+        "hero.button": "Начать",
+        
+        // Hero Slide 2 - Procurement Automation
+        "hero.slide2.title": "Полная автоматизация закупок",
+        "hero.slide2.subtitle": "Полностью автоматизированные закупки используют технологии для оптимизации всего процесса закупок — от первой заявки до финального платежа, исключая ручные задачи вроде ввода данных, согласований и сверки счетов.",
+        "hero.slide2.button": "Изучить решения",
+        
+        // Hero Slide 3 - Production ERP
+        "hero.slide3.title": "Производственный ERP",
+        "hero.slide3.subtitle": "Производственная ERP-система — это интегрированное программное решение для управления, автоматизации и оптимизации всех аспектов производственного процесса. Она объединяет планирование, закупки, производство, контроль качества и доставку на единой платформе.",
+        "hero.slide3.button": "Наши партнеры",
+        
+        // Hero Slide 4 - Construction ERP
+        "hero.slide4.title": "Строительный ERP",
+        "hero.slide4.subtitle": "Строительная ERP-система — это комплексное решение для управления всеми этапами строительных проектов: от планирования и бюджетирования до закупок, исполнения и сдачи.",
+        "hero.slide4.button": "Наши услуги",
+        
+        // About Section
+        "about.title": "О нас",
+        "about.subtitle": "Узнайте больше",
+        "about.description": "О компании",
+        "about.content1": "Apertech Solutions — технологическая и консалтинговая компания из Баку, которая помогает организациям любого масштаба внедрять инновационные и эффективные ERP-решения. С момента основания Apertech фокусируется на оптимизации бизнес-процессов, улучшении принятия решений и цифровой трансформации с помощью надежных и масштабируемых систем.",
+        "about.content2": "Мы специализируемся на ERP, финансовом управлении, бизнес-аналитике и разработке кастомного ПО. Как официальный региональный партнер Infor SunSystems, мы предоставляем мирового уровня финансовые решения. Наш собственный продукт Genesis предлагает инструменты для управления закупками, бюджетами, контрактами и аналитикой, обеспечивая полный контроль над операциями.",
+        "about.content3": "В Apertech мы уверены, что каждая организация уникальна, как и ее потребности в технологиях. Поэтому мы применяем персональный подход — от консультаций и проектирования до интеграции, внедрения и долгосрочной поддержки, адаптируя решения под цели, отрасль и процессы клиента.",
+        "about.experience": "Опыт",
+        "about.experience_desc": "Наша команда из более чем 20 экспертов по программному обеспечению.",
+        "about.support": "Быстрая поддержка",
+        "about.support_desc": "Помогаем тестировать смелые идеи и поддерживаем вас на каждом этапе.",
+        
+        // Sector Section
+        "sector.title": "Наши продукты применяются в таких отраслях:",
+        "sector.construction": "Строительство",
+        "sector.construction_desc": "Строительная отрасль — динамичный многоуровневый сектор, формирующий облик городов и инфраструктуры.",
+        "sector.production": "Производство",
+        "sector.production_desc": "Производственная индустрия охватывает широкий спектр процессов, направленных на выпуск продукции и создание ценности через эффективность.",
+        "sector.government": "Госсектор",
+        "sector.government_desc": "Государственные структуры включают правоохранительные органы, оборону, образование, здравоохранение, инфраструктуру и социальные службы.",
+        "sector.finance": "Финансы и учет",
+        "sector.finance_desc": "Финансовая отрасль — фундамент мировой экономики, предоставляющий услуги по управлению, инвестированию и распределению капитала.",
+        "sector.oil": "Нефтегаз",
+        "sector.oil_desc": "Нефтегазовая отрасль обеспечивает мир энергией для транспорта, электроэнергии и промышленных процессов и остается критически важной для экономики.",
+        "sector.sport": "Спортивные события",
+        "sector.sport_desc": "Мировой спорт — не только соревнования, но и значимый экономический двигатель, который создает доходы от спонсоров, трансляций, мерча и туризма.",
+        "sector.hospitality": "Гостеприимство",
+        "sector.hospitality_desc": "Индустрия гостеприимства охватывает бизнесы, предоставляющие услуги путешественникам, туристам и гостям.",
+        "sector.entrepreneurship": "Предпринимательство",
+        "sector.entrepreneurship_desc": "Сектор предпринимательства способствует созданию и развитию новых компаний, стимулируя инновации и занятость.",
+        "sector.branding": "Брендинг",
+        "sector.branding_desc": "Креативные брендинговые инициативы, усиливающие узнаваемость и рыночные позиции.",
+        
+        // Stats Section
+        "stats.happy_clients": "Довольные клиенты",
+        "stats.projects": "Проекты",
+        "stats.years": "Успешные годы",
+        "stats.workers": "Усерьдные сотрудники",
+        
+        // Services Section
+        "services.title": "Услуги",
+        "services.subtitle": "Наши",
+        "services.description": "Услуги",
+        "services.web_dev": "Разработка веб-приложений",
+        "services.web_dev_desc": "Мы предлагаем больше, чем просто качественный код. Наш опыт выделяет нас среди других команд.",
+        "services.erp": "Внедрение ERP",
+        "services.erp_desc": "Мы помогаем оптимизировать бизнес-процессы и достигать новой эффективности с помощью комплексного внедрения ERP.",
+        "services.software": "Внедрение ПО",
+        "services.software_desc": "Сопровождаем вас при внедрении новых систем или модернизации существующих решений.",
+        "services.analytics": "Бизнес-аналитика",
+        "services.analytics_desc": "Предлагаем комплексную ERP-аналитику, чтобы раскрыть потенциал данных и принимать взвешенные решения.",
+        "services.support": "Техническая поддержка",
+        "services.support_desc": "Поддержка ERP-систем — ключ к успешной эксплуатации платформы управления бизнесом.",
+        "services.consultancy": "ERP-консалтинг",
+        "services.consultancy_desc": "ERP-консалтинг помогает сделать процессы эффективнее, решения — точнее, а продуктивность — выше.",
+        
+        // Clients Section
+        "clients.title": "Клиенты и партнеры",
+        "clients.subtitle": "Наши",
+        "clients.description": "Клиенты",
+        
+        // Partners Section
+        "partners.subtitle": "Наши",
+        "partners.description": "Партнеры",
+        
+        // Solutions Section
+        "solutions.title": "Решения",
+        "solutions.subtitle": "Наши",
+        "solutions.description": "Решения",
+        "solutions.sunsystems": "Infor SunSystems",
+        "solutions.sunsystems_desc": "Более 18 000 организаций в 180 странах используют Infor FMS SunSystems для управления финансами. 27 языковых версий, локальная поддержка, гибкость и быстрая адаптация к изменениям законодательства делают SunSystems идеальным выбором для компаний, которым нужна строгая финансовая дисциплина и гибкие процессы.",
+        "solutions.syteline": "Infor Syteline",
+        "solutions.syteline_desc": "Производители по всему миру используют Infor® SyteLine локально и в облаке, чтобы упростить и автоматизировать сложные производственные процессы — от планирования и управления материалами до финансов.",
+        "solutions.query": "Infor Query & Analysis",
+        "solutions.query_desc": "Infor Query and Analysis для SunSystems — мощный инструмент запросов и аналитики, предоставляющий сотрудникам мгновенный доступ к релевантным данным для точных рекомендаций и стратегических решений.",
+        "solutions.genesis": "Genesis Soft",
+        "solutions.genesis_desc": "Genesis Soft — программная система управления бизнесом, аналог ERP. Она интегрирует ключевые функции и помогает оптимизировать ежедневные операции.",
+        "solutions.sola_erp": "Sola ERP",
+        "solutions.sola_erp_desc": "Sola ERP помогает организациям управлять и объединять ключевые бизнес-процессы в единой системе, повышая эффективность, прозрачность и сотрудничество.",
+        "solutions.sola_hr": "Sola HR",
+        "solutions.sola_hr_desc": "HRB — гибкая система HR и Payroll с собственным языком алгоритмов, позволяющим настраивать расчеты любой сложности.",
+        
+        // Experience Section
+        "experience.subtitle": "Опыт. Исполнение. Совершенство.",
+        "experience.description": "Чем мы занимаемся",
+        "experience.csharp": "C# Разработка",
+        "experience.csharp_desc": "C# — многофункциональный язык со строгой типизацией и богатым набором возможностей, используемый для веб-, десктопных приложений и сервисов.",
+        "experience.react": "React JS Разработка",
+        "experience.react_desc": "React упрощает создание интерактивных интерфейсов и эффективно обновляет компоненты при изменении данных.",
+        "experience.erp": "ERP-программное обеспечение",
+        "experience.erp_desc": "ERP — это программные решения для управления ежедневными бизнес-процессами: учет, снабжение, проекты, риски, соответствие и цепочки поставок.",
+        "experience.net": ".NET Разработка",
+        "experience.net_desc": ".NET Framework предлагает обширные инструменты и библиотеки, обеспечивая продуктивное создание качественных приложений с поддержкой нескольких языков.",
+        "experience.js": "JavaScript Разработка",
+        "experience.js_desc": "JavaScript — легкий язык программирования для создания динамичных веб-страниц, приложений, серверов и игр.",
+        "experience.java": "Java Разработка",
+        "experience.java_desc": "Java — язык и платформа, появившиеся в 1995 году. Сегодня на нем построена значительная часть цифрового мира, обеспечивая надежную основу для сервисов и приложений.",
+        "experience.ts": "TypeScript Разработка",
+        "experience.ts_desc": "TypeScript — строго типизированный, объектно-ориентированный язык, развивающий JavaScript и предоставляющий улучшенные инструменты под проекты любого масштаба.",
+        
+        // Contact Section
+        "contact.title": "Контакты",
+        "contact.subtitle": "Нужна помощь?",
+        "contact.description": "Свяжитесь с нами",
+        "contact.address": "Адрес",
+        "contact.address_value": "Баку, ул. Ахмад Раджабли 1/25, бизнес-центр Chinar Park, 2-й центр, 4 этаж",
+        "contact.phone": "Позвоните нам",
+        "contact.email": "Напишите нам",
+        "contact.form.name": "Ваше имя",
+        "contact.form.email": "Ваш e-mail",
+        "contact.form.phone": "Номер телефона",
+        "contact.form.country": "Страна",
+        "contact.form.company": "Название компании",
+        "contact.form.solutions": "Решения",
+        "contact.form.website": "Сайт компании (опционально)",
+        "contact.form.message": "Сообщение",
+        "contact.form.send": "Отправить",
+        "contact.success": "Ваше сообщение успешно отправлено! Мы скоро свяжемся с вами.",
+        "contact.validation.required": "Это поле обязательно",
+        
+        // FAQ Section
+        "faq.title": "ЧаВо",
+        "faq.subtitle": "Часто задаваемые",
+        "faq.description": "Вопросы",
+        "faq.q1": "Что такое Apertech?",
+        "faq.a1": "Apertech — технологическая компания, предоставляющая инновационные решения в сфере ERP, цифровой трансформации и IT-сервисов. Мы помогаем бизнесу оптимизировать операции, повышать эффективность и устойчиво расти.",
+        "faq.q2": "Какие услуги предлагает Apertech?",
+        "faq.a2": "Мы предоставляем ERP-решения, разработку ПО, IT-консалтинг, системную интеграцию и автоматизацию, а также поддержку и сопровождение.",
+        "faq.q3": "Кому подходят решения Apertech?",
+        "faq.a3": "Наши решения предназначены для компаний любого размера — от малого бизнеса до крупных предприятий в производстве, ритейле, финансах, логистике и других отраслях.",
+        "faq.q4": "Как Apertech поддерживает клиентов?",
+        "faq.a4": "Мы обеспечиваем полный цикл поддержки: планирование проектов, внедрение, обучение пользователей и постоянную техническую помощь, чтобы все работало бесперебойно.",
+        "faq.q5": "Проводит ли Apertech обучение?",
+        "faq.a5": "Да, мы организуем всесторонние программы обучения, чтобы ваша команда могла эффективно использовать и администрировать наши решения.",
+        
+        // Footer
+        "footer.address": "Баку, Ахмад Раджабли 1/25",
+        "footer.city": "Бизнес-центр Chinar Park, 2-й центр, 4 этаж",
+        "footer.phone": "Телефон:",
+        "footer.email": "E-mail:",
+        "footer.links": "Полезные ссылки",
+        "footer.services": "Наши услуги",
+        "footer.follow": "Подписывайтесь на нас",
+        "footer.follow_desc": "Оставайтесь на связи и не пропускайте новости! Подписывайтесь на нас в соцсетях, чтобы первыми узнавать об обновлениях и предложениях.",
+        "footer.copyright": "Авторские права",
+        "footer.rights": "Все права защищены"
     }
 };
 
 // Current language
 let currentLanguage = 'en';
 
-// Language change function for toggle buttons
+// Language change function for dropdown select
 function changeLanguage(language) {
     currentLanguage = language;
     updateLanguage();
     localStorage.setItem('selectedLanguage', currentLanguage);
     
-    // Update active button state
-    const buttons = document.querySelectorAll('.lang-btn');
-    buttons.forEach(btn => {
-        btn.classList.remove('active');
-        if (btn.getAttribute('data-lang') === language) {
-            btn.classList.add('active');
-        }
-    });
+    // Update language select dropdown value
+    const langSelect = document.getElementById('language-select');
+    if (langSelect) {
+        langSelect.value = currentLanguage;
+    }
 }
 
 // Update all text content based on current language
@@ -421,21 +595,18 @@ function updateLanguage() {
 function initializeLanguage() {
     // Check for saved language preference
     const savedLanguage = localStorage.getItem('selectedLanguage');
-    if (savedLanguage && (savedLanguage === 'en' || savedLanguage === 'az')) {
+    if (savedLanguage && (savedLanguage === 'en' || savedLanguage === 'az' || savedLanguage === 'ru')) {
         currentLanguage = savedLanguage;
     }
     
     // Update the page
     updateLanguage();
     
-    // Set active button state
-    const buttons = document.querySelectorAll('.lang-btn');
-    buttons.forEach(btn => {
-        btn.classList.remove('active');
-        if (btn.getAttribute('data-lang') === currentLanguage) {
-            btn.classList.add('active');
-        }
-    });
+    // Set language select dropdown value
+    const langSelect = document.getElementById('language-select');
+    if (langSelect) {
+        langSelect.value = currentLanguage;
+    }
 }
 
 // Helper function to get translated text

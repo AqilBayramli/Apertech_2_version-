@@ -1664,20 +1664,11 @@ font-size: 20px;
     max-height: 80px;
   }
 
-  .language-toggle {
-    padding: 5px !important;
-  }
-
-  .lang-btn {
-    padding: 3px 6px;
-  }
-
-  .flag {
-    font-size: 12px;
-  }
-
-  .lang-text {
-    font-size: 12px;
+  .language-select {
+    font-size: 10px !important;
+    padding: 3px 20px 3px 6px !important;
+    min-width: 45px !important;
+    height: 26px !important;
   }
 
   /* Adjust tooltip for mobile */
@@ -2933,33 +2924,54 @@ font-size: 20px;
 /*--------------------------------------------------------------
 # Language Select Dropdown
 --------------------------------------------------------------*/
-#language-select {
-  background-color: white !important;
-  border: 2px solid white !important;
-  color: black !important;
-  font-weight: 600;
-  font-size: 12px;
-  padding: 4px 8px;
-  border-radius: 6px;
-  transition: all 0.3s ease;
-  min-width: 60px;
-  height: 32px;
+.language-select {
+  background-color: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  color: #495057;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 4px 28px 6px 10px;
+  min-width: 65px;
+  height: 29px;
   cursor: pointer;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12' fill='none'%3E%3Cpath d='M2 4L6 8L10 4' stroke='%23666' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
+  transition: all 0.2s ease;
 }
 
+.language-select:hover {
+  border-color: #106eea;
+  background-color: #f8f9fa;
+}
 
+.language-select:focus {
+  border-color: #106eea;
+  box-shadow: 0 0 0 3px rgba(16, 110, 234, 0.1);
+  background-color: #ffffff;
+}
 
-#language-select option {
-  font-weight: 600;
+.language-select option {
+  font-weight: 500;
+  padding: 8px;
+  background-color: #ffffff;
 }
 
 /* Responsive adjustments for language select */
 @media (max-width: 767px) {
-  #language-select {
-    font-size: 11px;
-    padding: 3px 6px;
-    min-width: 50px;
-    height: 28px;
+  .language-select {
+    font-size: 12px;
+    padding: 5px 24px 5px 8px;
+    min-width: 55px;
+    height: 32px;
+    background-size: 10px;
+    background-position: right 8px center;
   }
   
   .social-links {
@@ -2967,94 +2979,13 @@ font-size: 20px;
   }
 }
 
-/* Language Toggle Buttons */
-.language-toggle {
-  display: flex;
-  background: #f8f9fa;
-  border-radius: 15px;
-  padding: 2px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-  border: 1px solid #e9ecef;
-}
-
-.lang-btn {
-  display: flex;
-  align-items: center;
-  gap: 2px;
-  border: none;
-  background: transparent;
-  border-radius: 12px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-size: 10px;
-  font-weight: 500;
-  color: #6c757d;
-  position: relative;
-  overflow: hidden;
-  padding: 2px 6px;
-}
-
-.lang-btn:hover {
-  background: rgba(16, 110, 234, 0.1);
-  color: var(--accent-color);
-  transform: translateY(-1px);
-}
-
-.lang-btn.active {
-  background: var(--accent-color);
-  color: white;
-  box-shadow: 0 4px 12px rgba(16, 110, 234, 0.3);
-}
-
-.lang-btn.active:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);
-  transform: translateY(-1px);
-}
-
-.flag {
-  font-size: 16px;
-  line-height: 1;
-}
-
-.lang-text {
-  font-weight: 600;
-  letter-spacing: 0.5px;
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-  .language-toggle {
-    padding: 1px;
-  }
-  
-  .lang-btn {
-    padding: 2px 4px;
-    font-size: 9px;
-    gap: 2px;
-  }
-  
-  .flag {
-    font-size: 10px;
-  }
-}
-
 @media (max-width: 575px) {
-  .language-toggle {
-    margin-left: 0.5rem !important;
-    padding: 1px;
-  }
-  
-  .lang-btn {
-    padding: 2px 5px;
-    font-size: 8px;
-    gap: 1px;
-  }
-  
-  .flag {
-    font-size: 8px;
-  }
-  
-  .lang-text {
-    font-size: 8px;
+  .language-select {
+    font-size: 11px;
+    padding: 4px 22px 4px 7px;
+    min-width: 50px;
+    height: 30px;
+    background-size: 9px;
+    background-position: right 7px center;
   }
 }

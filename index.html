@@ -54,16 +54,11 @@
           <a href="https://www.facebook.com/Apertech/" target="_blank" class="facebook d-none d-md-inline-block"><i class="bi bi-facebook"></i></a>
           <!-- <a href="#" class="instagram"><i class="bi bi-instagram"></i></a> -->
           <a href="https://az.linkedin.com/company/apertech1" target="_blank" class="linkedin d-none d-md-inline-block"><i class="bi bi-linkedin"></i></a>
-          <div class="language-toggle ms-3">
-            <button class="lang-btn active" data-lang="en" onclick="changeLanguage('en')">
-              <!-- <span class="flag">🇺🇸</span> -->
-              <span class="lang-text">EN</span>
-            </button>
-            <button class="lang-btn" data-lang="az" onclick="changeLanguage('az')">
-              <!-- <span class="flag">🇦🇿</span> -->
-              <span class="lang-text">AZ</span>
-            </button>
-          </div>
+          <select id="language-select" class="language-select ms-3" onchange="changeLanguage(this.value)" aria-label="Select language">
+            <option value="en">EN</option>
+            <option value="az">AZ</option>
+            <option value="ru">RU</option>
+          </select>
         </div>
       </div>
     </div><!-- End Top Bar -->
