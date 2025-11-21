@@ -363,7 +363,7 @@ const translations = {
         "nav.services": "Услуги",
         "nav.solutions": "Решения",
         "nav.clients": "Партнеры и клиенты",
-        "nav.contact": "Свяжитесь с нами",
+        "nav.contact": "Связаться с нами",
         
         // Hero Section
         "hero.title": "Добро пожаловать в Apertech",
@@ -398,7 +398,7 @@ const translations = {
         "about.support_desc": "Помогаем тестировать смелые идеи и поддерживаем вас на каждом этапе.",
         
         // Sector Section
-        "sector.title": "Наши продукты применяются в таких отраслях:",
+        "sector.title": "Наши продукты применяются в следующих отраслях:",
         "sector.construction": "Строительство",
         "sector.construction_desc": "Строительная отрасль — динамичный многоуровневый сектор, формирующий облик городов и инфраструктуры.",
         "sector.production": "Производство",
@@ -422,7 +422,7 @@ const translations = {
         "stats.happy_clients": "Довольные клиенты",
         "stats.projects": "Проекты",
         "stats.years": "Успешные годы",
-        "stats.workers": "Усерьдные сотрудники",
+        "stats.workers": "Сотрудники",
         
         // Services Section
         "services.title": "Услуги",
@@ -469,7 +469,7 @@ const translations = {
         
         // Experience Section
         "experience.subtitle": "Опыт. Исполнение. Совершенство.",
-        "experience.description": "Чем мы занимаемся",
+        "experience.description": "Что мы используем.",
         "experience.csharp": "C# Разработка",
         "experience.csharp_desc": "C# — многофункциональный язык со строгой типизацией и богатым набором возможностей, используемый для веб-, десктопных приложений и сервисов.",
         "experience.react": "React JS Разработка",
@@ -486,7 +486,7 @@ const translations = {
         "experience.ts_desc": "TypeScript — строго типизированный, объектно-ориентированный язык, развивающий JavaScript и предоставляющий улучшенные инструменты под проекты любого масштаба.",
         
         // Contact Section
-        "contact.title": "Контакты",
+        "contact.title": "Связаться с нами",
         "contact.subtitle": "Нужна помощь?",
         "contact.description": "Свяжитесь с нами",
         "contact.address": "Адрес",
@@ -506,7 +506,7 @@ const translations = {
         "contact.validation.required": "Это поле обязательно",
         
         // FAQ Section
-        "faq.title": "ЧаВо",
+        "faq.title": "Ч.З.В",
         "faq.subtitle": "Часто задаваемые",
         "faq.description": "Вопросы",
         "faq.q1": "Что такое Apertech?",
