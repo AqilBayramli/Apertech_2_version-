@@ -151,6 +151,43 @@ const translations = {
         "contact.success": "Your message has been sent successfully! We'll get back to you soon.",
         "contact.validation.required": "This field is required",
         
+        // Contact Solutions Options
+        "contact.solutions.aerospace_defense": "Aerospace and Defense",
+        "contact.solutions.distribution": "Distribution",
+        "contact.solutions.equipment": "Equipment",
+        "contact.solutions.fashion": "Fashion",
+        "contact.solutions.financials": "Financials",
+        "contact.solutions.food_beverage": "Food and Beverage",
+        "contact.solutions.hospitality": "Hospitality",
+        "contact.solutions.hcm": "Human Capital Management",
+        "contact.solutions.industrial": "Industrial",
+        "contact.solutions.infor_nexus": "Infor Nexus Financials",
+        "contact.solutions.public_sector": "Public Sector",
+        "contact.solutions.supply_chain": "Supply Chain Planning",
+        "contact.solutions.talent_science": "Talent Science",
+        "contact.solutions.workforce": "Workforce Management",
+        "contact.solutions.automotive": "Automotive",
+        "contact.solutions.chemicals": "Chemicals",
+        "contact.solutions.construction": "Construction",
+        "contact.solutions.education": "Education",
+        "contact.solutions.energy_utilities": "Energy and Utilities",
+        "contact.solutions.healthcare": "Healthcare",
+        "contact.solutions.high_tech": "High Tech",
+        "contact.solutions.life_sciences": "Life Sciences",
+        "contact.solutions.logistics": "Logistics and Transportation",
+        "contact.solutions.manufacturing": "Manufacturing",
+        "contact.solutions.media": "Media and Entertainment",
+        "contact.solutions.mining": "Mining and Metals",
+        "contact.solutions.nonprofit": "Nonprofit",
+        "contact.solutions.oil_gas": "Oil and Gas",
+        "contact.solutions.pharma": "Pharmaceuticals",
+        "contact.solutions.professional_services": "Professional Services",
+        "contact.solutions.real_estate": "Real Estate",
+        "contact.solutions.retail": "Retail",
+        "contact.solutions.telecom": "Telecommunications",
+        "contact.solutions.ecommerce": "E-commerce",
+        "contact.solutions.other": "Other",
+        
         // FAQ Section
         "faq.title": "F.A.Q",
         "faq.subtitle": "Frequently Asked",
@@ -327,6 +364,43 @@ const translations = {
         "contact.form.send": "Mesaj göndər",
         "contact.success": "Mesajınız uğurla göndərildi! Tezliklə sizinlə əlaqə saxlayacağıq.",
         "contact.validation.required": "Bu sahə mütləqdir",
+        
+        // Contact Solutions Options
+        "contact.solutions.aerospace_defense": "Aerokosmik və Müdafiə",
+        "contact.solutions.distribution": "Paylama",
+        "contact.solutions.equipment": "Avadanlıq",
+        "contact.solutions.fashion": "Dəb",
+        "contact.solutions.financials": "Maliyyə",
+        "contact.solutions.food_beverage": "Qida və İçki",
+        "contact.solutions.hospitality": "Otelçilik",
+        "contact.solutions.hcm": "İnsan Kapitalının İdarə Olunması",
+        "contact.solutions.industrial": "Sənaye",
+        "contact.solutions.infor_nexus": "Infor Nexus Maliyyəsi",
+        "contact.solutions.public_sector": "Dövlət Sektoru",
+        "contact.solutions.supply_chain": "Təchizat Zəncirinin Planlaşdırılması",
+        "contact.solutions.talent_science": "İstedad Elmi",
+        "contact.solutions.workforce": "İşçi Qüvvəsinin İdarə Edilməsi",
+        "contact.solutions.automotive": "Avtomobil Sənayesi",
+        "contact.solutions.chemicals": "Kimya",
+        "contact.solutions.construction": "Tikinti",
+        "contact.solutions.education": "Təhsil",
+        "contact.solutions.energy_utilities": "Enerji və Kommunal Xidmətlər",
+        "contact.solutions.healthcare": "Səhiyyə",
+        "contact.solutions.high_tech": "Yüksək Texnologiyalar",
+        "contact.solutions.life_sciences": "Həyat Elmləri",
+        "contact.solutions.logistics": "Logistika və Nəqliyyat",
+        "contact.solutions.manufacturing": "İstehsal",
+        "contact.solutions.media": "Media və Əyləncə",
+        "contact.solutions.mining": "Mədən və Metallurgiya",
+        "contact.solutions.nonprofit": "Qeyri-kommersiya",
+        "contact.solutions.oil_gas": "Neft və Qaz",
+        "contact.solutions.pharma": "Əczaçılıq",
+        "contact.solutions.professional_services": "Peşəkar Xidmətlər",
+        "contact.solutions.real_estate": "Daşınmaz Əmlak",
+        "contact.solutions.retail": "Pərakəndə",
+        "contact.solutions.telecom": "Telekom",
+        "contact.solutions.ecommerce": "Elektron Ticarət",
+        "contact.solutions.other": "Digər",
         
         // FAQ Section
         "faq.title": "T.V.S",
@@ -505,6 +579,43 @@ const translations = {
         "contact.success": "Ваше сообщение успешно отправлено! Мы скоро свяжемся с вами.",
         "contact.validation.required": "Это поле обязательно",
         
+        // Contact Solutions Options
+        "contact.solutions.aerospace_defense": "Аэрокосмическая и оборонная отрасль",
+        "contact.solutions.distribution": "Дистрибуция",
+        "contact.solutions.equipment": "Оборудование",
+        "contact.solutions.fashion": "Мода",
+        "contact.solutions.financials": "Финансы",
+        "contact.solutions.food_beverage": "Пищевая промышленность",
+        "contact.solutions.hospitality": "Гостеприимство",
+        "contact.solutions.hcm": "Управление человеческим капиталом",
+        "contact.solutions.industrial": "Промышленность",
+        "contact.solutions.infor_nexus": "Infor Nexus Финансы",
+        "contact.solutions.public_sector": "Госсектор",
+        "contact.solutions.supply_chain": "Планирование цепочки поставок",
+        "contact.solutions.talent_science": "Наука о талантах",
+        "contact.solutions.workforce": "Управление персоналом",
+        "contact.solutions.automotive": "Автомобильная отрасль",
+        "contact.solutions.chemicals": "Химическая промышленность",
+        "contact.solutions.construction": "Строительство",
+        "contact.solutions.education": "Образование",
+        "contact.solutions.energy_utilities": "Энергетика и коммунальные услуги",
+        "contact.solutions.healthcare": "Здравоохранение",
+        "contact.solutions.high_tech": "Высокие технологии",
+        "contact.solutions.life_sciences": "Науки о жизни",
+        "contact.solutions.logistics": "Логистика и транспорт",
+        "contact.solutions.manufacturing": "Производство",
+        "contact.solutions.media": "Медиа и развлечения",
+        "contact.solutions.mining": "Горнодобывающая отрасль и металлы",
+        "contact.solutions.nonprofit": "Некоммерческий сектор",
+        "contact.solutions.oil_gas": "Нефть и газ",
+        "contact.solutions.pharma": "Фармацевтика",
+        "contact.solutions.professional_services": "Профессиональные услуги",
+        "contact.solutions.real_estate": "Недвижимость",
+        "contact.solutions.retail": "Розничная торговля",
+        "contact.solutions.telecom": "Телекоммуникации",
+        "contact.solutions.ecommerce": "Электронная коммерция",
+        "contact.solutions.other": "Другое",
+        
         // FAQ Section
         "faq.title": "Ч.З.В",
         "faq.subtitle": "Часто задаваемые",
@@ -533,6 +644,365 @@ const translations = {
         "footer.rights": "Все права защищены"
     }
 };
+
+const solutionOptions = [
+    { value: "Aerospace and Defense", key: "contact.solutions.aerospace_defense" },
+    { value: "Distribution", key: "contact.solutions.distribution" },
+    { value: "Equipment", key: "contact.solutions.equipment" },
+    { value: "Fashion", key: "contact.solutions.fashion" },
+    { value: "Financials", key: "contact.solutions.financials" },
+    { value: "Food and Beverage", key: "contact.solutions.food_beverage" },
+    { value: "Hospitality", key: "contact.solutions.hospitality" },
+    { value: "Human Capital Management", key: "contact.solutions.hcm" },
+    { value: "Industrial", key: "contact.solutions.industrial" },
+    { value: "Infor Nexus Financials", key: "contact.solutions.infor_nexus" },
+    { value: "Public Sector", key: "contact.solutions.public_sector" },
+    { value: "Supply Chain Planning", key: "contact.solutions.supply_chain" },
+    { value: "Talent Science", key: "contact.solutions.talent_science" },
+    { value: "Workforce Management", key: "contact.solutions.workforce" },
+    { value: "Automotive", key: "contact.solutions.automotive" },
+    { value: "Chemicals", key: "contact.solutions.chemicals" },
+    { value: "Construction", key: "contact.solutions.construction" },
+    { value: "Education", key: "contact.solutions.education" },
+    { value: "Energy and Utilities", key: "contact.solutions.energy_utilities" },
+    { value: "Healthcare", key: "contact.solutions.healthcare" },
+    { value: "High Tech", key: "contact.solutions.high_tech" },
+    { value: "Life Sciences", key: "contact.solutions.life_sciences" },
+    { value: "Logistics and Transportation", key: "contact.solutions.logistics" },
+    { value: "Manufacturing", key: "contact.solutions.manufacturing" },
+    { value: "Media and Entertainment", key: "contact.solutions.media" },
+    { value: "Mining and Metals", key: "contact.solutions.mining" },
+    { value: "Nonprofit", key: "contact.solutions.nonprofit" },
+    { value: "Oil and Gas", key: "contact.solutions.oil_gas" },
+    { value: "Pharmaceuticals", key: "contact.solutions.pharma" },
+    { value: "Professional Services", key: "contact.solutions.professional_services" },
+    { value: "Real Estate", key: "contact.solutions.real_estate" },
+    { value: "Retail", key: "contact.solutions.retail" },
+    { value: "Telecommunications", key: "contact.solutions.telecom" },
+    { value: "E-commerce", key: "contact.solutions.ecommerce" },
+    { value: "Other", key: "contact.solutions.other" }
+];
+
+const countryList = [
+    { code: "AX", value: "Aland Islands" },
+    { code: "AL", value: "Albania" },
+    { code: "DZ", value: "Algeria" },
+    { code: "AS", value: "American Samoa" },
+    { code: "AD", value: "Andorra" },
+    { code: "AO", value: "Angola" },
+    { code: "AI", value: "Anguilla" },
+    { code: "AQ", value: "Antarctica" },
+    { code: "AG", value: "Antigua and Barbuda" },
+    { code: "AR", value: "Argentina" },
+    { code: "AU", value: "Australia" },
+    { code: "AT", value: "Austria" },
+    { code: "AZ", value: "Azerbaijan" },
+    { code: "BS", value: "Bahamas" },
+    { code: "BH", value: "Bahrain" },
+    { code: "BD", value: "Bangladesh" },
+    { code: "BB", value: "Barbados" },
+    { code: "BY", value: "Belarus" },
+    { code: "BE", value: "Belgium" },
+    { code: "BZ", value: "Belize" },
+    { code: "BJ", value: "Benin" },
+    { code: "BM", value: "Bermuda" },
+    { code: "BT", value: "Bhutan" },
+    { code: "BO", value: "Bolivia" },
+    { code: "BA", value: "Bosnia and Herzegovina" },
+    { code: "BW", value: "Botswana" },
+    { code: "BR", value: "Brazil" },
+    { code: "BN", value: "Brunei" },
+    { code: "BG", value: "Bulgaria" },
+    { code: "BF", value: "Burkina Faso" },
+    { code: "BI", value: "Burundi" },
+    { code: "KH", value: "Cambodia" },
+    { code: "CM", value: "Cameroon" },
+    { code: "CA", value: "Canada" },
+    { code: "CV", value: "Cape Verde" },
+    { code: "KY", value: "Cayman Islands" },
+    { code: "CF", value: "Central African Republic" },
+    { code: "TD", value: "Chad" },
+    { code: "CL", value: "Chile" },
+    { code: "CN", value: "China" },
+    { code: "CX", value: "Christmas Island" },
+    { code: "CC", value: "Cocos (Keeling) Islands" },
+    { code: "CO", value: "Colombia" },
+    { code: "KM", value: "Comoros" },
+    { code: "CK", value: "Cook Islands" },
+    { code: "CR", value: "Costa Rica" },
+    { code: "CI", value: "Cote d'Ivoire" },
+    { code: "HR", value: "Croatia" },
+    { code: "CU", value: "Cuba" },
+    { code: "CW", value: "Curaçao" },
+    { code: "CY", value: "Cyprus" },
+    { code: "CZ", value: "Czech Republic" },
+    { code: "CD", value: "Democratic Republic of the Congo" },
+    { code: "DK", value: "Denmark" },
+    { code: "DJ", value: "Djibouti" },
+    { code: "DM", value: "Dominica" },
+    { code: "DO", value: "Dominican Republic" },
+    { code: "EC", value: "Ecuador" },
+    { code: "EG", value: "Egypt" },
+    { code: "SV", value: "El Salvador" },
+    { code: "GQ", value: "Equatorial Guinea" },
+    { code: "ER", value: "Eritrea" },
+    { code: "EE", value: "Estonia" },
+    { code: "ET", value: "Ethiopia" },
+    { code: "FK", value: "Falkland Islands (Malvinas)" },
+    { code: "FO", value: "Faroe Islands" },
+    { code: "FJ", value: "Fiji" },
+    { code: "FI", value: "Finland" },
+    { code: "FR", value: "France" },
+    { code: "GF", value: "French Guiana" },
+    { code: "PF", value: "French Polynesia" },
+    { code: "TF", value: "French Southern Territories" },
+    { code: "GA", value: "Gabon" },
+    { code: "GM", value: "Gambia" },
+    { code: "GE", value: "Georgia" },
+    { code: "DE", value: "Germany" },
+    { code: "GH", value: "Ghana" },
+    { code: "GI", value: "Gibraltar" },
+    { code: "GR", value: "Greece" },
+    { code: "GL", value: "Greenland" },
+    { code: "GD", value: "Grenada" },
+    { code: "GP", value: "Guadeloupe" },
+    { code: "GU", value: "Guam" },
+    { code: "GT", value: "Guatemala" },
+    { code: "GG", value: "Guernsey" },
+    { code: "GN", value: "Guinea" },
+    { code: "GW", value: "Guinea-Bissau" },
+    { code: "GY", value: "Guyana" },
+    { code: "HT", value: "Haiti" },
+    { code: "VA", value: "Holy See (Vatican City State)" },
+    { code: "HN", value: "Honduras" },
+    { code: "HK", value: "Hong Kong" },
+    { code: "HU", value: "Hungary" },
+    { code: "IS", value: "Iceland" },
+    { code: "IN", value: "India" },
+    { code: "ID", value: "Indonesia" },
+    { code: "IR", value: "Iran" },
+    { code: "IQ", value: "Iraq" },
+    { code: "IE", value: "Ireland" },
+    { code: "IM", value: "Isle of Man" },
+    { code: "IL", value: "Israel" },
+    { code: "IT", value: "Italy" },
+    { code: "JM", value: "Jamaica" },
+    { code: "JP", value: "Japan" },
+    { code: "JE", value: "Jersey" },
+    { code: "JO", value: "Jordan" },
+    { code: "KZ", value: "Kazakhstan" },
+    { code: "KE", value: "Kenya" },
+    { code: "KI", value: "Kiribati" },
+    { code: "KP", value: "Korea (North)" },
+    { code: "KR", value: "Korea (South)" },
+    { code: "KW", value: "Kuwait" },
+    { code: "KG", value: "Kyrgyzstan" },
+    { code: "LA", value: "Laos" },
+    { code: "LV", value: "Latvia" },
+    { code: "LB", value: "Lebanon" },
+    { code: "LS", value: "Lesotho" },
+    { code: "LR", value: "Liberia" },
+    { code: "LY", value: "Libya" },
+    { code: "LI", value: "Liechtenstein" },
+    { code: "LT", value: "Lithuania" },
+    { code: "LU", value: "Luxembourg" },
+    { code: "MO", value: "Macao" },
+    { code: "MK", value: "Macedonia" },
+    { code: "MG", value: "Madagascar" },
+    { code: "MW", value: "Malawi" },
+    { code: "MY", value: "Malaysia" },
+    { code: "MV", value: "Maldives" },
+    { code: "ML", value: "Mali" },
+    { code: "MT", value: "Malta" },
+    { code: "MH", value: "Marshall Islands" },
+    { code: "MQ", value: "Martinique" },
+    { code: "MR", value: "Mauritania" },
+    { code: "MU", value: "Mauritius" },
+    { code: "MX", value: "Mexico" },
+    { code: "MD", value: "Moldova" },
+    { code: "MC", value: "Monaco" },
+    { code: "MN", value: "Mongolia" },
+    { code: "ME", value: "Montenegro" },
+    { code: "MS", value: "Montserrat" },
+    { code: "MA", value: "Morocco" },
+    { code: "MZ", value: "Mozambique" },
+    { code: "MM", value: "Myanmar" },
+    { code: "NA", value: "Namibia" },
+    { code: "NR", value: "Nauru" },
+    { code: "NP", value: "Nepal" },
+    { code: "NL", value: "Netherlands" },
+    { code: "NC", value: "New Caledonia" },
+    { code: "NZ", value: "New Zealand" },
+    { code: "NI", value: "Nicaragua" },
+    { code: "NE", value: "Niger" },
+    { code: "NG", value: "Nigeria" },
+    { code: "NF", value: "Norfolk Island" },
+    { code: "MP", value: "Northern Mariana Islands" },
+    { code: "NO", value: "Norway" },
+    { code: "OM", value: "Oman" },
+    { code: "PK", value: "Pakistan" },
+    { code: "PW", value: "Palau" },
+    { code: "PS", value: "Palestinian Settlements" },
+    { code: "PA", value: "Panama" },
+    { code: "PG", value: "Papua New Guinea" },
+    { code: "PY", value: "Paraguay" },
+    { code: "PE", value: "Peru" },
+    { code: "PH", value: "Philippines" },
+    { code: "PL", value: "Poland" },
+    { code: "PT", value: "Portugal" },
+    { code: "PR", value: "Puerto Rico" },
+    { code: "QA", value: "Qatar" },
+    { code: "RE", value: "Reunion" },
+    { code: "RO", value: "Romania" },
+    { code: "RU", value: "Russia" },
+    { code: "RW", value: "Rwanda" },
+    { code: "KN", value: "Saint Kitts and Nevis" },
+    { code: "LC", value: "Saint Lucia" },
+    { code: "VC", value: "Saint Vincent and the Grenadines" },
+    { code: "SM", value: "San Marino" },
+    { code: "SA", value: "Saudi Arabia" },
+    { code: "SN", value: "Senegal" },
+    { code: "RS", value: "Serbia" },
+    { code: "SC", value: "Seychelles" },
+    { code: "SL", value: "Sierra Leone" },
+    { code: "SG", value: "Singapore" },
+    { code: "SX", value: "Sint Maarten (Dutch part)" },
+    { code: "SK", value: "Slovak Republic" },
+    { code: "SI", value: "Slovenia" },
+    { code: "SB", value: "Solomon Islands" },
+    { code: "SO", value: "Somalia" },
+    { code: "ZA", value: "South Africa" },
+    { code: "SS", value: "South Sudan" },
+    { code: "ES", value: "Spain" },
+    { code: "LK", value: "Sri Lanka" },
+    { code: "SD", value: "Sudan" },
+    { code: "SR", value: "Suriname" },
+    { code: "SZ", value: "Swaziland" },
+    { code: "SE", value: "Sweden" },
+    { code: "CH", value: "Switzerland" },
+    { code: "SY", value: "Syria" },
+    { code: "TW", value: "Taiwan" },
+    { code: "TJ", value: "Tajikistan" },
+    { code: "TZ", value: "Tanzania" },
+    { code: "TH", value: "Thailand" },
+    { code: "TL", value: "Timor-Leste" },
+    { code: "TG", value: "Togo" },
+    { code: "TK", value: "Tokelau" },
+    { code: "TO", value: "Tonga" },
+    { code: "TT", value: "Trinidad and Tobago" },
+    { code: "TN", value: "Tunisia" },
+    { code: "TR", value: "Turkey" },
+    { code: "TM", value: "Turkmenistan" },
+    { code: "TC", value: "Turks and Caicos Islands" },
+    { code: "TV", value: "Tuvalu" },
+    { code: "UG", value: "Uganda" },
+    { code: "UA", value: "Ukraine" },
+    { code: "AE", value: "United Arab Emirates" },
+    { code: "GB", value: "United Kingdom" },
+    { code: "US", value: "United States" },
+    { code: "UY", value: "Uruguay" },
+    { code: "UM", value: "US Minor Outlying Islands" },
+    { code: "UZ", value: "Uzbekistan" },
+    { code: "VU", value: "Vanuatu" },
+    { code: "VE", value: "Venezuela" },
+    { code: "VN", value: "Vietnam" },
+    { code: "VI", value: "Virgin Islands - U.S." },
+    { code: "VG", value: "Virgin Islands, British" },
+    { code: "WF", value: "Wallis and Futuna Islands" },
+    { code: "EH", value: "Western Sahara" },
+    { code: "WS", value: "Western Samoa" },
+    { code: "YE", value: "Yemen" },
+    { code: "ZM", value: "Zambia" },
+    { code: "ZW", value: "Zimbabwe" }
+];
+
+function getActiveLocale() {
+    if (currentLanguage === 'az') return 'az';
+    if (currentLanguage === 'ru') return 'ru';
+    return 'en';
+}
+
+function populateCountrySelect() {
+    const countrySelect = document.getElementById('contactCountry');
+    if (!countrySelect) return;
+
+    const previousValue = countrySelect.value;
+
+    countrySelect.querySelectorAll('option').forEach(option => {
+        if (option.value) {
+            option.remove();
+        }
+    });
+
+    let displayNames = null;
+    if (typeof Intl !== 'undefined' && typeof Intl.DisplayNames === 'function') {
+        try {
+            displayNames = new Intl.DisplayNames([getActiveLocale()], { type: 'region' });
+        } catch (error) {
+            displayNames = new Intl.DisplayNames(['en'], { type: 'region' });
+        }
+    }
+
+    countryList.forEach(country => {
+        const option = document.createElement('option');
+        option.value = country.value;
+
+        let localizedName = null;
+        if (country.translations && country.translations[currentLanguage]) {
+            localizedName = country.translations[currentLanguage];
+        } else if (displayNames && country.code) {
+            localizedName = displayNames.of(country.code);
+        }
+
+        option.textContent = localizedName || country.value;
+
+        if (previousValue === country.value) {
+            option.selected = true;
+        }
+
+        countrySelect.appendChild(option);
+    });
+
+    if (!countrySelect.value && previousValue) {
+        countrySelect.value = previousValue;
+    }
+}
+
+function populateSolutionSelect() {
+    const solutionSelect = document.getElementById('companySolutions');
+    if (!solutionSelect) return;
+
+    const previousValue = solutionSelect.value;
+
+    solutionSelect.querySelectorAll('option').forEach(option => {
+        if (option.value) {
+            option.remove();
+        }
+    });
+
+    solutionOptions.forEach(solution => {
+        const option = document.createElement('option');
+        option.value = solution.value;
+        option.textContent = translations[currentLanguage] && translations[currentLanguage][solution.key]
+            ? translations[currentLanguage][solution.key]
+            : solution.value;
+
+        if (previousValue === solution.value) {
+            option.selected = true;
+        }
+
+        solutionSelect.appendChild(option);
+    });
+
+    if (!solutionSelect.value && previousValue) {
+        solutionSelect.value = previousValue;
+    }
+}
+
+function populateDynamicSelects() {
+    populateCountrySelect();
+    populateSolutionSelect();
+}
 
 // Current language
 let currentLanguage = 'en';
@@ -572,6 +1042,8 @@ function updateLanguage() {
             }
         }
     });
+    
+    populateDynamicSelects();
     
     // Post-process hero title to color only the "tech" part of "Apertech"
     const heroTitle = document.querySelector('[data-translate="hero.title"]');
