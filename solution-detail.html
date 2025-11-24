@@ -73,35 +73,69 @@
   <main class="main">
 
     <section class="solution-detail-hero section">
-      <div class="container">
-   
+      <div class="solution-detail-hero__glow"></div>
+      <div class="solution-detail-hero__orb"></div>
+      <div class="container position-relative">
         <div class="detail-breadcrumb">
           <a class="back-to-solutions" href="index.html#solutions">
             <span>Solutions</span>
-          </a>          <i class="bi bi-chevron-right mx-2"></i>
-          <span class="" data-solution-field="title">Selected Solution</span>
+          </a>
+          <i class="bi bi-chevron-right mx-2"></i>
+          <span data-solution-field="title">Selected Solution</span>
         </div>
-        <h1 class="solution-detail-title solution-detail-header" data-solution-field="heroTitle">Genesis Soft</h1>
-        <p class="solution-detail-summary" data-solution-field="heroSummary">
-          Detailed overview of the chosen product.
-        </p>
-        <div class="d-flex gap-3 detail-hero-ctas">
-          <!-- <a class="btn btn-primary" href="index.html#contact" data-translate="solution-detail.cta.primary">Talk to an expert</a> -->
-          <a class="btn btn-outline-light" href="index.html#contact">info@apertech.net</a>
+
+        <div class="row gy-4 align-items-center hero-grid">
+          <div class="col-lg-7">
+            <h1 class="solution-detail-title solution-detail-header" data-solution-field="heroTitle">Genesis Soft</h1>
+            <p class="solution-detail-summary" data-solution-field="heroSummary">
+              Detailed overview of the chosen product.
+            </p>
+            <div class="d-flex flex-wrap gap-3 detail-hero-ctas">
+              <a class="btn btn-outline-light" href="index.html#contact">info@apertech.net</a>
+            </div>
+
+          </div>
+          <div class="col-lg-5">
+            <div class="hero-panel">
+              <div class="hero-panel__header">
+                <span>Implementation window</span>
+                <strong>8-12 weeks</strong>
+              </div>
+              <ul class="hero-panel__list">
+                <li>
+                  <span>Industries</span>
+                  <div class="chip-stack">
+                    <span class="chip chip-glass">Finance</span>
+                    <span class="chip chip-glass">Retail</span>
+                    <span class="chip chip-glass">Energy</span>
+                  </div>
+                </li>
+                <li>
+                  <span>Delivery model</span>
+                  <p>Hybrid with on-site discovery and remote enablement.</p>
+                </li>
+                <li>
+                  <span>Primary outcomes</span>
+                  <p>Unified reporting, automated controls, confident scaling.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="solution-detail-content section">
       <div class="container">
-        <div class="row gy-4 align-items-center">
-          <div class="col-lg-6">
+        <div class="row gy-5 align-items-start">
+          <div class="col-lg-5">
             <figure class="solution-detail-figure" data-aos="fade-up">
+              <div class="solution-detail-figure__tag">Live dashboard</div>
               <img data-solution-field="image" src="images/solutions/genesis2-Photoroom.png" alt="Solution preview" class="img-fluid">
               <figcaption data-solution-field="imageCaption">Product illustration</figcaption>
             </figure>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-7">
             <div class="solution-detail-text" data-aos="fade-up" data-aos-delay="100">
               <h2 data-solution-field="contentTitle">What makes it different?</h2>
               <p data-solution-field="description">
@@ -118,10 +152,35 @@
       <div class="container">
         <div class="row gy-4 align-items-start">
           <div class="col-lg-6">
-            <h3 data-solution-field="secondaryTitle">How it helps your team</h3>
-            <p data-solution-field="secondaryDescription">
-              Additional narrative describing implementation scenarios, module coverage, and measurable impact.
-            </p>
+            <div class="detail-secondary-copy">
+              <h3 data-solution-field="secondaryTitle">How it helps your team</h3>
+              <p data-solution-field="secondaryDescription">
+                Additional narrative describing implementation scenarios, module coverage, and measurable impact.
+              </p>
+              <div class="detail-pillars">
+                <article class="detail-pillar">
+                  <span class="detail-pillar__index">01</span>
+                  <div>
+                    <h4>Process clarity</h4>
+                    <p>Visualize approvals, SLAs, and KPIs in one control tower.</p>
+                  </div>
+                </article>
+                <article class="detail-pillar">
+                  <span class="detail-pillar__index">02</span>
+                  <div>
+                    <h4>Team enablement</h4>
+                    <p>Role-based workspaces, guided onboarding, and playbooks.</p>
+                  </div>
+                </article>
+                <article class="detail-pillar">
+                  <span class="detail-pillar__index">03</span>
+                  <div>
+                    <h4>Scale with confidence</h4>
+                    <p>Modular rollout paths that keep governance lightweight.</p>
+                  </div>
+                </article>
+              </div>
+            </div>
           </div>
           <div class="col-lg-6">
             <div class="detail-info-card">
@@ -131,6 +190,46 @@
                 <a class="btn btn-primary" href="index.html#contact" data-translate="solution-detail.contact.cta">Request a demo</a>
                 <a class="btn btn-outline-primary" href="tel:+994507181019">+994 50 718 10 19</a>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="solution-detail-journey section">
+      <div class="container">
+        <div class="row gy-4 align-items-start">
+          <div class="col-lg-7">
+            <div class="detail-journey-card">
+              <div class="detail-journey-card__header">
+                <p>Deployment roadmap</p>
+                <span>From discovery to go-live</span>
+              </div>
+              <ol class="detail-timeline">
+                <li>
+                  <span>Discovery sprints</span>
+                  <p>Map departments, integrations, and governance rules in collaborative workshops.</p>
+                </li>
+                <li>
+                  <span>Build & configure</span>
+                  <p>Stand up modules in iterative drops, validating each KPI with your SMEs.</p>
+                </li>
+                <li>
+                  <span>Rollout & adoption</span>
+                  <p>Run enablement pods, measure health metrics, and fine-tune automations.</p>
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="detail-status-panel">
+              <p class="detail-status-panel__eyebrow">What you get</p>
+              <ul>
+                <li>Success team with domain experts.</li>
+                <li>Executive-ready reporting packs.</li>
+                <li>Playbooks for scale and governance.</li>
+              </ul>
+              <a class="btn btn-primary w-100" href="index.html#contact">Plan my rollout</a>
             </div>
           </div>
         </div>
