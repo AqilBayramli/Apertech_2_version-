@@ -59,8 +59,8 @@ const translations = {
         "sector.sport_desc": "The global sport sector is not only about competition but also a major economic driver. It generates revenue through sponsorship, broadcasting, merchandise, tourism, and infrastructure, while promoting health, teamwork, and community engagement.",
         "sector.hospitality": "Hospitality",
         "sector.hospitality_desc": "The hospitality industry is a diverse and dynamic sector that includes businesses focused on providing services for travel, leisure, and accommodation.",
-        "sector.entrepreneurship": "Entrepreneurship",
-        "sector.entrepreneurship_desc": "The entrepreneurship sector focuses on the creation, development, and growth of new businesses. It drives innovation, generates jobs, and contributes to economic development by turning ideas into successful ventures.",
+        "sector.distribution": "Distribution",
+        "sector.distribution_desc": "The entrepreneurship sector focuses on the creation, development, and growth of new businesses. It drives innovation, generates jobs, and contributes to economic development by turning ideas into successful ventures.",
         "sector.branding": "Branding",
         "sector.branding_desc": "Creative branding initiatives that enhance recognition and market presence.",
         
