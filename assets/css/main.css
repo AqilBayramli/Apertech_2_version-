@@ -1,3 +1,122 @@
+.solution-detail-page .header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.solution-detail-hero {
+  padding: 140px 0 80px;
+  background: radial-gradient(circle at top right, rgba(3, 57, 108, 0.85), rgba(1, 22, 45, 0.95));
+  color: #fff;
+}
+
+.solution-detail-hero .back-to-solutions {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.solution-detail-hero .back-to-solutions:hover {
+  color: #fff;
+}
+
+.detail-breadcrumb {
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.solution-detail-title {
+  font-size: 2.75rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.solution-detail-summary {
+  max-width: 720px;
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.detail-hero-ctas .btn-outline-light {
+  border-color: rgba(255, 255, 255, 0.6);
+  color: #fff;
+}
+
+.solution-detail-content {
+  padding: 80px 0;
+}
+
+.solution-detail-figure {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 20px 45px rgba(5, 18, 51, 0.1);
+  text-align: center;
+}
+
+.solution-detail-figure figcaption {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.solution-detail-text h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.solution-detail-highlights {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.solution-detail-highlights li {
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 0.75rem;
+}
+
+.solution-detail-highlights li::before {
+  content: '\f26e';
+  font-family: 'bootstrap-icons';
+  position: absolute;
+  left: 0;
+  color: #0d6efd;
+}
+
+.solution-detail-secondary {
+  padding: 80px 0;
+}
+
+.detail-info-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 18px 40px rgba(9, 32, 76, 0.08);
+  border: 1px solid rgba(13, 110, 253, 0.1);
+}
+
+@media (max-width: 991px) {
+  .solution-detail-page .header {
+    position: relative;
+  }
+
+  .solution-detail-hero {
+    padding-top: 110px;
+  }
+
+  .solution-detail-title {
+    font-size: 2.1rem;
+  }
+}
 
 /* Fonts */
 :root {
@@ -2961,6 +3080,7 @@ font-size: 20px;
   font-weight: 500;
   padding: 8px;
   background-color: #ffffff;
+  border: 1px solid #e9ecef !important;
 }
 
 /* Responsive adjustments for language select */

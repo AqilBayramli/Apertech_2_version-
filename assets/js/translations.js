@@ -113,6 +113,13 @@ const translations = {
         "solutions.sola_hr": "Sola HR",
         "solutions.sola_hr_desc": "HRB is a highly flexible HR & Payroll system with its own algorithm language. This gives availability to customize calculations of any difficulty.",
         
+        // Solution Detail Page
+        "solution-detail.back": "Back to all solutions",
+        "solution-detail.cta.primary": "Talk to an expert",
+        "solution-detail.contact.title": "Need a tailored demo?",
+        "solution-detail.contact.desc": "Share your context and we will prepare a custom walkthrough of the selected solution.",
+        "solution-detail.contact.cta": "Request a demo",
+        
         // Experience Section
         "experience.subtitle": "Experience. Execution. Excellence.",
         "experience.description": "What We Actually Do",
@@ -327,6 +334,13 @@ const translations = {
         "solutions.sola_hr": "Sola HR",
         "solutions.sola_hr_desc": "HRB öz alqoritm dilinə malik yüksək çevik HR və Əməkhaqqı sistemidir. Bu, hər hansı çətinlik hesablamalarını fərdiləşdirmək imkanı verir.",
         
+        // Solution Detail Page
+        "solution-detail.back": "Bütün həllərə qayıt",
+        "solution-detail.cta.primary": "Mütəxəssis ilə danış",
+        "solution-detail.contact.title": "Fərdi demo lazımdır?",
+        "solution-detail.contact.desc": "Kontekstinizi bölüşün, seçdiyiniz həll üçün xüsusi təqdimat hazırlayaq.",
+        "solution-detail.contact.cta": "Demonu sifariş et",
+        
         // Experience Section
         "experience.subtitle": "Təcrübə. İcra. Mükəmməllik.",
         "experience.description": "Biz əslində nə edirik",
@@ -540,6 +554,13 @@ const translations = {
         "solutions.sola_erp_desc": "Sola ERP помогает организациям управлять и объединять ключевые бизнес-процессы в единой системе, повышая эффективность, прозрачность и сотрудничество.",
         "solutions.sola_hr": "Sola HR",
         "solutions.sola_hr_desc": "HRB — гибкая система HR и Payroll с собственным языком алгоритмов, позволяющим настраивать расчеты любой сложности.",
+        
+        // Solution Detail Page
+        "solution-detail.back": "Назад ко всем решениям",
+        "solution-detail.cta.primary": "Поговорить со специалистом",
+        "solution-detail.contact.title": "Нужен индивидуальный демо-показ?",
+        "solution-detail.contact.desc": "Поделитесь контекстом, и мы подготовим кастомный обзор выбранного решения.",
+        "solution-detail.contact.cta": "Запросить демо",
         
         // Experience Section
         "experience.subtitle": "Опыт. Исполнение. Совершенство.",

@@ -279,4 +279,38 @@
   // Initialize tooltips when DOM is loaded
   document.addEventListener('DOMContentLoaded', initClientTooltips);
 
+  /**
+   * Solution cards redirect to detail page
+   */
+  function initSolutionCards() {
+    const solutionCards = document.querySelectorAll('.solution_apt[data-solution-id]');
+    if (!solutionCards.length) {
+      return;
+    }
+
+    const goToDetailPage = (slug) => {
+      if (!slug) return;
+      window.location.href = `solution-detail.html?solution=${encodeURIComponent(slug)}`;
+    };
+
+    solutionCards.forEach((wrapper) => {
+      const slug = wrapper.getAttribute('data-solution-id');
+      const clickable = wrapper.querySelector('.solution-card') || wrapper;
+
+      clickable.style.cursor = 'pointer';
+      clickable.setAttribute('role', 'link');
+      clickable.setAttribute('tabindex', '0');
+
+      clickable.addEventListener('click', () => goToDetailPage(slug));
+      clickable.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          goToDetailPage(slug);
+        }
+      });
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', initSolutionCards);
+
 })();

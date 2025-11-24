@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Apertech | Solution Details</title>
+  <meta name="description" content="Learn more about Apertech's in-house solutions.">
+
+  <link rel="shortcut icon" href="images/logoAnar.png" type="image/x-icon">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/14b869a0ff.js" crossorigin="anonymous"></script>
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="solution-detail-page">
+
+  <header id="header" class="header">
+
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:info@apertech.net">info@apertech.net</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+99450 718 10 19</span></i>
+        </div>
+        <div class="social-links d-flex align-items-center">
+          <a href="https://www.facebook.com/Apertech/" target="_blank" class="facebook d-none d-md-inline-block"><i class="bi bi-facebook"></i></a>
+          <a href="https://az.linkedin.com/company/apertech1" target="_blank" class="linkedin d-none d-md-inline-block"><i class="bi bi-linkedin"></i></a>
+          <select id="language-select" class="language-select ms-3" onchange="changeLanguage(this.value)" aria-label="Select language">
+            <option value="en">EN</option>
+            <option value="az">AZ</option>
+            <option value="ru">RU</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="branding d-flex align-items-center">
+
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <img src="images/logoAnar.png" alt="Apertech logo">
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html#hero" data-translate="nav.home">Home</a></li>
+            <li><a href="index.html#about" data-translate="nav.about">About Us</a></li>
+            <li><a href="index.html#services" data-translate="nav.services">Services</a></li>
+            <li><a href="index.html#solutions" class="active" data-translate="nav.solutions">Solutions</a></li>
+            <li><a href="index.html#clients" data-translate="nav.clients">Partners & Clients</a></li>
+            <li><a href="index.html#contact" data-translate="nav.contact">Contact Us</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list" aria-label="Toggle navigation"></i>
+        </nav>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <section class="solution-detail-hero section">
+      <div class="container">
+        <a class="back-to-solutions" href="index.html#solutions">
+          <i class="bi bi-arrow-left"></i>
+          <span data-translate="solution-detail.back">Back to all solutions</span>
+        </a>
+        <div class="detail-breadcrumb">
+          <span>Solutions</span>
+          <i class="bi bi-chevron-right mx-2"></i>
+          <span data-solution-field="title">Selected Solution</span>
+        </div>
+        <h1 class="solution-detail-title" data-solution-field="heroTitle">Genesis Soft</h1>
+        <p class="solution-detail-summary" data-solution-field="heroSummary">
+          Detailed overview of the chosen product.
+        </p>
+        <div class="d-flex gap-3 detail-hero-ctas">
+          <a class="btn btn-primary" href="index.html#contact" data-translate="solution-detail.cta.primary">Talk to an expert</a>
+          <a class="btn btn-outline-light" href="mailto:info@apertech.net">info@apertech.net</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="solution-detail-content section">
+      <div class="container">
+        <div class="row gy-4 align-items-center">
+          <div class="col-lg-6">
+            <figure class="solution-detail-figure" data-aos="fade-up">
+              <img data-solution-field="image" src="images/solutions/genesis2-Photoroom.png" alt="Solution preview" class="img-fluid">
+              <figcaption data-solution-field="imageCaption">Product illustration</figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-6">
+            <div class="solution-detail-text" data-aos="fade-up" data-aos-delay="100">
+              <h2 data-solution-field="contentTitle">What makes it different?</h2>
+              <p data-solution-field="description">
+                Learn how the platform helps teams automate everyday work and keep every department aligned.
+              </p>
+              <ul class="solution-detail-highlights" data-solution-field="highlights"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="solution-detail-secondary light-background">
+      <div class="container">
+        <div class="row gy-4 align-items-start">
+          <div class="col-lg-6">
+            <h3 data-solution-field="secondaryTitle">How it helps your team</h3>
+            <p data-solution-field="secondaryDescription">
+              Additional narrative describing implementation scenarios, module coverage, and measurable impact.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <div class="detail-info-card">
+              <h4 data-translate="solution-detail.contact.title">Need a tailored demo?</h4>
+              <p data-translate="solution-detail.contact.desc">Share your context and we will prepare a custom walkthrough of the selected solution.</p>
+              <div class="d-flex flex-wrap gap-3">
+                <a class="btn btn-primary" href="index.html#contact" data-translate="solution-detail.contact.cta">Request a demo</a>
+                <a class="btn btn-outline-primary" href="tel:+994507181019">+994 50 718 10 19</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <div class="footer_logo">
+            <img src="images/logoAnar.png" alt="">
+          </div>
+
+          <div class="footer-contact pt-3">
+            <p><i class="bi bi-geo-alt-fill me-2"></i><span data-translate="footer.address">Baku, 1/25 Ahmad Rajabli</span></p>
+            <p><i class="bi bi-building me-2"></i><span data-translate="footer.city">Chinar Park Business Center, 2-nd Center, 4 floor</span></p>
+            <p class="mt-3"><i class="bi bi-telephone-fill me-2"></i> <span>+99450 718 10 19</span></p>
+            <p><i class="bi bi-envelope-fill me-2"></i><span><a href="mailto:info@apertech.net">info@apertech.net</a></span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4 data-translate="footer.links">Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#hero" data-translate="nav.home">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#about" data-translate="nav.about">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#services" data-translate="nav.services">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#solutions" data-translate="nav.solutions">Solutions</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#clients" data-translate="nav.clients">Partners & Clients</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#contact" data-translate="nav.contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4 data-translate="footer.services">Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#services" data-translate="services.web_dev">Web Application Development</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#services" data-translate="services.erp">ERP Implementation</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#services" data-translate="services.software">Software Implementation</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#services" data-translate="services.analytics">Business Analytics</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#services" data-translate="services.support">Technical Support</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#services" data-translate="services.consultancy">ERP Consultancy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h4 data-translate="footer.follow">Follow Us</h4>
+          <p data-translate="footer.follow_desc">Stay connected and never miss an update! Follow us on social media to get the latest news, special offers, and useful tips.</p>
+          <div class="social-links d-flex">
+            <a href="https://www.facebook.com/Apertech/" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://az.linkedin.com/company/apertech1" target="_blank"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span data-translate="footer.copyright">Copyright</span> <strong class="px-1 sitename">Apertech.</strong> <span data-translate="footer.rights">All Rights Reserved</span></p>
+    </div>
+
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/solution-detail.js"></script>
+
+</body>
+
+</html>
+
