@@ -44,9 +44,17 @@
   color: rgba(255, 255, 255, 0.85);
 }
 
+.solution-detail-header {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
 .detail-hero-ctas .btn-outline-light {
   border-color: rgba(255, 255, 255, 0.6);
   color: #fff;
+}
+
+.detail-hero-ctas .btn-outline-light:hover {
+  color: black !important;
 }
 
 .solution-detail-content {
@@ -172,7 +180,6 @@ body {
   color: var(--default-color);
   background-color: var(--background-color);
   font-family: var(--default-font);
-  padding-top: 100px; /* Account for fixed header height */
 }
 
 /* Custom Scrollbar - match topbar accent color */
