@@ -69,6 +69,14 @@
   text-align: center;
 }
 
+.solution-detail-figure img {
+  width: 230px;
+  height: 300px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
 .solution-detail-figure figcaption {
   margin-top: 1rem;
   font-size: 0.9rem;
@@ -123,6 +131,10 @@
 
   .solution-detail-title {
     font-size: 2.1rem;
+  }
+
+  .solution-detail-figure img {
+    height: 280px;
   }
 }
 
@@ -956,7 +968,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding: 30px 0;
   scroll-margin-top: 78px;
   overflow: clip;
 }

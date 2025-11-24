@@ -290,7 +290,8 @@
 
     const goToDetailPage = (slug) => {
       if (!slug) return;
-      window.location.href = `solution-detail.html?solution=${encodeURIComponent(slug)}`;
+      const targetUrl = `solution-detail.html?solution=${encodeURIComponent(slug)}`;
+      window.open(targetUrl, '_blank', 'noopener,noreferrer');
     };
 
     solutionCards.forEach((wrapper) => {
