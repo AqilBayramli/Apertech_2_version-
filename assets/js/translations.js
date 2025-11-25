@@ -380,7 +380,7 @@ const translations = {
         "solution-detail.figure.tag": "Canlı panel",
         "solution-detail.pillars.process.title": "Proses şəffaflığı",
         "solution-detail.pillars.process.desc": "Təsdiqləri, SLA-ları və KPI-ları tək idarəetmə panelində görün.",
-        "solution-detail.pillars.enablement.title": "Komanda səlahiyyətləndirilməsi",
+        "solution-detail.pillars.enablement.title": "Komanda dəstəyi",
         "solution-detail.pillars.enablement.desc": "Rol əsaslı iş məkanları, yönləndirilən onboarding və playbook-lar.",
         "solution-detail.pillars.scale.title": "İnamla miqyaslanın",
         "solution-detail.pillars.scale.desc": "Yüngül idarəetməni qoruyan modullu tətbiq ssenariləri.",

@@ -4,6 +4,26 @@
   const solutionDetails = {
     genesis: {
       image: 'images/solutions/genesis2-Photoroom.png',
+      heroPanel: {
+        en: {
+          implementationWindow: '8-12 weeks',
+          industries: ['Finance', 'Retail', 'Energy'],
+          deliveryModel: 'Hybrid with on-site discovery and remote enablement.',
+          outcomes: 'Unified reporting, automated controls, confident scaling.'
+        },
+        az: {
+          implementationWindow: '8-12 həftə',
+          industries: ['Maliyyə', 'Retail', 'Enerji'],
+          deliveryModel: 'Yerində kəşf və uzaqdan aktivləşdirmə ilə hibrid.',
+          outcomes: 'Birləşdirilmiş hesabat, avtomatlaşdırılmış nəzarət, inamlı miqyas.'
+        },
+        ru: {
+          implementationWindow: '8-12 недель',
+          industries: ['Финансы', 'Розница', 'Энергетика'],
+          deliveryModel: 'Гибридный с выездным анализом и удаленным внедрением.',
+          outcomes: 'Объединённые отчёты, автоматизированные проверки, уверенное масштабирование.'
+        }
+      },
       translations: {
         en: {
           title: 'Genesis Soft',
@@ -19,7 +39,6 @@
           ],
           secondaryTitle: 'Implementation scenarios',
           secondaryDescription: 'Use Genesis Soft to replace disjointed spreadsheets, legacy accounting tools, or manual approval cycles. Apertech tailors the deployment to your structure: from multi-company consolidations to field-level access rules and approval checkpoints.',
-          imageCaption: 'Sample Genesis Soft dashboard'
         },
         az: {
           title: 'Genesis Soft',
@@ -35,7 +54,6 @@
           ],
           secondaryTitle: 'Tətbiq ssenariləri',
           secondaryDescription: 'Genesis Soft pərakəndə cədvəlləri, köhnə mühasibat alətləri və əl təsdiq dövrlərini əvəz edir. Apertech layihəni sizin strukturunuza uyğunlaşdırır: çoxşirkətli konsolidasiyadan tutmuş sahə səviyyəli giriş qaydalarına qədər.',
-          imageCaption: 'Genesis Soft panel nümunəsi'
         },
         ru: {
           title: 'Genesis Soft',
@@ -51,15 +69,33 @@
           ],
           secondaryTitle: 'Сценарии внедрения',
           secondaryDescription: 'Используйте Genesis Soft вместо разрозненных таблиц, устаревших учётных систем и ручных согласований. Apertech адаптирует проект под вашу структуру — от консолидации нескольких компаний до полевых правил доступа и чек-поинтов согласования.',
-          imageCaption: 'Пример панели Genesis Soft'
         }
       }
     },
     'sola-erp': {
       image: 'images/logoAnar.png',
+      heroPanel: {
+        en: {
+          implementationWindow: '12-16 weeks',
+          industries: ['Manufacturing', 'Distribution', 'Construction'],
+          deliveryModel: 'Phased implementation with dedicated project team on-site.',
+          outcomes: 'Compliance-ready auditing, real-time procurement visibility, standardized processes.'
+        },
+        az: {
+          implementationWindow: '12-16 həftə',
+          industries: ['Manufaktur', 'Paylaşdırma', 'İnşaat'],
+          deliveryModel: 'Yerində ayrılan layihə komandası ilə fazalı tətbiq.',
+          outcomes: 'Uyğunluğa hazır audit, satınalma görünürlüyü, standartlaşdırılmış proseslər.'
+        },
+        ru: {
+          implementationWindow: '12-16 недель',
+          industries: ['Производство', 'Дистрибьюция', 'Строительство'],
+          deliveryModel: 'Поэтапное внедрение с выездной командой проекта.',
+          outcomes: 'Готовность к аудиту, видимость закупок в реальном времени, стандартизированные процессы.'
+        }
+      },
       translations: {
         en: {
-          title: 'Sola ERP',
           heroTitle: 'Sola ERP',
           heroSummary: 'End-to-end ERP suite for organizations that need transparency across finance, procurement, projects, and assets.',
           contentTitle: 'Operate on reliable data',
@@ -72,7 +108,6 @@
           ],
           secondaryTitle: 'Designed for scale',
           secondaryDescription: 'Whether you run multiple construction sites or regional offices, Sola ERP standardizes processes while allowing local flexibility. Use Apertech accelerators to migrate historical data, configure integrations, and train business users quickly.',
-          imageCaption: 'Sola ERP interface concept'
         },
         az: {
           title: 'Sola ERP',
@@ -81,14 +116,13 @@
           contentTitle: 'Etibarlı məlumatlarla işləyin',
           description: 'Sola ERP şöbələr üzrə kritik məlumatları mərkəzləşdirir və struktur nə qədər mürəkkəb olsa da rəhbərlərə sabit KPI dəsti təqdim edir. Satınalma, sifariş və icranı avtomatlaşdıraraq büdcə, təsdiqlər və təchizatçı əlaqələrinin uyğunluğunu qoruyur.',
           highlights: [
-            'Auditə hazır izlenebilirliyi olan qabaqcıl təsdiq matrisi.',
+            'Audit zamanı izləmə qabiliyyəti ilə təkmilləşdirilmiş təsdiq matrisi.',
             'Büdcələri, müqavilələri və material istifadəsini birləşdirən layihə uçotu.',
             'Təchizatçı göstəriciləri və satınalma iş axınlarının avtomatlaşdırılması.',
             'CRM, HR və ya anbar alətləri ilə inteqrasiya üçün API-yə hazır memarlıq.'
           ],
           secondaryTitle: 'Miqyas üçün qurulub',
           secondaryDescription: 'Birdən çox tikinti sahəsi və ya regional ofislər idarə etdiyiniz halda, Sola ERP prosesləri standartlaşdırır, eyni zamanda yerli çevikliyi saxlayır. Apertech sürətləndiriciləri ilə tarixçələri köçürün, inteqrasiyaları qurun və istifadəçiləri tez hazırlayın.',
-          imageCaption: 'Sola ERP interfeys konsepti'
         },
         ru: {
           title: 'Sola ERP',
@@ -104,12 +138,31 @@
           ],
           secondaryTitle: 'Создано для масштабирования',
           secondaryDescription: 'Управляете стройплощадками или региональными офисами? Sola ERP стандартизирует процессы и при этом сохраняет локальную гибкость. Ускорители Apertech помогают перенести архивы данных, настроить интеграции и быстро обучить бизнес-пользователей.',
-          imageCaption: 'Концепт интерфейса Sola ERP'
         }
       }
     },
     'sola-hr': {
       image: 'images/solutions/solaHr-Photoroom.png',
+      heroPanel: {
+        en: {
+          implementationWindow: '6-10 weeks',
+          industries: ['Technology', 'Healthcare', 'Services'],
+          deliveryModel: 'Agile approach with iterative rollouts and user feedback loops.',
+          outcomes: 'Improved employee experience, reduced payroll errors, compliance assured.'
+        },
+        az: {
+          implementationWindow: '6-10 həftə',
+          industries: ['Texnologiya', 'Səhiyyə', 'Xidmətlər'],
+          deliveryModel: 'İteratif tətbiq və istifadəçi əks-əlaqə döngüləri ilə çevik yanaşma.',
+          outcomes: 'Yaxşılaşdırılmış işçi təcrübəsi, əməkhaqqı xətalarının azalması, uyğunluq təmin olunur.'
+        },
+        ru: {
+          implementationWindow: '6-10 недель',
+          industries: ['Технологии', 'Здравоохранение', 'Услуги'],
+          deliveryModel: 'Гибкий подход с итеративными внедрениями и циклами обратной связи.',
+          outcomes: 'Улучшенный опыт сотрудников, снижение ошибок в расчётах, гарантированное соответствие.'
+        }
+      },
       translations: {
         en: {
           title: 'Sola HR',
@@ -125,7 +178,6 @@
           ],
           secondaryTitle: 'Trusted by HR leaders',
           secondaryDescription: 'Run HR analytics, headcount planning, and payroll audits inside the same system. Apertech consultants configure localized templates, help connect biometric time tracking, and set up secure document storage.',
-          imageCaption: 'Sola HR payroll module'
         },
         az: {
           title: 'Sola HR',
@@ -141,7 +193,6 @@
           ],
           secondaryTitle: 'HR liderlərinin seçimi',
           secondaryDescription: 'HR analitikası, ştat planlaşdırması və əməkhaqqı auditlərini eyni sistemdə idarə edin. Apertech məsləhətçiləri lokallaşdırılmış şablonları qurur, biometrik vaxt izləməsini birləşdirir və təhlükəsiz sənəd saxlanması hazırlayır.',
-          imageCaption: 'Sola HR əməkhaqqı modulu'
         },
         ru: {
           title: 'Sola HR',
@@ -157,7 +208,6 @@
           ],
           secondaryTitle: 'Доверено HR-лидерам',
           secondaryDescription: 'Выполняйте HR-аналитику, планирование штата и аудит зарплат в одной системе. Консультанты Apertech настраивают локализованные шаблоны, подключают биометрический учёт рабочего времени и безопасное хранилище документов.',
-          imageCaption: 'Модуль расчёта зарплаты Sola HR'
         }
       }
     }
@@ -179,6 +229,37 @@
     } else if (typeof value === 'string') {
       el.textContent = value;
     }
+  };
+
+  const renderHeroPanel = (slug, language = getLanguage()) => {
+    const detail = solutionDetails[slug];
+    if (!detail || !detail.heroPanel) return;
+
+    const heroPanel = detail.heroPanel[language] || detail.heroPanel.en;
+    
+    // Update implementation window
+    const windowEl = document.querySelector('[data-panel-field="implementationWindow"]');
+    if (windowEl) windowEl.textContent = heroPanel.implementationWindow;
+
+    // Update industries
+    const industriesEl = document.querySelector('[data-panel-field="industries"]');
+    if (industriesEl) {
+      industriesEl.innerHTML = '';
+      heroPanel.industries.forEach(industry => {
+        const chip = document.createElement('span');
+        chip.className = 'chip chip-glass';
+        chip.textContent = industry;
+        industriesEl.appendChild(chip);
+      });
+    }
+
+    // Update delivery model
+    const deliveryEl = document.querySelector('[data-panel-field="deliveryModel"]');
+    if (deliveryEl) deliveryEl.textContent = heroPanel.deliveryModel;
+
+    // Update outcomes
+    const outcomesEl = document.querySelector('[data-panel-field="outcomes"]');
+    if (outcomesEl) outcomesEl.textContent = heroPanel.outcomes;
   };
 
   function renderSolution(slug, language = getLanguage()) {
@@ -204,6 +285,9 @@
       imageEl.alt = localized.title;
     }
 
+    // Render hero panel
+    renderHeroPanel(slug, language);
+
     document.title = `Apertech | ${localized.title}`;
   }
 
@@ -223,4 +307,3 @@
     renderSolution(activeSlug, event?.detail?.language || getLanguage());
   });
 })();
-
