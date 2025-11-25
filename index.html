@@ -23,6 +23,8 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Select2 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet"/>
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
@@ -54,7 +56,7 @@
           <a href="https://www.facebook.com/Apertech/" target="_blank" class="facebook d-none d-md-inline-block"><i class="bi bi-facebook"></i></a>
           <!-- <a href="#" class="instagram"><i class="bi bi-instagram"></i></a> -->
           <a href="https://az.linkedin.com/company/apertech1" target="_blank" class="linkedin d-none d-md-inline-block"><i class="bi bi-linkedin"></i></a>
-          <select id="language-select" class="language-select ms-3" onchange="changeLanguage(this.value)" aria-label="Select language">
+          <select id="language-select" class="language-select ms-3" aria-label="Select language">
             <option value="en">EN</option>
             <option value="az">AZ</option>
             <option value="ru">RU</option>
@@ -352,7 +354,7 @@
                   <img src="images/homePage/Entrepreneurship.webp" class="img-fluid" alt="">
                   <div class="portfolio-info">
                     <h4 data-translate="sector.distribution">Distribution</h4>
-                    <p data-translate="sector.distribution_desc">The entrepreneurship sector focuses on the creation, development, and growth of new businesses. It drives innovation, generates jobs, and contributes to economic development by turning ideas into successful ventures.</p>
+                    <p data-translate="sector.distribution_desc">Distribution refers to the process of delivering products or services from a producer to the final customer. It is a key component of the supply chain and includes all activities involved in storing, transporting, and making goods available at the right place, at the right time, and in the right quantity.</p>
                     <!-- <a href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                     <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                   </div>
@@ -680,8 +682,8 @@
                 <img src="images/solutions/infor-syteline - Copy.png" alt="Infor" class="img-fluid">
               </div>
               <div class="partner-content">
-                <h4>Infor</h4>
-                <p>We are proud to be global partner of INFOR. This partnership gives us tremendous opportunities to successfully accomplish any project with most innovative way possible.</p>
+                <h4 data-translate="partners.infor.title">Infor</h4>
+                <p data-translate="partners.infor.desc">We are proud to be global partner of INFOR. This partnership gives us tremendous opportunities to successfully accomplish any project with most innovative way possible.</p>
               </div>
             </div>
           </a>
@@ -694,8 +696,8 @@
                 <img src="images/clients/frontstep-logo-png-transparent.png" alt="Frontstep" class="img-fluid">
               </div>
               <div class="partner-content">
-                <h4>Frontstep</h4>
-                <p>Frontstep's implementation expertise have helped hundreds of companies around the globe to boost their productivity, gain competitive advantages, and become world class.</p>
+                <h4 data-translate="partners.frontstep.title">Frontstep</h4>
+                <p data-translate="partners.frontstep.desc">Frontstep's implementation expertise have helped hundreds of companies around the globe to boost their productivity, gain competitive advantages, and become world class.</p>
               </div>
             </div>
           </a>
@@ -708,8 +710,8 @@
                 <img src="images/partners/mpi.png" alt="MPI Cloud" class="img-fluid">
               </div>
               <div class="partner-content">
-                <h4>MPI Cloud</h4>
-                <p>MPI Cloud is a company operating in the CIS (Commonwealth of Independent States) region and the Middle East. Its headquarters is in Dubai, UAE, with regional offices or entities in Azerbaijan (Baku), Kazakhstan (Astana), etc.</p>
+                <h4 data-translate="partners.mpi.title">MPI Cloud</h4>
+                <p data-translate="partners.mpi.desc">MPI Cloud is a company operating in the CIS (Commonwealth of Independent States) region and the Middle East. Its headquarters is in Dubai, UAE, with regional offices or entities in Azerbaijan (Baku), Kazakhstan (Astana), etc.</p>
               </div>
             </div>
           </a>
@@ -722,8 +724,8 @@
                 <img src="images/partners/patco.webp" alt="Patco" class="img-fluid">
               </div>
               <div class="partner-content">
-                <h4>Patco</h4>
-                <p>Patco is a software development company with a full range of IT services. Located in Azerbaijan.</p>
+                <h4 data-translate="partners.patco.title">Patco</h4>
+                <p data-translate="partners.patco.desc">Patco is a software development company with a full range of IT services. Located in Azerbaijan.</p>
               </div>
             </div>
           </a>
@@ -1566,6 +1568,8 @@
   </div>
 
   <!-- Vendor JS Files -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
   <script src="assets/vendor/aos/aos.js"></script>
@@ -1580,6 +1584,24 @@
   <script src="assets/js/main.js"></script>
   <script src="assets/js/email.js"></script>
   <script src="assets/js/translations.js"></script>
+
+  <!-- Select2 Language Selector Initialization -->
+  <script>
+    $(document).ready(function() {
+      $('#language-select').select2({
+        minimumResultsForSearch: -1,
+        width: '100%',
+        containerCssClass: 'language-select2-container',
+        dropdownCssClass: 'language-select2-dropdown'
+      });
+
+      // Handle change event
+      $('#language-select').on('change', function(e) {
+        e.preventDefault();
+        changeLanguage(this.value);
+      });
+    });
+  </script>
 
 
 </body>

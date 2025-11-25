@@ -19,6 +19,8 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Select2 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet"/>
 
   <link href="assets/css/main.css" rel="stylesheet">
 </head>
@@ -36,7 +38,7 @@
         <div class="social-links d-flex align-items-center">
           <a href="https://www.facebook.com/Apertech/" target="_blank" class="facebook d-none d-md-inline-block"><i class="bi bi-facebook"></i></a>
           <a href="https://az.linkedin.com/company/apertech1" target="_blank" class="linkedin d-none d-md-inline-block"><i class="bi bi-linkedin"></i></a>
-          <select id="language-select" class="language-select ms-3" onchange="changeLanguage(this.value)" aria-label="Select language">
+          <select id="language-select" class="language-select ms-3" aria-label="Select language">
             <option value="en">EN</option>
             <option value="az">AZ</option>
             <option value="ru">RU</option>
@@ -303,6 +305,8 @@
     <div></div>
   </div>
 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
@@ -315,6 +319,24 @@
   <script src="assets/js/main.js"></script>
   <script src="assets/js/translations.js"></script>
   <script src="assets/js/solution-detail.js"></script>
+
+  <!-- Select2 Language Selector Initialization -->
+  <script>
+    $(document).ready(function() {
+      $('#language-select').select2({
+        minimumResultsForSearch: -1,
+        width: '100%',
+        containerCssClass: 'language-select2-container',
+        dropdownCssClass: 'language-select2-dropdown'
+      });
+
+      // Handle change event
+      $('#language-select').on('change', function(e) {
+        e.preventDefault();
+        changeLanguage(this.value);
+      });
+    });
+  </script>
 
 </body>
 

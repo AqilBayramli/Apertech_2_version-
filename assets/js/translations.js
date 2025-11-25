@@ -60,7 +60,7 @@ const translations = {
         "sector.hospitality": "Hospitality",
         "sector.hospitality_desc": "The hospitality industry is a diverse and dynamic sector that includes businesses focused on providing services for travel, leisure, and accommodation.",
         "sector.distribution": "Distribution",
-        "sector.distribution_desc": "The entrepreneurship sector focuses on the creation, development, and growth of new businesses. It drives innovation, generates jobs, and contributes to economic development by turning ideas into successful ventures.",
+        "sector.distribution_desc": "It is a key component of the supply chain and includes all activities involved in storing, transporting, and making goods available at the right place, at the right time, and in the right quantity.",
         "sector.branding": "Branding",
         "sector.branding_desc": "Creative branding initiatives that enhance recognition and market presence.",
         
@@ -95,6 +95,14 @@ const translations = {
         // Partners Section
         "partners.subtitle": "Our",
         "partners.description": "Partners",
+        "partners.infor.title": "Infor",
+        "partners.infor.desc": "We are proud to be global partner of INFOR. This partnership gives us tremendous opportunities to successfully accomplish any project with most innovative way possible.",
+        "partners.frontstep.title": "Frontstep",
+        "partners.frontstep.desc": "Frontstep's implementation expertise have helped hundreds of companies around the globe to boost their productivity, gain competitive advantages, and become world class.",
+        "partners.mpi.title": "MPI Cloud",
+        "partners.mpi.desc": "MPI Cloud is a company operating in the CIS (Commonwealth of Independent States) region and the Middle East. Its headquarters is in Dubai, UAE, with regional offices or entities in Azerbaijan (Baku), Kazakhstan (Astana), etc.",
+        "partners.patco.title": "Patco",
+        "partners.patco.desc": "Patco is a software development company with a full range of IT services. Located in Azerbaijan.",
         
         // Solutions Section
         "solutions.title": "Solutions",
@@ -310,8 +318,8 @@ const translations = {
         "sector.sport_desc": "Qlobal idman sektoru təkcə rəqabətdən ibarət deyil, həm də mühüm iqtisadi hərəkatdır. Sponsorluq, yayım, satış, turizm və infrastruktur vasitəsilə gəlir yaradır, eyni zamanda sağlamlıq, komanda işi və ictimai iştirakçılığı təşviq edir.",
         "sector.hospitality": "Otelçilik",
         "sector.hospitality_desc": "Otelçilik sənayesi səyahət, əyləncə və yaşayış üçün xidmətlər təqdim edən biznesləri əhatə edən müxtəlif və dinamik sektordur.",
-        "sector.entrepreneurship": "Sahibkarlıq",
-        "sector.entrepreneurship_desc": "Sahibkarlıq sektoru yeni bizneslərin yaradılması, inkişafı və böyüməsinə fokuslanır. İnnovasiyanı hərəkətə gətirir, iş yerləri yaradır və ideyaları uğurlu müəssisələrə çevirərək iqtisadi inkişafa töhfə verir.",
+        "sector.distribution": "Distribusiya",
+        "sector.distribution_desc": "Bu, təchizat zəncirinin əsas komponentidir və malların düzgün yerdə, düzgün vaxtda və lazım olan miqdarda əlçatan olmasını təmin edən bütün saxlanma, nəqliyyat və digər fəaliyyətləri əhatə edir.",
         "sector.branding": "Brendinq",
         "sector.branding_desc": "Tanınmanı və bazar mövqeyini gücləndirən yaradıcı brendinq təşəbbüsləri.",
         
@@ -346,6 +354,14 @@ const translations = {
         // Partners Section
         "partners.subtitle": "Bizim",
         "partners.description": "Tərəfdaşlarımız",
+        "partners.infor.title": "Infor",
+        "partners.infor.desc": "Biz INFOR-un qlobal tərəfdaşı olmaqla fəxri hiss edirik. Bu tərəfdaşlıq bizə hər hansı bir layihəni ən innovativ şəkildə uğurla başa çatdırmaq üçün böyük imkanlar verir.",
+        "partners.frontstep.title": "Frontstep",
+        "partners.frontstep.desc": "Frontstep-in tətbiqet ustaçılığı dünya üzrə yüzlərlə şirkətə onların məhsuldarlığını artırmağa, rəqabətə davamlı üstünlüklər əldə etməyə və dünya sinif ola bilməyə kömək etmişdir.",
+        "partners.mpi.title": "MPI Cloud",
+        "partners.mpi.desc": "MPI Cloud, CIS (Müstəqil Dövlətlər Birliyinin) regionunda və Yaxın Şərqdə fəaliyyət göstərən bir şirkətdir. Onun baş ofisi Dubay, BƏƏ-da yerləşir, regionda isə Azərbaycan (Bakı), Qazaxstan (Astana) və s. yerlərdə əraziləri vardır.",
+        "partners.patco.title": "Patco",
+        "partners.patco.desc": "Patco, tam spektrli İT xidmətləri ilə proqram təminatı inkişaf şirkətidir. Azərbaycan ərazisində yerləşir.",
         
         // Solutions Section
         "solutions.title": "Həllər",
@@ -561,8 +577,8 @@ const translations = {
         "sector.sport_desc": "Мировой спорт — не только соревнования, но и значимый экономический двигатель, который создает доходы от спонсоров, трансляций, мерча и туризма.",
         "sector.hospitality": "Гостеприимство",
         "sector.hospitality_desc": "Индустрия гостеприимства охватывает бизнесы, предоставляющие услуги путешественникам, туристам и гостям.",
-        "sector.entrepreneurship": "Предпринимательство",
-        "sector.entrepreneurship_desc": "Сектор предпринимательства способствует созданию и развитию новых компаний, стимулируя инновации и занятость.",
+        "sector.distribution": "Дистрибуция",
+        "sector.distribution_desc": "Это ключевой компонент цепочки поставок и включает все виды деятельности, связанные с хранением, транспортировкой и обеспечением доступности товаров в нужном месте, в нужное время и в необходимом количестве.",
         "sector.branding": "Брендинг",
         "sector.branding_desc": "Креативные брендинговые инициативы, усиливающие узнаваемость и рыночные позиции.",
         
@@ -597,6 +613,14 @@ const translations = {
         // Partners Section
         "partners.subtitle": "Наши",
         "partners.description": "Партнеры",
+        "partners.infor.title": "Infor",
+        "partners.infor.desc": "Мы гордимся тем, что являемся глобальным партнёром INFOR. Это партнёрство дает нам превосходные возможности для успешного выполнения любого проекта инновационным способом.",
+        "partners.frontstep.title": "Frontstep",
+        "partners.frontstep.desc": "Опыт внедрения Frontstep помог сотням компаний во всем мире повысить производительность, получить конкурентные преимущества и стать мировым лидером.",
+        "partners.mpi.title": "MPI Cloud",
+        "partners.mpi.desc": "MPI Cloud — компания, работающая в регионе СНГ (Содружество Независимых Государств) и на Ближнем Востоке. Её штаб-квартира находится в Дубае, ОАЭ, с региональными офисами в Азербайджане (Баку), Казахстане (Астана) и т.д.",
+        "partners.patco.title": "Patco",
+        "partners.patco.desc": "Patco — компания разработки программного обеспечения с полным спектром IT-услуг. Расположена в Азербайджане.",
         
         // Solutions Section
         "solutions.title": "Решения",
@@ -1408,6 +1432,15 @@ function updateLanguage() {
     const langSelect = document.getElementById('language-select');
     if (langSelect) {
         langSelect.value = currentLanguage;
+        
+        // Update Select2 if it's initialized
+        if (jQuery && jQuery.fn.select2) {
+            try {
+                jQuery('#language-select').select2('close');
+            } catch(e) {
+                // Select2 might not be fully initialized yet
+            }
+        }
     }
 
     try {

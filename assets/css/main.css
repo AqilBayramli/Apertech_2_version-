@@ -704,7 +704,8 @@ h6 {
   color: color-mix(in srgb, var(--contrast-color), transparent 40%);
   line-height: 0;
   transition: 0.3s;
-  margin-left: 20px;
+  /* margin-left: 20px; */
+  margin-right: 20px;
 }
 
 .header .topbar .social-links a:hover {
@@ -3465,5 +3466,104 @@ font-size: 20px;
     height: 30px;
     background-size: 9px;
     background-position: right 7px center;
+  }
+}
+
+/*--------------------------------------------------------------
+# Select2 Custom Styling for Language Selector
+--------------------------------------------------------------*/
+
+/* Container styling */
+.language-select2-container {
+  width: 100% !important;
+}
+
+.language-select2-container .select2-selection--single {
+  background-color: #ffffff !important;
+  border: 1px solid #e9ecef !important;
+  border-radius: 8px !important;
+  height: 29px !important;
+  padding: 0 !important;
+}
+
+.language-select2-container .select2-selection--single .select2-selection__rendered {
+  padding: 4px 10px !important;
+  line-height: 21px !important;
+  color: #495057 !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+}
+
+.language-select2-container .select2-selection--single .select2-selection__arrow {
+  height: 29px !important;
+  right: 8px !important;
+}
+
+.language-select2-container .select2-selection--single .select2-selection__arrow b {
+  border-color: #666 transparent transparent !important;
+  border-width: 8px 6px 0 6px !important;
+  margin-top: 4px !important;
+}
+
+/* Hover state */
+.language-select2-container--focus .select2-selection--single,
+.language-select2-container .select2-selection--single:hover {
+  border-color: #106eea !important;
+}
+
+/* Focus state */
+.language-select2-container--focus .select2-selection--single {
+  border-color: #106eea !important;
+  box-shadow: 0 0 0 3px rgba(16, 110, 234, 0.1) !important;
+}
+
+/* Dropdown styling */
+.language-select2-dropdown .select2-results__options {
+  background-color: #ffffff !important;
+  border: 1px solid #e9ecef !important;
+  border-top: none !important;
+  border-radius: 0 0 8px 8px !important;
+  max-height: 200px !important;
+}
+
+.language-select2-dropdown .select2-results__option {
+  padding: 8px 10px !important;
+  color: #495057 !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+}
+
+.language-select2-dropdown .select2-results__option--highlighted[aria-selected] {
+  background-color: #106eea !important;
+  color: #ffffff !important;
+}
+
+.language-select2-dropdown .select2-results__option[aria-selected=true] {
+  background-color: #f8f9fa !important;
+  color: #495057 !important;
+}
+
+/* Responsive adjustments for Select2 */
+@media (max-width: 767px) {
+  .language-select2-container .select2-selection--single {
+    height: 32px !important;
+  }
+
+  .language-select2-container .select2-selection--single .select2-selection__rendered {
+    padding: 5px 8px !important;
+    line-height: 22px !important;
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .language-select2-container .select2-selection--single {
+    height: 30px !important;
+  }
+
+  .language-select2-container .select2-selection--single .select2-selection__rendered {
+    padding: 4px 7px !important;
+    line-height: 22px !important;
+    font-size: 11px !important;
   }
 }
