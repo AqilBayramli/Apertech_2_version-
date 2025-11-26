@@ -296,19 +296,21 @@
 
     solutionCards.forEach((wrapper) => {
       const slug = wrapper.getAttribute('data-solution-id');
-      const clickable = wrapper.querySelector('.solution-card') || wrapper;
+      const h4Element = wrapper.querySelector('.solution-content h4');
 
-      clickable.style.cursor = 'pointer';
-      clickable.setAttribute('role', 'link');
-      clickable.setAttribute('tabindex', '0');
+      if (h4Element) {
+        h4Element.style.cursor = 'pointer';
+        h4Element.setAttribute('role', 'link');
+        h4Element.setAttribute('tabindex', '0');
 
-      clickable.addEventListener('click', () => goToDetailPage(slug));
-      clickable.addEventListener('keydown', (event) => {
-        if (event.key === 'Enter' || event.key === ' ') {
-          event.preventDefault();
-          goToDetailPage(slug);
-        }
-      });
+        h4Element.addEventListener('click', () => goToDetailPage(slug));
+        h4Element.addEventListener('keydown', (event) => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            goToDetailPage(slug);
+          }
+        });
+      }
     });
   }
 
