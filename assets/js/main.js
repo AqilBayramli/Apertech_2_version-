@@ -288,10 +288,14 @@
       return;
     }
 
-    const goToDetailPage = (slug) => {
+    const goToDetailPage = (slug, newTab = false) => {
       if (!slug) return;
       const targetUrl = `solution-detail.html?solution=${encodeURIComponent(slug)}`;
-      window.open(targetUrl, '_blank', 'noopener,noreferrer');
+      if (newTab) {
+        window.open(targetUrl, '_blank', 'noopener,noreferrer');
+      } else {
+        window.location.href = targetUrl;
+      }
     };
 
     solutionCards.forEach((wrapper) => {
@@ -303,11 +307,26 @@
         h4Element.setAttribute('role', 'link');
         h4Element.setAttribute('tabindex', '0');
 
-        h4Element.addEventListener('click', () => goToDetailPage(slug));
+        h4Element.addEventListener('click', (event) => {
+          // Sol düymə (button 0) - cari səhifədə açılır
+          if (event.button === 0) {
+            event.preventDefault();
+            goToDetailPage(slug, false);
+          }
+        });
+
+        h4Element.addEventListener('mouseup', (event) => {
+          // Orta düymə (button 1) - yeni tab-da açılır
+          if (event.button === 1) {
+            event.preventDefault();
+            goToDetailPage(slug, true);
+          }
+        });
+        
         h4Element.addEventListener('keydown', (event) => {
           if (event.key === 'Enter' || event.key === ' ') {
             event.preventDefault();
-            goToDetailPage(slug);
+            goToDetailPage(slug, false);
           }
         });
       }

@@ -76,6 +76,7 @@
       image: 'images/logoAnar.png',
       heroPanel: {
         en: {
+          title: 'Sola ERP',
           implementationWindow: '12-16 weeks',
           industries: ['Manufacturing', 'Distribution', 'Construction'],
           deliveryModel: 'Phased implementation with dedicated project team on-site.',
@@ -96,6 +97,7 @@
       },
       translations: {
         en: {
+          title: 'Sola ERP',
           heroTitle: 'Sola ERP',
           heroSummary: 'End-to-end ERP suite for organizations that need transparency across finance, procurement, projects, and assets.',
           contentTitle: 'Operate on reliable data',
