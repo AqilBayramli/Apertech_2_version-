@@ -56,11 +56,11 @@
           <a href="https://www.facebook.com/Apertech/" target="_blank" class="facebook d-none d-md-inline-block"><i class="bi bi-facebook"></i></a>
           <!-- <a href="#" class="instagram"><i class="bi bi-instagram"></i></a> -->
           <a href="https://az.linkedin.com/company/apertech1" target="_blank" class="linkedin d-none d-md-inline-block"><i class="bi bi-linkedin"></i></a>
-          <select id="language-select" class="language-select ms-3" aria-label="Select language">
-            <option value="en">EN</option>
-            <option value="az">AZ</option>
-            <option value="ru">RU</option>
-          </select>
+          <div class="language-switcher ms-3">
+            <button class="lang-btn active" data-lang="en" title="English">EN</button>
+            <button class="lang-btn" data-lang="az" title="Azərbaycan">AZ</button>
+            <button class="lang-btn" data-lang="ru" title="Русский">RU</button>
+          </div>
         </div>
       </div>
     </div><!-- End Top Bar -->
@@ -1585,20 +1585,22 @@
   <script src="assets/js/email.js"></script>
   <script src="assets/js/translations.js"></script>
 
-  <!-- Select2 Language Selector Initialization -->
+  <!-- Language Switcher Button Initialization -->
   <script>
-    $(document).ready(function() {
-      $('#language-select').select2({
-        minimumResultsForSearch: -1,
-        width: '100%',
-        containerCssClass: 'language-select2-container',
-        dropdownCssClass: 'language-select2-dropdown'
-      });
-
-      // Handle change event
-      $('#language-select').on('change', function(e) {
-        e.preventDefault();
-        changeLanguage(this.value);
+    document.addEventListener('DOMContentLoaded', function() {
+      // Handle language button clicks
+      document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.addEventListener('click', function(e) {
+          e.preventDefault();
+          const lang = this.getAttribute('data-lang');
+          
+          // Update active button
+          document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+          
+          // Change language
+          changeLanguage(lang);
+        });
       });
     });
   </script>

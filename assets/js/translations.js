@@ -1384,12 +1384,6 @@ function changeLanguage(language) {
     currentLanguage = language;
     updateLanguage();
     localStorage.setItem('selectedLanguage', currentLanguage);
-    
-    // Update language select dropdown value
-    const langSelect = document.getElementById('language-select');
-    if (langSelect) {
-        langSelect.value = currentLanguage;
-    }
 }
 
 // Update all text content based on current language
@@ -1428,20 +1422,14 @@ function updateLanguage() {
     // Update HTML lang attribute
     document.documentElement.lang = currentLanguage;
     
-    // Update language select dropdown
-    const langSelect = document.getElementById('language-select');
-    if (langSelect) {
-        langSelect.value = currentLanguage;
-        
-        // Update Select2 if it's initialized
-        if (jQuery && jQuery.fn.select2) {
-            try {
-                jQuery('#language-select').select2('close');
-            } catch(e) {
-                // Select2 might not be fully initialized yet
-            }
+    // Update language button active state
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+        if (btn.getAttribute('data-lang') === currentLanguage) {
+            btn.classList.add('active');
+        } else {
+            btn.classList.remove('active');
         }
-    }
+    });
 
     try {
         const languageEvent = new CustomEvent('languageChanged', { detail: { language: currentLanguage } });
@@ -1464,12 +1452,6 @@ function initializeLanguage() {
     
     // Update the page
     updateLanguage();
-    
-    // Set language select dropdown value
-    const langSelect = document.getElementById('language-select');
-    if (langSelect) {
-        langSelect.value = currentLanguage;
-    }
 }
 
 // Helper function to get translated text
