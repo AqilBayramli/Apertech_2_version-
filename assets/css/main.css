@@ -2135,11 +2135,29 @@ font-size: 20px;
     min-height: 0vh;
   }
 
+  .hero h1{
+    margin-top: 80px;
+    font-size: 22px;
+  }
+
+  .hero p {
+    font-size: 16px;
+}
+
+.hero .btn-get-started{
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
   .clients .swiper{
     padding: 10px 35px;
   }
   .header .logo img {
-    max-height: 80px;
+    max-height: 57px;
+  }
+
+  .hero-swiper-button-prev, .hero-swiper-button-next{
+    display: none;
   }
 
   .language-select {
@@ -2153,6 +2171,30 @@ font-size: 20px;
   .client-link::before {
     font-size: 12px;
     padding: 6px 10px;
+  }
+
+  .solution-detail-highlights li {
+    min-height: 115px;
+  }
+
+  .solution-detail-secondary{
+    padding: 25px 0;
+  }
+
+  .footer_logo img{
+    width: 120px !important;
+  }
+
+}
+
+
+@media (max-width: 420px) {
+  .header_phone {
+    display: none !important;
+  }
+
+  .header .logo img {
+    max-height: 52px;
   }
 }
 
