@@ -2,6 +2,7 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  width: 100%;
 }
 
 .solution-detail-hero {
@@ -457,11 +458,14 @@
 
 @media (max-width: 991px) {
   .solution-detail-page .header {
-    position: relative;
+    position: fixed;
+    left: 0;
+    right: 0;
   }
 
   .solution-detail-hero {
     padding: 120px 0 80px;
+    margin-top: 100px;
   }
 
   .solution-detail-title {
