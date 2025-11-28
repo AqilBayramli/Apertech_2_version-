@@ -2248,6 +2248,15 @@ font-size: 20px;
   font-size: 25px;
 }
 
+.hero p {
+  font-size: 14px;
+}
+
+.hero .btn-get-started {
+  font-size: 12px;
+  padding: 7px 7px;
+}
+
 }
 
 
