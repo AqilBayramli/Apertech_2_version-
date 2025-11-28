@@ -85,7 +85,7 @@
         az: {
           implementationWindow: '12-16 həftə',
           industries: ['Manufaktur', 'Paylaşdırma', 'İnşaat'],
-          deliveryModel: 'Yerində ayrılan layihə komandası ilə fazalı tətbiq.',
+          deliveryModel: 'Xüsusi bir layihə komandasının iştirakı ilə mərhələli tətbiq.',
           outcomes: 'Uyğunluğa hazır audit, satınalma görünürlüyü, standartlaşdırılmış proseslər.'
         },
         ru: {
