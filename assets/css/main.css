@@ -2234,6 +2234,18 @@ font-size: 20px;
 }
 }
 
+@media (max-width: 375px) {
+  .hero p {
+    margin-bottom: 4px !important;
+  }
+
+  .hero .btn-get-started {
+    font-size: 12px;
+    padding: 8px 12px;
+}
+
+}
+
 
 
 /*--------------------------------------------------------------
