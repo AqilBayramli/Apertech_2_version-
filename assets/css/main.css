@@ -2244,6 +2244,10 @@ font-size: 20px;
     padding: 8px 12px;
 }
 
+.section-title p {
+  font-size: 25px;
+}
+
 }
 
 
