@@ -2,7 +2,6 @@
   position: sticky;
   top: 0;
   z-index: 999;
-  width: 100%;
 }
 
 .solution-detail-hero {
@@ -458,14 +457,11 @@
 
 @media (max-width: 991px) {
   .solution-detail-page .header {
-    position: fixed;
-    left: 0;
-    right: 0;
+    position: relative;
   }
 
   .solution-detail-hero {
     padding: 120px 0 80px;
-    margin-top: 100px;
   }
 
   .solution-detail-title {
@@ -2189,26 +2185,6 @@ font-size: 20px;
     width: 120px !important;
   }
 
-  .section-title p{
-    font-size: 28px
-  }
-
-  .about_content_text{
-    font-size: 18px;
-  }
-
-  .about .col-lg-6 > img.img-fluid {
-    max-width: 80%;
-}
-
-.footer .footer-links {
-  margin-bottom: 0px;
-}
-
-.faq .faq-container .faq-item h3 {
-  font-size: 16px !important;
-}
-
 }
 
 
@@ -2220,23 +2196,6 @@ font-size: 20px;
   .header .logo img {
     max-height: 52px;
   }
-}
-
-
-@media (max-width: 395px) {
-  .hero h1{
-    margin-top: 85px;
-    font-size: 20px;
-  }
-
-  .hero p{
-    font-size: 14px;
-  }
-
-  .hero .btn-get-started {
-    font-size: 13px;
-    padding: 9px 12px;
-}
 }
 
 
@@ -3775,5 +3734,3 @@ font-size: 20px;
     height: 24px;
   }
 }
-
-
