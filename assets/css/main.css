@@ -2260,6 +2260,15 @@ font-size: 20px;
 }
 
 
+@media (max-width: 350px) {
+     .section-title p {
+        font-size: 23px;
+    }
+      .about_content_text {
+        font-size: 16px;
+    }
+}
+
 
 /*--------------------------------------------------------------
 # Services Section
