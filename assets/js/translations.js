@@ -23,7 +23,7 @@ const translations = {
         
         // Hero Slide 3 - Production ERP
         "hero.slide3.title": "Production ERP",
-        "hero.slide3.subtitle": "A Production ERP system is an integrated software solution designed to manage, automate, and optimize all aspects of the manufacturing process. It connects every department — from planning and procurement to production, quality control, and delivery — into a single, centralized platform.",
+        "hero.slide3.subtitle": "A Production ERP system is an integrated software solution designed to manage, automate, and optimize all aspects of the manufacturing process.",
         "hero.slide3.button": "Explore Partners",
         
         // Hero Slide 4 - Construction ERP
@@ -282,7 +282,7 @@ const translations = {
         
         // Hero Slide 3 - Production ERP
         "hero.slide3.title": "İstehsal ERP",
-        "hero.slide3.subtitle": "İstehsal ERP sistemi istehsal prosesinin bütün aspektlərini idarə etmək, avtomatlaşdırmaq və optimallaşdırmaq üçün nəzərdə tutulmuş inteqrasiya edilmiş proqram həllidir. Planlaşdırma və tədarükdən istehsal, keyfiyyət nəzarəti və çatdırılmaya qədər hər şöbəni tək, mərkəzləşdirilmiş platformada birləşdirir.",
+        "hero.slide3.subtitle": "İstehsal ERP sistemi istehsal prosesinin bütün aspektlərini idarə etmək, avtomatlaşdırmaq və optimallaşdırmaq üçün nəzərdə tutulmuş inteqrasiya edilmiş proqram həllidir.",
         "hero.slide3.button": "Tərəfdaşları Kəşf Et",
         
         // Hero Slide 4 - Construction ERP
@@ -541,7 +541,7 @@ const translations = {
         
         // Hero Slide 3 - Production ERP
         "hero.slide3.title": "Производственный ERP",
-        "hero.slide3.subtitle": "Производственная ERP-система — это интегрированное программное решение для управления, автоматизации и оптимизации всех аспектов производственного процесса. Она объединяет планирование, закупки, производство, контроль качества и доставку на единой платформе.",
+        "hero.slide3.subtitle": "Производственная ERP-система — это интегрированное программное решение для управления, автоматизации и оптимизации всех аспектов производственного процесса.",
         "hero.slide3.button": "Наши партнеры",
         
         // Hero Slide 4 - Construction ERP
