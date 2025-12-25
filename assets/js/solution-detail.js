@@ -6,19 +6,19 @@
       image: 'images/solutions/genesis2-Photoroom.png',
       heroPanel: {
         en: {
-          implementationWindow: '8-12 weeks',
+          implementationWindow: '2 - 4 years',
           industries: ['Finance', 'Retail', 'Energy'],
           deliveryModel: 'Hybrid with on-site discovery and remote enablement.',
           outcomes: 'Unified reporting, automated controls, confident scaling.'
         },
         az: {
-          implementationWindow: '8-12 həftə',
+          implementationWindow: '2 - 4 il',
           industries: ['Maliyyə', 'Retail', 'Enerji'],
           deliveryModel: 'Yerində kəşf və uzaqdan aktivləşdirmə ilə hibrid.',
           outcomes: 'Birləşdirilmiş hesabat, avtomatlaşdırılmış nəzarət, inamlı miqyas.'
         },
         ru: {
-          implementationWindow: '8-12 недель',
+          implementationWindow: '2 - 4 года',
           industries: ['Финансы', 'Розница', 'Энергетика'],
           deliveryModel: 'Гибридный с выездным анализом и удаленным внедрением.',
           outcomes: 'Объединённые отчёты, автоматизированные проверки, уверенное масштабирование.'
@@ -77,19 +77,19 @@
       heroPanel: {
         en: {
           title: 'Sola ERP',
-          implementationWindow: '12-16 weeks',
+          implementationWindow: '1 - 2 years',
           industries: ['Manufacturing', 'Distribution', 'Construction'],
           deliveryModel: 'Phased implementation with dedicated project team on-site.',
           outcomes: 'Compliance-ready auditing, real-time procurement visibility, standardized processes.'
         },
         az: {
-          implementationWindow: '12-16 həftə',
+          implementationWindow: '1 - 2 il',
           industries: ['İstehsal', 'Paylaşdırma', 'İnşaat'],
           deliveryModel: 'Xüsusi bir layihə komandasının iştirakı ilə mərhələli tətbiq.',
           outcomes: 'Uyğunluğa hazır audit, satınalma görünürlüyü, standartlaşdırılmış proseslər.'
         },
         ru: {
-          implementationWindow: '12-16 недель',
+          implementationWindow: '1 - 2 года',
           industries: ['Производство', 'Дистрибьюция', 'Строительство'],
           deliveryModel: 'Поэтапное внедрение с выездной командой проекта.',
           outcomes: 'Готовность к аудиту, видимость закупок в реальном времени, стандартизированные процессы.'
@@ -147,19 +147,19 @@
       image: 'images/solutions/solaHr-Photoroom.png',
       heroPanel: {
         en: {
-          implementationWindow: '6-10 weeks',
+          implementationWindow: '1 - 2 years',
           industries: ['Technology', 'Healthcare', 'Services'],
           deliveryModel: 'Agile approach with iterative rollouts and user feedback loops.',
           outcomes: 'Improved employee experience, reduced payroll errors, compliance assured.'
         },
         az: {
-          implementationWindow: '6-10 həftə',
+          implementationWindow: '1 - 2 il',
           industries: ['Texnologiya', 'Səhiyyə', 'Xidmətlər'],
           deliveryModel: 'İteratif tətbiq və istifadəçi əks-əlaqə döngüləri ilə çevik yanaşma.',
           outcomes: 'Yaxşılaşdırılmış işçi təcrübəsi, əməkhaqqı xətalarının azalması, uyğunluq təmin olunur.'
         },
         ru: {
-          implementationWindow: '6-10 недель',
+          implementationWindow: '1 - 2 года',
           industries: ['Технологии', 'Здравоохранение', 'Услуги'],
           deliveryModel: 'Гибкий подход с итеративными внедрениями и циклами обратной связи.',
           outcomes: 'Улучшенный опыт сотрудников, снижение ошибок в расчётах, гарантированное соответствие.'
