@@ -1908,8 +1908,6 @@ font-size: 20px;
 
 .about_content_text p{
   margin-bottom: 0;
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 .about .about-content h3 {
