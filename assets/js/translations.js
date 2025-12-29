@@ -662,7 +662,7 @@ const translations = {
         "solution-detail.journey.title": "Дорожная карта внедрения",
         "solution-detail.journey.subtitle": "От исследования до запуска",
         "solution-detail.journey.discovery.title": "Спринты исследования",
-        "solution-detail.journey.discovery.desc": "Картируйте подразделения, интеграции и правила управления на совместных воркшопах.",
+        "solution-detail.journey.discovery.desc": "Составьте карту подразделений, интеграций и правил управления на совместных воркшопах.",
         "solution-detail.journey.build.title": "Сборка и настройка",
         "solution-detail.journey.build.desc": "Запускайте модули итерациями, подтверждая KPI с предметными экспертами.",
         "solution-detail.journey.rollout.title": "Запуск и адаптация",

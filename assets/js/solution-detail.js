@@ -6,20 +6,20 @@
       image: 'images/solutions/genesis2-Photoroom.png',
       heroPanel: {
         en: {
-          implementationWindow: '2 - 4 years',
-          industries: ['Finance', 'Retail', 'Energy'],
+          implementationWindow: '7 - 12 months',
+          industries: ['Construction', 'Manufacturing', 'Retail', 'Oil and Gas'],
           deliveryModel: 'Hybrid with on-site discovery and remote enablement.',
           outcomes: 'Unified reporting, automated controls, confident scaling.'
         },
         az: {
-          implementationWindow: '2 - 4 il',
-          industries: ['Maliyyə', 'Retail', 'Enerji'],
+          implementationWindow: '7 - 12 ay',
+          industries: ['İnşaat', 'İstehsal', 'Pərakəndə', 'Neft və Qaz'],
           deliveryModel: 'Yerində kəşf və uzaqdan aktivləşdirmə ilə hibrid.',
           outcomes: 'Birləşdirilmiş hesabat, avtomatlaşdırılmış nəzarət, inamlı miqyas.'
         },
         ru: {
-          implementationWindow: '2 - 4 года',
-          industries: ['Финансы', 'Розница', 'Энергетика'],
+          implementationWindow: '7 - 12 месяцев',
+          industries: ['Строительство', 'Производство', 'Розничная торговля', 'Нефть и газ'],
           deliveryModel: 'Гибридный с выездным анализом и удаленным внедрением.',
           outcomes: 'Объединённые отчёты, автоматизированные проверки, уверенное масштабирование.'
         }
@@ -28,9 +28,9 @@
         en: {
           title: 'Genesis Soft',
           heroTitle: 'Genesis Soft',
-          heroSummary: 'Modular ERP-class platform that unifies finance, operations, HR, and analytics in a single workspace.',
+          heroSummary: 'Is a modular, corporate-class business process automation system developed by APERTECH MMC. The platform is designed to unify finance, operations, procurement, inventory, Project Management, Human resources (HR), and analytics into a single workspace, allowing mid-sized organizations to digitize every key process without maintaining multiple disconnected systems.',
           contentTitle: 'Why teams choose Genesis Soft',
-          description: 'Genesis Soft helps mid-sized organizations digitize every key process without maintaining multiple systems. It combines budgeting, procurement, fulfillment, HR, payroll, and reporting modules under one license so teams collaborate on a shared source of truth.',
+          description: 'Genesis Soft helps mid-sized organizations digitize every key process without maintaining multiple systems. It combines budgeting, procurement, fulfillment, commercial, project management, HR, payroll, and reporting modules under one license so teams collaborate on a shared source of truth.',
           highlights: [
             'Configurable workflows for finance, inventory, and HR without custom code.',
             'Real-time dashboards that surface KPIs for executives and department leads.',
@@ -38,14 +38,14 @@
             'Modular rollout that lets you start with one department and scale later.'
           ],
           secondaryTitle: 'Implementation scenarios',
-          secondaryDescription: 'Use Genesis Soft to replace disjointed spreadsheets, legacy accounting tools, or manual approval cycles. Apertech tailors the deployment to your structure: from multi-company consolidations to field-level access rules and approval checkpoints.',
+          secondaryDescription: 'The implementation scenario for Genesis ERP is designed to replace manual processes, disjointed spreadsheets, and legacy accounting tools with a unified, automated environment. Apertech tailors the deployment to your specific organizational structure, ranging from multi-company consolidations to field-level access rules.',
         },
         az: {
           title: 'Genesis Soft',
           heroTitle: 'Genesis Soft',
-          heroSummary: 'Maliyyə, əməliyyat, HR və analitikanı vahid iş mühitində birləşdirən modullu ERP sinifli platforma.',
+          heroSummary: 'Genesis Soft, APERTECH MMC tərəfindən ixtiraat edilmiş modullu, korporativ sinif iş proseslərinin avtomatlaşdırma sistemidir. Platforma maliyyə, əməliyyat, satınalma, inventar, layihə idarəetməsi, HR və analitika modullarını vahid iş mühitində birləşdirir, orta ölçülü təşkilatların bir neçə ayrı sistemlərinin idarə olunmasının qarşısını alır.',
           contentTitle: 'Komandalar niyə Genesis Soft-u seçir',
-          description: 'Genesis Soft orta ölçülü təşkilatların hər bir əsas prosesi vahid sistemdə rəqəmsallaşdırmasına kömək edir. Büdcələşdirmə, satınalma, icra, HR, əməkhaqqı və hesabat modullarını bir lisenziya altında birləşdirərək komandaların eyni məlumatlar üzərində işləməsini təmin edir.',
+          description: 'Genesis Soft orta ölçülü təşkilatların hər bir əsas prosesi vahid sistemdə rəqəmsallaşdırmasına kömək edir. Büdcələşdirmə, satınalma, icra, kommersial, layihə idarəetməsi, HR, əməkhaqqı və hesabat modullarını bir lisenziya altında birləşdirərək komandaların eyni məlumatlar üzərində işləməsini təmin edir.',
           highlights: [
             'Maliyyə, inventar və HR üçün kodsuz konfiqurasiya olunan iş axınları.',
             'Rəhbərlər və şöbə müdirləri üçün KPI-ları göstərən real vaxt panelləri.',
@@ -53,14 +53,14 @@
             'Bir şöbə ilə başlayıb sonradan genişlənməyə imkan verən modullu tətbiq.'
           ],
           secondaryTitle: 'Tətbiq ssenariləri',
-          secondaryDescription: 'Genesis Soft pərakəndə cədvəlləri, köhnə mühasibat alətləri və əl təsdiq dövrlərini əvəz edir. Apertech layihəni sizin strukturunuza uyğunlaşdırır: çoxşirkətli konsolidasiyadan tutmuş sahə səviyyəli giriş qaydalarına qədər.',
+          secondaryDescription: 'Genesis Soft-un tətbiq ssenarisi, pərakəndə cədvəlləri, köhnə mühasibat alətləri və əl təsdiq dövrlərini əvəz edir. Apertech layihəni sizin strukturunuza uyğunlaşdırır: çoxşirkətli konsolidasiyadan tutmuş sahə səviyyəli giriş qaydalarına qədər.',
         },
         ru: {
           title: 'Genesis Soft',
           heroTitle: 'Genesis Soft',
-          heroSummary: 'Модульная ERP-платформа, объединяющая финансы, операции, HR и аналитику в одном рабочем пространстве.',
+          heroSummary: 'Genesis Soft, APERTECH MMC tərəfindən ixtiraat edilmiş modullu, korporativ sinif iş proseslərinin avtomatlaşdırma sistemidir. Platforma maliyyə, əməliyyat, satınalma, inventar, layihə idarəetməsi, HR və analitika modullarını vahid iş mühitində birləşdirir, orta ölçülü təşkilatların bir neçə ayrı sistemlərinin idarə olunmasının qarşısını alır.',
           contentTitle: 'Почему команды выбирают Genesis Soft',
-          description: 'Genesis Soft помогает компаниям среднего размера цифровизировать ключевые процессы без множества разрозненных систем. Бюджеты, закупки, исполнение, HR, зарплаты и отчётность работают под одной лицензией, создавая общий источник правды для всех команд.',
+          description: 'Genesis Soft помогает компаниям среднего размера цифровизировать ключевые процессы без множества разрозненных систем. Бюджеты, закупки, исполнение, коммерческий, проекты, HR, зарплаты и отчётность работают под одной лицензией, создавая общий источник правды для всех команд.',
           highlights: [
             'Настраиваемые без кода процессы для финансов, складов и HR.',
             'Панели в реальном времени с KPI для руководителей и лидеров отделов.',
@@ -68,28 +68,28 @@
             'Модульное внедрение: старт с одного отдела и масштабирование позже.'
           ],
           secondaryTitle: 'Сценарии внедрения',
-          secondaryDescription: 'Используйте Genesis Soft вместо разрозненных таблиц, устаревших учётных систем и ручных согласований. Apertech адаптирует проект под вашу структуру — от консолидации нескольких компаний до полевых правил доступа и чек-поинтов согласования.',
+          secondaryDescription: 'Сценарий внедрения Genesis ERP разработан для замены ручных процессов, разрозненных таблиц и устаревших учётных систем на единую, автоматизированную среду. Apertech адаптирует внедрение к вашей конкретной организационной структуре, включая консолидацию нескольких компаний и правила доступа на уровне подразделений.',
         }
       }
     },
     'sola-erp': {
-      image: 'images/logoAnar.png',
+      image: 'images/solutions/solaErp2.png',
       heroPanel: {
         en: {
           title: 'Sola ERP',
-          implementationWindow: '1 - 2 years',
+          implementationWindow: '8 - 15 months',
           industries: ['Manufacturing', 'Distribution', 'Construction'],
           deliveryModel: 'Phased implementation with dedicated project team on-site.',
           outcomes: 'Compliance-ready auditing, real-time procurement visibility, standardized processes.'
         },
         az: {
-          implementationWindow: '1 - 2 il',
+          implementationWindow: '8 - 15 ay',
           industries: ['İstehsal', 'Paylaşdırma', 'İnşaat'],
           deliveryModel: 'Xüsusi bir layihə komandasının iştirakı ilə mərhələli tətbiq.',
           outcomes: 'Uyğunluğa hazır audit, satınalma görünürlüyü, standartlaşdırılmış proseslər.'
         },
         ru: {
-          implementationWindow: '1 - 2 года',
+          implementationWindow: '8 - 15 месяцев',
           industries: ['Производство', 'Дистрибьюция', 'Строительство'],
           deliveryModel: 'Поэтапное внедрение с выездной командой проекта.',
           outcomes: 'Готовность к аудиту, видимость закупок в реальном времени, стандартизированные процессы.'
@@ -99,7 +99,7 @@
         en: {
           title: 'Sola ERP',
           heroTitle: 'Sola ERP',
-          heroSummary: 'End-to-end ERP suite for organizations that need transparency across finance, procurement, projects, and assets.',
+          heroSummary: 'End-to-end ERP suite for organizations that need transparency across finance, procurement, projects, and assets. Our philosophy centres on creating an interface that feels intuitive from day one. SOLA ERP eliminates complexity without sacrificing power, enabling your team to focus on strategic decisions rather than navigating convoluted software.',
           contentTitle: 'Operate on reliable data',
           description: 'Sola ERP centralizes mission-critical information across departments, giving leaders a consistent set of KPIs no matter how complex the structure becomes. It automates procurement, purchasing, and fulfillment so budgets, approvals, and vendor interactions stay compliant.',
           highlights: [
@@ -114,7 +114,7 @@
         az: {
           title: 'Sola ERP',
           heroTitle: 'Sola ERP',
-          heroSummary: 'Maliyyə, satınalma, layihə və aktivlər üzrə tam şəffaflıq tələb edən təşkilatlar üçün ucdan-uca ERP paketi.',
+          heroSummary: 'Maliyyə, satınalma, layihə və aktivlər üzrə tam şəffaflıq tələb edən təşkilatlar üçün ucdan-uca ERP paketi. Bizim fəlsəfəmiz ilk gündən intuitiv olacaq bir interfeys yaratmaqdır. SOLA ERP, performansdan ödün vermədən çətinliyi aradan qaldırır və komandanızın mürəkkəb proqram təminatı ilə işləmək əvəzinə strateji həllərə diqqət yetirməsinə imkan verir.',
           contentTitle: 'Etibarlı məlumatlarla işləyin',
           description: 'Sola ERP şöbələr üzrə kritik məlumatları mərkəzləşdirir və struktur nə qədər mürəkkəb olsa da rəhbərlərə sabit KPI dəsti təqdim edir. Satınalma, sifariş və icranı avtomatlaşdıraraq büdcə, təsdiqlər və təchizatçı əlaqələrinin uyğunluğunu qoruyur.',
           highlights: [
@@ -129,7 +129,7 @@
         ru: {
           title: 'Sola ERP',
           heroTitle: 'Sola ERP',
-          heroSummary: 'Полноценный ERP-комплекс для компаний, которым нужна прозрачность в финансах, закупках, проектах и активах.',
+          heroSummary: 'Полноценный ERP-комплекс для компаний, которым нужна прозрачность в финансах, закупках, проектах и активах. Наша философия основана на создании интерфейса, который чувствуется интуитивно с первого дня. Sola ERP не жертвует мощностью ради упрощения, позволяя командам сосредоточиться на стратегических решениях, а не на навигации через сложное программное обеспечение.',
           contentTitle: 'Работайте на достоверных данных',
           description: 'Sola ERP централизует критичные данные по всем подразделениям, обеспечивая руководителей единым набором KPI при любой сложности структуры. Система автоматизирует закупки, заказы и исполнение, сохраняя контроль бюджета, согласований и взаимодействия с подрядчиками.',
           highlights: [
