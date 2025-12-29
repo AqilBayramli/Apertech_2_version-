@@ -456,9 +456,9 @@
 }
 
 @media (max-width: 991px) {
-  .solution-detail-page .header {
+  /* .solution-detail-page .header {
     position: relative;
-  }
+  } */
 
   .solution-detail-hero {
     padding: 120px 0 80px;
