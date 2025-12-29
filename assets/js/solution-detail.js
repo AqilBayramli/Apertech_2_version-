@@ -101,7 +101,7 @@
           heroTitle: 'Sola ERP',
           heroSummary: 'End-to-end ERP suite for organizations that need transparency across finance, procurement, projects, and assets. Our philosophy centres on creating an interface that feels intuitive from day one. SOLA ERP eliminates complexity without sacrificing power, enabling your team to focus on strategic decisions rather than navigating convoluted software.',
           contentTitle: 'Build Your Bridge to the Future with SOLA ERP',
-          description: 'SOLA ERP is a unified enterprise platform that connects and automates your core business operations end to end. It streamlines sales, procurement, project management, production, and WIP, providing real-time visibility from opportunity to delivery, cost, and profitability. Finance, fixed assets, invoice registers, and payments are managed in one system, ensuring accuracy, control, and faster reporting. HR and payroll are fully integrated, enabling precise labor costing and efficient resource planning. The result: a single source of truth, consistent KPIs, faster decisions, and full transparency across the entire organization — no matter how complex it becomes.',
+          description: 'SOLA ERP is a unified enterprise platform that connects and automates your core business operations end to end. <br/> It streamlines sales, procurement, project management, production, and WIP, providing real-time visibility from opportunity to delivery, cost, and profitability. <br/> Finance, fixed assets, invoice registers, and payments are managed in one system, ensuring accuracy, control, and faster reporting. <br/> HR and payroll are fully integrated, enabling precise labor costing and efficient resource planning. <br/> The result: a single source of truth, consistent KPIs, faster decisions, and full transparency across the entire organization — no matter how complex it becomes.',
 
           highlights: [
             'Advanced approval matrix with audit-ready traceability.',
@@ -226,11 +226,11 @@
       el.innerHTML = '';
       value.forEach(item => {
         const li = document.createElement('li');
-        li.textContent = item;
+        li.innerHTML = item;
         el.appendChild(li);
       });
     } else if (typeof value === 'string') {
-      el.textContent = value;
+      el.innerHTML = value;
     }
   };
 
