@@ -100,8 +100,9 @@
           title: 'Sola ERP',
           heroTitle: 'Sola ERP',
           heroSummary: 'End-to-end ERP suite for organizations that need transparency across finance, procurement, projects, and assets. Our philosophy centres on creating an interface that feels intuitive from day one. SOLA ERP eliminates complexity without sacrificing power, enabling your team to focus on strategic decisions rather than navigating convoluted software.',
-          contentTitle: 'Operate on reliable data',
-          description: 'Sola ERP centralizes mission-critical information across departments, giving leaders a consistent set of KPIs no matter how complex the structure becomes. It automates procurement, purchasing, and fulfillment so budgets, approvals, and vendor interactions stay compliant.',
+          contentTitle: 'Build Your Bridge to the Future with SOLA ERP',
+          description: 'SOLA ERP is a unified enterprise platform that connects and automates your core business operations end to end. It streamlines sales, procurement, project management, production, and WIP, providing real-time visibility from opportunity to delivery, cost, and profitability. Finance, fixed assets, invoice registers, and payments are managed in one system, ensuring accuracy, control, and faster reporting. HR and payroll are fully integrated, enabling precise labor costing and efficient resource planning. The result: a single source of truth, consistent KPIs, faster decisions, and full transparency across the entire organization — no matter how complex it becomes.',
+
           highlights: [
             'Advanced approval matrix with audit-ready traceability.',
             'Project accounting that links budgets, contracts, and material usage.',
@@ -115,7 +116,7 @@
           title: 'Sola ERP',
           heroTitle: 'Sola ERP',
           heroSummary: 'Maliyyə, satınalma, layihə və aktivlər üzrə tam şəffaflıq tələb edən təşkilatlar üçün ucdan-uca ERP paketi. Bizim fəlsəfəmiz ilk gündən intuitiv olacaq bir interfeys yaratmaqdır. SOLA ERP, performansdan ödün vermədən çətinliyi aradan qaldırır və komandanızın mürəkkəb proqram təminatı ilə işləmək əvəzinə strateji həllərə diqqət yetirməsinə imkan verir.',
-          contentTitle: 'Etibarlı məlumatlarla işləyin',
+          contentTitle: 'Gələcəyinizi birləşdirin SOLA ERP ilə',
           description: 'Sola ERP şöbələr üzrə kritik məlumatları mərkəzləşdirir və struktur nə qədər mürəkkəb olsa da rəhbərlərə sabit KPI dəsti təqdim edir. Satınalma, sifariş və icranı avtomatlaşdıraraq büdcə, təsdiqlər və təchizatçı əlaqələrinin uyğunluğunu qoruyur.',
           highlights: [
             'Audit zamanı izləmə qabiliyyəti ilə təkmilləşdirilmiş təsdiq matrisi.',
@@ -130,7 +131,7 @@
           title: 'Sola ERP',
           heroTitle: 'Sola ERP',
           heroSummary: 'Полноценный ERP-комплекс для компаний, которым нужна прозрачность в финансах, закупках, проектах и активах. Наша философия основана на создании интерфейса, который чувствуется интуитивно с первого дня. Sola ERP не жертвует мощностью ради упрощения, позволяя командам сосредоточиться на стратегических решениях, а не на навигации через сложное программное обеспечение.',
-          contentTitle: 'Работайте на достоверных данных',
+          contentTitle: 'Создайте свою мост к будущему с SOLA ERP',
           description: 'Sola ERP централизует критичные данные по всем подразделениям, обеспечивая руководителей единым набором KPI при любой сложности структуры. Система автоматизирует закупки, заказы и исполнение, сохраняя контроль бюджета, согласований и взаимодействия с подрядчиками.',
           highlights: [
             'Продвинутая матрица согласований с прозрачной историей для аудита.',
