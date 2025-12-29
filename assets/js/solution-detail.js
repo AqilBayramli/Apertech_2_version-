@@ -171,7 +171,7 @@
           title: 'Sola HR',
           heroTitle: 'Sola HR',
           heroSummary: 'Flexible HR and payroll engine with its own algorithm language for complex calculations and compliance.',
-          contentTitle: 'Remove payroll uncertainty',
+          contentTitle: 'Simplify processes with Sola HR',
           description: 'Sola HR automates the entire employee lifecycle—from onboarding to payroll and compliance. Its calculation engine handles collective agreements, multiple pay calendars, and country-specific legislation without fragile spreadsheets.',
           highlights: [
             'Visual workflow builder for onboarding and approval chains.',
@@ -186,7 +186,7 @@
           title: 'Sola HR',
           heroTitle: 'Sola HR',
           heroSummary: 'Çətin hesablamalar və uyğunluq qaydaları üçün öz alqoritm dilinə malik çevik HR və əməkhaqqı mühərriki.',
-          contentTitle: 'Əməkhaqqı qeyri-müəyyənliyini aradan qaldırın',
+          contentTitle: 'Sola HR ilə prosesləri sadələşdirin',
           description: 'Sola HR işçi həyat dövrünün bütün mərhələlərini avtomatlaşdırır: adaptasiya və onboarding-dən tutmuş əməkhaqqı və uyğunluğa qədər. Hesablama mühərriki kollektiv müqavilələrini, çoxsaylı ödəniş təqvimlərini və ölkəyə xas qanunvericiliyi kövrək cədvəllərsiz idarə edir.',
           highlights: [
             'Onboarding və təsdiq zəncirləri üçün vizual iş axını qurucusu.',
@@ -201,7 +201,7 @@
           title: 'Sola HR',
           heroTitle: 'Sola HR',
           heroSummary: 'Гибкий HR- и payroll-движок с собственным языком алгоритмов для сложных расчётов и соответствия требованиям.',
-          contentTitle: 'Уберите неопределённость в расчёте зарплат',
+          contentTitle: 'Упростите процессы с Sola HR',
           description: 'Sola HR автоматизирует весь жизненный цикл сотрудника — от адаптации и обучения до расчёта зарплаты и соблюдения норм. Движок справляется с коллективными договорами, несколькими графиками выплат и локальными законами без хрупких таблиц.',
           highlights: [
             'Визуальный конструктор процессов для найма и цепочек согласований.',
