@@ -148,22 +148,22 @@
       image: 'images/solutions/solaHr-Photoroom.png',
       heroPanel: {
         en: {
-          implementationWindow: '1 - 2 years',
+          implementationWindow: '1 - 24 month',
           industries: ['Technology', 'Healthcare', 'Services'],
-          deliveryModel: 'Agile approach with iterative rollouts and user feedback loops.',
-          outcomes: 'Improved employee experience, reduced payroll errors, compliance assured.'
+          deliveryModel: 'It combines phased execution with defined roles, structured governance, and continuous engagement to align the solution with organizational needs.',
+          outcomes: 'All employee information, organizational structures, and HR records are stored in a single, secure system'
         },
         az: {
-          implementationWindow: '1 - 2 il',
+          implementationWindow: '1 - 24 ay',
           industries: ['Texnologiya', 'Səhiyyə', 'Xidmətlər'],
-          deliveryModel: 'İteratif tətbiq və istifadəçi əks-əlaqə döngüləri ilə çevik yanaşma.',
-          outcomes: 'Yaxşılaşdırılmış işçi təcrübəsi, əməkhaqqı xətalarının azalması, uyğunluq təmin olunur.'
+          deliveryModel: 'Qərarı təşkilatın ehtiyaclarına uyğunlaşdırmaq üçün mərhələli icrası müəyyən rollar, strukturlaşdırılmış idarəetmə və davamlı qarşılıqlı əlaqə ilə birləşdirir.',
+          outcomes: 'İşçilər, təşkilati strukturlar və kadr qeydləri haqqında bütün məlumatlar vahid qorunan sistemdə saxlanılır'
         },
         ru: {
-          implementationWindow: '1 - 2 года',
+          implementationWindow: '1 - 24 месяца',
           industries: ['Технологии', 'Здравоохранение', 'Услуги'],
-          deliveryModel: 'Гибкий подход с итеративными внедрениями и циклами обратной связи.',
-          outcomes: 'Улучшенный опыт сотрудников, снижение ошибок в расчётах, гарантированное соответствие.'
+          deliveryModel: 'Она сочетает поэтапное выполнение с определенными ролями, структурированным управлением и постоянным взаимодействием для приведения решения в соответствие с потребностями организации.',
+          outcomes: 'Вся информация о сотрудниках, организационных структурах и кадровых записях хранится в единой защищенной системе'
         }
       },
       translations: {
@@ -176,8 +176,8 @@
           highlights: [
             'Visual workflow builder for onboarding and approval chains.',
             'Payroll engine with reusable formula blocks and simulation mode.',
-            'Employee self-service for vacation, documents, and payslips.',
-            'Audit trails and granular permissions for HR, finance, and auditors.'
+            'Sola HR brings all HR processes into one platform.',
+            'Sola HR lets HR staff focus on strategic initiatives instead of manual admin work.'
           ],
           secondaryTitle: 'Trusted by HR leaders',
           secondaryDescription: 'Run HR analytics, headcount planning, and payroll audits inside the same system. Apertech consultants configure localized templates, help connect biometric time tracking, and set up secure document storage.',
@@ -191,8 +191,8 @@
           highlights: [
             'Onboarding və təsdiq zəncirləri üçün vizual iş axını qurucusu.',
             'Təkrar istifadə olunan formul blokları və simulyasiya rejimi olan əməkhaqqı mühərriki.',
-            'Məzuniyyət, sənədlər və məvacib vərəqələri üçün işçi self-servisi.',
-            'HR, maliyyə və auditorlar üçün audit izi və detallı icazələr.'
+            'Sola HR bütün HR proseslərini bir platformada birləşdirir.',
+            'Sola HR, İR işçilərinə əl ilə idarə olunan işlərə deyil, strateji təşəbbüslərə diqqət yetirməyə imkan verir'
           ],
           secondaryTitle: 'HR liderlərinin seçimi',
           secondaryDescription: 'HR analitikası, ştat planlaşdırması və əməkhaqqı auditlərini eyni sistemdə idarə edin. Apertech məsləhətçiləri lokallaşdırılmış şablonları qurur, biometrik vaxt izləməsini birləşdirir və təhlükəsiz sənəd saxlanması hazırlayır.',
@@ -206,8 +206,8 @@
           highlights: [
             'Визуальный конструктор процессов для найма и цепочек согласований.',
             'Зарплатный движок с переиспользуемыми формулами и режимом симуляции.',
-            'Личный кабинет для отпусков, документов и расчётных листков.',
-            'Журналы аудита и детальные права для HR, финансистов и аудиторов.'
+            'Sola HR объединяет все процессы управления персоналом на одной платформе.',
+            'Sola HR позволяет сотрудникам отдела кадров сосредоточиться на стратегических инициативах, а не на ручной административной работе'
           ],
           secondaryTitle: 'Доверено HR-лидерам',
           secondaryDescription: 'Выполняйте HR-аналитику, планирование штата и аудит зарплат в одной системе. Консультанты Apertech настраивают локализованные шаблоны, подключают биометрический учёт рабочего времени и безопасное хранилище документов.',
@@ -223,17 +223,17 @@
       en: [
         { title: 'Discovery sprints', desc: 'Focused sprints to analyze business processes, validate requirements, and align system design with operational needs.' },
         { title: 'Build & configure', desc: 'We configure system modules and build required functionality in line with approved requirements and business processes.' },
-        { title: 'Rollout & adoption', desc: 'Run enablement pods, measure health metrics, and fine-tune automations.' }
+        { title: 'Rollout & adoption', desc: 'We execute a controlled rollout and drive user adoption through structured onboarding, training, and change management.' }
       ],
       az: [
         { title: 'Kəşf sprintləri', desc: 'İş proseslərini təhlil etmək, tələbləri yoxlamaq və sistem dizaynını əməliyyat ehtiyaclarına uyğunlaşdırmaq üçün məqsədyönlü sprintlər.' },
-        { title: 'Qur və konfiqurasiya et', desc: 'Sistem modullarını konfiqurasiya edirik və təsdiq edilmiş tələblərə və iş proseslərinə uyğun olaraq lazımi funksionallıq yaradırıq.' },
-        { title: 'İstismara vermə & qəbul', desc: 'İstifadəçi aktivləşdirmə podlarını işlədin, sağlamlıq göstəricilərini ölçün və avtomatlaşdırmaları təkmilləşdirin.' }
+        { title: 'Qurulma və konfiqurasiya', desc: 'Sistem modullarını konfiqurasiya edirik və təsdiq edilmiş tələblərə və iş proseslərinə uyğun olaraq lazımi funksionallıq yaradırıq.' },
+        { title: 'Tətbiq və adaptasiya', desc: 'Biz idarə olunan həyata keçiririk və strukturlaşdırılmış həyata keçirmə, təlim və dəyişikliklərin idarə edilməsi vasitəsilə istifadəçilərin uyğunlaşmasını asanlaşdırırıq.' }
       ],
       ru: [
         { title: 'Спринты разведки', desc: 'Целенаправленные спринты для анализа бизнес-процессов, проверки требований и приведения дизайна системы в соответствие с операционными потребностями.' },
         { title: 'Сборка и настройка', desc: 'Мы настраиваем системные модули и создаем необходимый функционал в соответствии с утвержденными требованиями и бизнес-процессами.' },
-        { title: 'Внедрение и адаптация', desc: 'Запускайте команды внедрения, отслеживайте метрики и настраивайте автоматизации.' }
+        { title: 'Внедрение и адаптация', desc: 'Мы осуществляем контролируемое внедрение и способствуем адаптации пользователей с помощью структурированного внедрения, обучения и управления изменениями.' }
       ]
     },
     'sola-erp': {
