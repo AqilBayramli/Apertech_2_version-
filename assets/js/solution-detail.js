@@ -218,6 +218,78 @@
 
   const getLanguage = () => (typeof currentLanguage !== 'undefined' ? currentLanguage : 'en');
 
+  const solutionJourneys = {
+    genesis: {
+      en: [
+        { title: 'Discovery sprints', desc: 'Focused sprints to analyze business processes, validate requirements, and align system design with operational needs.' },
+        { title: 'Build & configure', desc: 'We configure system modules and build required functionality in line with approved requirements and business processes.' },
+        { title: 'Rollout & adoption', desc: 'Run enablement pods, measure health metrics, and fine-tune automations.' }
+      ],
+      az: [
+        { title: 'Kəşf sprintləri', desc: 'İş proseslərini təhlil etmək, tələbləri yoxlamaq və sistem dizaynını əməliyyat ehtiyaclarına uyğunlaşdırmaq üçün məqsədyönlü sprintlər.' },
+        { title: 'Qur və konfiqurasiya et', desc: 'Sistem modullarını konfiqurasiya edirik və təsdiq edilmiş tələblərə və iş proseslərinə uyğun olaraq lazımi funksionallıq yaradırıq.' },
+        { title: 'İstismara vermə & qəbul', desc: 'İstifadəçi aktivləşdirmə podlarını işlədin, sağlamlıq göstəricilərini ölçün və avtomatlaşdırmaları təkmilləşdirin.' }
+      ],
+      ru: [
+        { title: 'Спринты разведки', desc: 'Целенаправленные спринты для анализа бизнес-процессов, проверки требований и приведения дизайна системы в соответствие с операционными потребностями.' },
+        { title: 'Сборка и настройка', desc: 'Мы настраиваем системные модули и создаем необходимый функционал в соответствии с утвержденными требованиями и бизнес-процессами.' },
+        { title: 'Внедрение и адаптация', desc: 'Запускайте команды внедрения, отслеживайте метрики и настраивайте автоматизации.' }
+      ]
+    },
+    'sola-erp': {
+      en: [
+        { title: 'Initiation & scoping', desc: 'We define project objectives, scope boundaries, and success criteria to establish a clear foundation for implementation.' },
+        { title: 'Configuration & data migration', desc: 'Migrate master data, configure project accounting and procurement workflows.' },
+        { title: 'Go-live & stabilization', desc: 'Support initial users on-site and tune processes for steady-state operations.' }
+      ],
+      az: [
+        { title: 'Başlanğıc və əhatə', desc: 'Layihənin məqsədlərini, əhatə dairəsinin sərhədlərini və müvəffəqiyyət meyarlarını müəyyənləşdiririk ki, həyata keçirilməsi üçün aydın bir zəmin yaradaq.' },
+        { title: 'Konfiqurasiya və məlumat köçürməsi', desc: 'Master məlumatı köçürün, layihə uçotu və satınalma iş axınlarını konfiqurasiya edin.' },
+        { title: 'İstismara vermə və sabitləşdirmə', desc: 'İlkin istifadəçiləri yerində dəstəkləyin və prosesləri sabit iş rejiminə uyğunlaşdırın.' }
+      ],
+      ru: [
+        { title: 'Инициация и объём работ', desc: 'Мы определяем цели проекта, границы его охвата и критерии успеха, чтобы заложить четкую основу для реализации.' },
+        { title: 'Настройка и миграция данных', desc: 'Перенос данных, настройка проектного учёта и процессов закупок.' },
+        { title: 'Пуск и стабилизация', desc: 'Поддержка первых пользователей на месте и отладьте процессы для устойчивой работы.' }
+      ]
+    },
+    'sola-hr': {
+      en: [
+        { title: 'Pilot & rules mapping', desc: 'Run a project with key business units and map payroll/HR rules for accuracy.' },
+        { title: 'Rollout & training', desc: 'The rollout phase includes controlled system deployment, user onboarding, and change-management support.' },
+        { title: 'Optimize & govern', desc: 'Stabilize payroll runs, optimize time capture and enforce access policies.' }
+      ],
+      az: [
+        { title: 'Pilot layihə və qaydaların uyğunlaşdırılması', desc: 'Əsas iş bölmələri ilə bir layihəyə başlayın və əmək haqqı/İR qaydalarını dəqiq tərtib edin' },
+        { title: 'Tətbiq və təlim', desc: 'İcra mərhələsi sistemin idarə olunan yerləşdirilməsini, istifadəçi uyğunlaşmasını və dəyişikliklərin idarə edilməsində dəstəyi əhatə edir.' },
+        { title: 'Optimizasiya və idarəetmə', desc: 'Əməkhaqqı dövrlərini sabitləşdirin, vaxt ölçməni optimallaşdırın və giriş siyasətlərini tətbiq edin.' }
+      ],
+      ru: [
+        { title: 'Пилот и картирование правил', desc: 'Запустите проект с ключевыми бизнес-подразделениями и точно составьте правила расчета заработной платы/управления персоналом' },
+        { title: 'Внедрение и обучение', desc: 'Этап внедрения включает в себя контролируемое развертывание системы, адаптацию пользователей и поддержку в управлении изменениями.' },
+        { title: 'Оптимизация и управление', desc: 'Стабилизируйте зарплатные циклы, оптимизируйте учёт времени и внедрите политики доступа.' }
+      ]
+    }
+  };
+
+  const renderJourney = (slug, language = getLanguage()) => {
+    const el = document.querySelector('[data-solution-field="journey"]');
+    if (!el) return;
+    const solution = solutionJourneys[slug] || solutionJourneys[fallbackSlug] || {};
+    const items = (solution[language] || solution.en || []);
+    el.innerHTML = '';
+    items.forEach(step => {
+      const li = document.createElement('li');
+      const span = document.createElement('span');
+      span.textContent = step.title;
+      const p = document.createElement('p');
+      p.innerHTML = step.desc;
+      li.appendChild(span);
+      li.appendChild(p);
+      el.appendChild(li);
+    });
+  };
+
   const setText = (field, value) => {
     const el = document.querySelector(`[data-solution-field="${field}"]`);
     if (!el) return;
@@ -290,6 +362,8 @@
 
     // Render hero panel
     renderHeroPanel(slug, language);
+    // Render journey timeline (per-solution)
+    renderJourney(key, language);
 
     document.title = `Apertech | ${localized.title}`;
   }
