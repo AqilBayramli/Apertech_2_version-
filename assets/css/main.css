@@ -2127,6 +2127,12 @@ font-size: 20px;
 }
 
 /* Hide one client image on very small screens for better responsive design */
+@media (max-width: 450px) {
+  .header .topbar .contact-info i a, .header .topbar .contact-info i span {
+    font-size: 12px;
+}
+}
+
 @media (max-width: 435px) {
   .clients .swiper-slide img {
     width: 130px;
@@ -2151,7 +2157,7 @@ font-size: 20px;
 }
 
 .header .topbar .contact-info i a, .header .topbar .contact-info i span {
-        font-size: 12px;
+        font-size: 11px;
     }
 
   .clients .swiper{
