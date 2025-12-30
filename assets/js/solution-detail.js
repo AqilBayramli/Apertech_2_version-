@@ -148,7 +148,7 @@
       image: 'images/solutions/solaHr-Photoroom.png',
       heroPanel: {
         en: {
-          implementationWindow: '1 - 24 month',
+          implementationWindow: '1 - 24 months',
           industries: ['Technology', 'Healthcare', 'Services'],
           deliveryModel: 'It combines phased execution with defined roles, structured governance, and continuous engagement to align the solution with organizational needs.',
           outcomes: 'All employee information, organizational structures, and HR records are stored in a single, secure system'
