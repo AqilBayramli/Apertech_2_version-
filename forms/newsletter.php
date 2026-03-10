@@ -6,8 +6,8 @@
   * For more info and help: https://bootstrapmade.com/php-email-form/
   */
 
-  // Replace info@apertech.net with your real receiving email address
-  $receiving_email_address = 'info@apertech.net';
+  // Replace inform@apertech.net with your real receiving email address
+  $receiving_email_address = 'inform@apertech.net';
 
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
