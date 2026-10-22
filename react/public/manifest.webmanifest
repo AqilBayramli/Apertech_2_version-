@@ -1,0 +1,10 @@
+{
+  "name": "Apertech ERP Solutions",
+  "short_name": "Apertech",
+  "description": "Apertech is an ERP and software company in Baku, Azerbaijan. ERP implementation, Infor SunSystems partner, Genesis Soft, Sola ERP and Sola HR, business analytics and custom software.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2450d4",
+  "icons": [{ "src": "/images/logoAnar.png", "sizes": "any", "type": "image/png" }]
+}

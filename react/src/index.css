@@ -1,0 +1,281 @@
+@import "tailwindcss";
+
+/* Loaded from Google Fonts in index.html */
+:root {
+  --font-inter: "Inter";
+  --font-manrope: "Manrope";
+  --font-jetbrains: "JetBrains Mono";
+}
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-manrope), var(--font-inter), ui-sans-serif, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+
+  /* Brand blue (from the Apertech logo) */
+  --color-brand-50: #eef3ff;
+  --color-brand-100: #dfe8ff;
+  --color-brand-200: #c3d3ff;
+  --color-brand-300: #9cb6fb;
+  --color-brand-400: #6c8ff2;
+  --color-brand-500: #4069e3;
+  --color-brand-600: #2450d4;
+  --color-brand-700: #1d40ad;
+  --color-brand-800: #1b358a;
+  --color-brand-900: #182c66;
+
+  /* Logo red, used sparingly as accent */
+  --color-accent-50: #fdedef;
+  --color-accent-500: #e0384c;
+  --color-accent-600: #c92a3e;
+
+  --color-navy-950: #060c1f;
+  --color-navy-900: #0a1530;
+  --color-navy-800: #111f45;
+  --color-navy-700: #1a2c5c;
+
+  --color-surface: #f6f8fc;
+  --color-line: #e5e9f2;
+  --color-ink: #0d1530;
+  --color-body: #4c5672;
+  --color-success: #12a867;
+  --color-warning: #e88a0c;
+
+  --shadow-soft: 0 1px 2px rgb(13 21 48 / 0.04), 0 4px 16px -4px rgb(13 21 48 / 0.08);
+  --shadow-card: 0 1px 2px rgb(13 21 48 / 0.04), 0 12px 32px -12px rgb(13 21 48 / 0.16);
+  --shadow-lift: 0 2px 6px rgb(13 21 48 / 0.05), 0 24px 48px -16px rgb(36 80 212 / 0.3);
+  --shadow-hero: 0 2px 4px rgb(13 21 48 / 0.04), 0 30px 60px -20px rgb(13 21 48 / 0.25), 0 60px 120px -40px rgb(36 80 212 / 0.3);
+}
+
+@utility container-x {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 78rem;
+  padding-inline: 1.25rem;
+  @media (min-width: 768px) {
+    padding-inline: 2rem;
+  }
+}
+
+@utility bg-dots {
+  background-image: radial-gradient(rgb(36 80 212 / 0.14) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+@utility bg-grid-dark {
+  background-image:
+    linear-gradient(to right, rgb(255 255 255 / 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(255 255 255 / 0.05) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-brand-600) transparent;
+  }
+  body {
+    @apply bg-white font-sans text-[16px] leading-relaxed text-body antialiased;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display tracking-tight text-ink;
+  }
+  ::selection {
+    background: var(--color-brand-600);
+    color: #fff;
+  }
+  /* Tailwind v4 resets buttons to the default cursor */
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]) {
+    cursor: pointer;
+  }
+  section[id] {
+    scroll-margin-top: 5rem;
+  }
+  body.menu-open {
+    overflow: hidden;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-sm font-semibold transition duration-200 disabled:cursor-not-allowed disabled:opacity-60;
+  }
+  .btn-primary {
+    @apply bg-brand-600 text-white shadow-[0_10px_24px_-10px_rgb(36_80_212/0.75)] hover:-translate-y-0.5 hover:bg-brand-700;
+  }
+  .btn-secondary {
+    @apply border border-line bg-white text-ink shadow-soft hover:border-brand-200 hover:text-brand-700;
+  }
+  .btn-white {
+    @apply bg-white text-navy-900 hover:bg-brand-50;
+  }
+  .chip {
+    @apply inline-flex items-center gap-2 rounded-full border border-brand-100 bg-brand-50 px-3.5 py-1.5 text-[11px] font-bold uppercase tracking-[0.14em] text-brand-700;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes growUp {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+@keyframes progress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+@keyframes breathe {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: scale(0.92);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.06);
+  }
+}
+/* Spotlight that cycles through 6 (cycle6) or 4 (cycle4) items; stagger with animation-delay = i × step. */
+@keyframes cycle6 {
+  0%,
+  19%,
+  100% {
+    opacity: 0;
+  }
+  3%,
+  16% {
+    opacity: 1;
+  }
+}
+@keyframes cycle4 {
+  0%,
+  29%,
+  100% {
+    opacity: 0;
+  }
+  4%,
+  25% {
+    opacity: 1;
+  }
+}
+@keyframes typeLine {
+  0% {
+    transform: scaleX(0);
+    opacity: 1;
+  }
+  35%,
+  85% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 0;
+  }
+}
+@keyframes barWave {
+  0%,
+  100% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(0.72);
+  }
+}
+@keyframes drawLine {
+  0% {
+    stroke-dashoffset: 1;
+    opacity: 1;
+  }
+  50%,
+  85% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 0;
+  }
+}
+@keyframes bubble {
+  0% {
+    opacity: 0;
+    transform: translateY(6px) scale(0.9);
+  }
+  12%,
+  85% {
+    opacity: 1;
+    transform: none;
+  }
+  100% {
+    opacity: 0;
+    transform: none;
+  }
+}
+@keyframes typingDot {
+  0%,
+  60%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.4;
+  }
+  30% {
+    transform: translateY(-3px);
+    opacity: 1;
+  }
+}
+@keyframes fillLoop {
+  0% {
+    transform: scaleX(0);
+  }
+  80%,
+  100% {
+    transform: scaleX(1);
+  }
+}
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
