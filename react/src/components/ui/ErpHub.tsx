@@ -140,7 +140,7 @@ export default function ErpHub() {
       <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
         <span className="absolute -inset-8 rounded-full bg-brand-400/25 blur-2xl animate-[breathe_4s_ease-in-out_infinite] motion-reduce:animate-none" />
         <span className="absolute -inset-[5px] rounded-full bg-[conic-gradient(from_0deg,transparent_0deg,#2450d4_110deg,#e0384c_210deg,transparent_290deg)] animate-[spin_5s_linear_infinite] motion-reduce:animate-none" />
-        <div className="relative grid h-28 w-28 place-items-center rounded-full border-4 border-white bg-white p-4 shadow-lift sm:h-36 sm:w-36 sm:p-5">
+        <div className="relative grid h-24 w-24 place-items-center rounded-full border-4 border-white bg-white p-3.5 shadow-lift sm:h-36 sm:w-36 sm:p-5">
           <img src="/images/logoAnar.png" alt="Apertech" className="h-auto w-full object-contain" />
         </div>
       </div>
@@ -166,18 +166,18 @@ export default function ErpHub() {
                 style={{ animationDelay: `${-i * 0.8}s`, animationDuration: `${4.6 + (i % 3) * 0.6}s` }}
               >
                 <div
-                  className={`relative flex cursor-default items-center gap-2 rounded-2xl border bg-white p-1.5 transition duration-300 sm:w-36 sm:pr-2.5 ${
+                  className={`relative flex w-[4.75rem] cursor-default flex-col items-center gap-1 rounded-2xl border bg-white p-1.5 transition duration-300 sm:w-36 sm:flex-row sm:gap-2 sm:pr-2.5 ${
                     on ? "scale-105 border-brand-200 shadow-lift ring-4 ring-brand-600/10" : "border-line shadow-card"
                   }`}
                 >
                   <span
-                    className={`grid h-9 w-9 shrink-0 place-items-center rounded-xl text-base transition duration-300 sm:h-10 sm:w-10 ${
+                    className={`grid h-8 w-8 shrink-0 place-items-center rounded-xl text-sm sm:text-base transition duration-300 sm:h-10 sm:w-10 ${
                       on ? "bg-gradient-to-br from-brand-600 to-accent-500 text-white" : i % 2 ? "bg-brand-600 text-white" : "bg-brand-50 text-brand-600"
                     }`}
                   >
                     <i className={`bi ${icon}`}></i>
                   </span>
-                  <span className="hidden min-w-0 flex-1 text-xs font-bold leading-tight text-ink sm:block">{literal ? label : t(label)}</span>
+                  <span className="block w-full min-w-0 flex-1 break-words text-center text-[10px] font-bold leading-tight text-ink sm:text-left sm:text-xs">{literal ? label : t(label)}</span>
                   {on && (
                     <span className="absolute -right-1 -top-1 grid h-3.5 w-3.5 place-items-center">
                       <span className="absolute inset-0 animate-ping rounded-full bg-success/60 motion-reduce:animate-none" />

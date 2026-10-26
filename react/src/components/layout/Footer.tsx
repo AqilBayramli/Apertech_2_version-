@@ -104,7 +104,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-white/10">
-        <p className="container-x py-6 text-center text-[13px]">
+        <p id="footer-bottom" className="container-x py-6 text-center text-[13px]">
           {t("footer.copyright")} ©<strong className="px-1 text-white">2026 Apertech.</strong> {t("footer.rights")}
         </p>
       </div>

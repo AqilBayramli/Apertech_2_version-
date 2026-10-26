@@ -127,9 +127,9 @@ export default function SolutionDetailView({ slug }: { slug: string }) {
       <section className="bg-surface py-20 md:py-15">
         <div className="container-x grid items-start gap-12 lg:grid-cols-12">
           <div className="lg:sticky lg:top-28 lg:col-span-5" data-aos="fade-up">
-            <div className="relative grid aspect-[4/3] place-items-center overflow-hidden rounded-3xl border border-line bg-gradient-to-br from-brand-50 to-white p-10 shadow-soft">
+            <div className="relative grid aspect-[16/9] place-items-center overflow-hidden rounded-3xl border border-line bg-gradient-to-br from-brand-50 to-white p-6 shadow-soft sm:aspect-[4/3] sm:p-10">
               <div className="bg-dots absolute inset-0 opacity-70" />
-              <img src={image} alt={copy.title} className="relative max-h-64 w-auto max-w-full object-contain" />
+              <img src={image} alt={copy.title} className="relative max-h-36 w-auto max-w-[70%] object-contain sm:max-h-64 sm:max-w-full" />
             </div>
           </div>
 
